@@ -251,3 +251,11 @@
   FastAPI, React/Next, async/MQ, LangChain), Q&A bank with answers, resource links, HR scripts
   (tailored), 10-day plan, progress tracker. Added clickable TOC (40 entries) via add_toc.py.
 - Note: Stackmentalist = small Pune startup, limited public interview data → plan built from JD skills.
+
+
+## 2026-07-01 — Stackmentalist DEEP RESEARCH added
+- Fetched rendered stackmentalist.com: full company profile (StackMentalist Ventures Pvt Ltd,
+  Hinjewadi Pune + Dubai; services; full tech stack incl FastAPI + LangChain/ChromaDB/OpenAI;
+  clients Vinkapp/Anujan/Procureasify; InnovateX hackathon). Added a "Company snapshot — Deep
+  Research" section to stackmentalist-python-fullstack-PREP.md + refreshed TOC (45 entries).
+  Also saved company facts to memory/facts.md.

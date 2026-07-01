@@ -4,48 +4,55 @@
 <!-- TOC START -->
 ## Table of Contents
 
-  - [Company snapshot](#sec-2)
-  - [Likely hiring process (inferred — startups usually run 3–5 rounds)](#sec-3)
-  - [Topic checklists](#sec-4)
-    - [Python (core + DSA — foundation of this role)](#sec-5)
-    - [SQL & database design (JD emphasizes this)](#sec-6)
-    - [Backend — Django + Django REST Framework](#sec-7)
-    - [Backend — FastAPI (JD lists "expertise")](#sec-8)
-    - [Frontend — React + Next.js](#sec-9)
-    - [Systems & practices (JD "good to have"/preferred)](#sec-10)
-- [QUESTION BANK WITH ANSWERS](#sec-11)
-  - [Python — output / concept (very common)](#sec-12)
-  - [SQL — practice (write these)](#sec-13)
-  - [Django / DRF — Q&A](#sec-14)
-  - [FastAPI — Q&A](#sec-15)
-  - [React / Next.js — Q&A](#sec-16)
-  - [Async / systems — Q&A](#sec-17)
-  - [Machine / practical round — how to approach](#sec-18)
-- [RESOURCE LINKS (clickable)](#sec-19)
-  - [Python + DSA](#sec-20)
-  - [SQL](#sec-21)
-  - [Django + DRF](#sec-22)
-  - [FastAPI](#sec-23)
-  - [React + Next.js](#sec-24)
-  - [Full-stack interview question sets](#sec-25)
-  - [LLMs / LangChain (differentiator)](#sec-26)
-  - [Cloud / Docker / Git](#sec-27)
-- [BEHAVIORAL / HR — SCRIPTS (tailored to Shivam)](#sec-28)
-  - [Self-introduction (Python full-stack framing)](#sec-29)
-  - ["Why Stackmentalist?"](#sec-30)
-  - [HR questions → how to answer](#sec-31)
-  - [Smart questions to ask](#sec-32)
-- [STUDY PLAN](#sec-33)
-  - [10-day plan](#sec-34)
-  - [Daily routine](#sec-35)
-  - [Common mistakes to avoid](#sec-36)
-- [PROGRESS TRACKER](#sec-37)
-  - [Concepts](#sec-38)
-  - [Practice done](#sec-39)
-  - [Ready-to-go](#sec-40)
-  - [Mistakes log](#sec-41)
+  - [Company snapshot — Deep Research](#sec-2)
+    - [What they do (services)](#sec-3)
+    - [Their tech stack (from the site — matches your fit)](#sec-4)
+    - [Clients / social proof (from testimonials)](#sec-5)
+    - [Culture signals](#sec-6)
+    - [What this means for your interview](#sec-7)
+  - [Likely hiring process (inferred — startups usually run 3–5 rounds)](#sec-8)
+  - [Topic checklists](#sec-9)
+    - [Python (core + DSA — foundation of this role)](#sec-10)
+    - [SQL & database design (JD emphasizes this)](#sec-11)
+    - [Backend — Django + Django REST Framework](#sec-12)
+    - [Backend — FastAPI (JD lists "expertise")](#sec-13)
+    - [Frontend — React + Next.js](#sec-14)
+    - [Systems & practices (JD "good to have"/preferred)](#sec-15)
+- [QUESTION BANK WITH ANSWERS](#sec-16)
+  - [Python — output / concept (very common)](#sec-17)
+  - [SQL — practice (write these)](#sec-18)
+  - [Django / DRF — Q&A](#sec-19)
+  - [FastAPI — Q&A](#sec-20)
+  - [React / Next.js — Q&A](#sec-21)
+  - [Async / systems — Q&A](#sec-22)
+  - [Machine / practical round — how to approach](#sec-23)
+- [RESOURCE LINKS (clickable)](#sec-24)
+  - [Python + DSA](#sec-25)
+  - [SQL](#sec-26)
+  - [Django + DRF](#sec-27)
+  - [FastAPI](#sec-28)
+  - [React + Next.js](#sec-29)
+  - [Full-stack interview question sets](#sec-30)
+  - [LLMs / LangChain (differentiator)](#sec-31)
+  - [Cloud / Docker / Git](#sec-32)
+- [BEHAVIORAL / HR — SCRIPTS (tailored to Shivam)](#sec-33)
+  - [Self-introduction (Python full-stack framing)](#sec-34)
+  - ["Why Stackmentalist?"](#sec-35)
+  - [HR questions → how to answer](#sec-36)
+  - [Smart questions to ask](#sec-37)
+- [STUDY PLAN](#sec-38)
+  - [10-day plan](#sec-39)
+  - [Daily routine](#sec-40)
+  - [Common mistakes to avoid](#sec-41)
+- [PROGRESS TRACKER](#sec-42)
+  - [Concepts](#sec-43)
+  - [Practice done](#sec-44)
+  - [Ready-to-go](#sec-45)
+  - [Mistakes log](#sec-46)
 
 <!-- TOC END -->
+
+
 
 
 > Goal: convert this internship/PPO drive (Pune). Role screens on **Python + DSA, SQL & DB design,
@@ -54,14 +61,57 @@
 > JD source: `06-job-descriptions/stackmentalist-python-fullstack-2027.md`.
 
 <a id="sec-2"></a>
-## Company snapshot
-- **Stackmentalist / StackMentalist Ventures** — a services/product tech company (site: stackmentalist.com;
-  also listed on Clutch). Positions itself around building "intelligent, scalable solutions".
-- **Location:** Pune. Smaller/younger company than a large MNC — expect a leaner, faster process.
-- Public interview data is limited (small company), so this plan is built from the **JD's required
-  skills + standard Python Full Stack interview patterns** for startups. Adjust as you learn more.
+## Company snapshot — Deep Research
+- **Legal entity:** StackMentalist Ventures Pvt. Ltd. (brand: StackMentalist). © 2026 on site.
+- **Tagline:** "You imagine it, we engineer it." — "creative IT solutions for fast-growing businesses."
+- **Type:** Young IT **services + product** company (custom software / consulting). Early-stage
+  (site shows placeholder "0+ years / 0+ projects" — a new, growing firm).
+- **Offices:** India — StackMentalist Ventures Pvt Ltd, 2nd Floor, Hashtag Building, Maan Road,
+  **Hinjewadi Phase 1, Pune** (major IT hub). Also lists a Dubai (Dubai World Trade Centre) address.
+- **Contact:** work@StackMentalist.com · +91 91318 61460
+- **Online:** site stackmentalist.com · LinkedIn `/company/thestackmentalist` · X `@StackMentalist`
+  · Instagram `the_StackMentalist` · profile on Clutch (StackMentalist Ventures).
+- **Own event:** **InnovateX** — their hackathon ("Code in, Career out" + prizes).
 
 <a id="sec-3"></a>
+### What they do (services)
+App Development · Data Science · Cloud & DevOps · IoT & Automation · Big Data · **UI/UX** ·
+**Cyber Security** · **System Design** (microservices, API design, scalability).
+
+<a id="sec-4"></a>
+### Their tech stack (from the site — matches your fit)
+- **Frontend:** React, Next.js, Angular, JavaScript, TypeScript, TailwindCSS, GraphQL
+- **Backend:** Node.js, **Django**, **FastAPI**, NestJS, Golang, Laravel, Python
+- **DB/cache:** PostgreSQL, MongoDB, Redis
+- **Cloud/DevOps:** AWS, GCP, Docker, Kubernetes, Terraform, Jenkins, Bitbucket, Grafana, Splunk
+- **AI/ML (relevant to you):** **LangChain**, **ChromaDB**, **OpenAI**, TensorFlow, PyTorch
+- **Testing/tools:** Jest, Postman, Figma
+- **Security:** IDS/IPS, Burp Suite, Wireshark, Wazuh
+- **Mobile/other:** Flutter, Swift, Kotlin, Android, WordPress, Rust, IoT
+> Takeaway: they GENUINELY use FastAPI + LangChain/ChromaDB/OpenAI — your agentic-AI background
+> and Python full-stack skills are a strong, honest match. Lean into it.
+
+<a id="sec-5"></a>
+### Clients / social proof (from testimonials)
+- Vinkapp Technologies (insurance platform), Anujan Technologies (van-booking platform),
+  Procureasify (business-ops platform). → They build real web platforms for startups.
+
+<a id="sec-6"></a>
+### Culture signals
+"Continuous growth and excellence", attracts "industry's finest", integrity + collaboration.
+Small team = broad ownership, fast pace, direct impact (great for interns).
+
+<a id="sec-7"></a>
+### What this means for your interview
+- Expect a **practical, full-stack** bar: Python + a backend framework (FastAPI/Django) + React/Next
+  + SQL, and they value **system design / API design** (it's a listed service).
+- **AI/LLM (LangChain, ChromaDB, OpenAI)** is real here — be ready to talk RAG/agents at a high level.
+- Being an early-stage firm, they likely run a **lean 3–5 round** process and decide **intern vs
+  trainee** based on how strong you are technically. Public interview data is scarce → over-prepare
+  the fundamentals below.
+
+
+<a id="sec-8"></a>
 ## Likely hiring process (inferred — startups usually run 3–5 rounds)
 1. **Registration / resume shortlist** (done via the Google Form).
 2. **Online / coding assessment** — Python + DSA + SQL (MCQ and/or 1–2 coding problems).
@@ -71,10 +121,10 @@
 5. **HR / managerial** — culture fit, "why Stackmentalist", intern-vs-trainee decision, joining.
 > Since interview decides intern vs trainee, aim to over-perform in the technical rounds.
 
-<a id="sec-4"></a>
+<a id="sec-9"></a>
 ## Topic checklists
 
-<a id="sec-5"></a>
+<a id="sec-10"></a>
 ### Python (core + DSA — foundation of this role)
 - Data types, mutability, list/dict/set/tuple, comprehensions, slicing
 - Functions, `*args/**kwargs`, closures, decorators, generators/iterators, lambda
@@ -85,7 +135,7 @@
 - DSA: arrays/strings, hashmaps/sets, two-pointers, sliding window, recursion, sorting,
   stacks/queues, basic trees & graphs, time/space complexity (Big-O)
 
-<a id="sec-6"></a>
+<a id="sec-11"></a>
 ### SQL & database design (JD emphasizes this)
 - SELECT, WHERE, JOINs (inner/left/right/full), GROUP BY, HAVING, ORDER BY
 - Aggregates, subqueries, `EXISTS`/`IN`, `CASE`, window functions (basic)
@@ -93,28 +143,28 @@
 - Schema design: one-to-many, many-to-many (junction tables), constraints
 - Query optimization basics; N+1 problem (and how ORMs cause it)
 
-<a id="sec-7"></a>
+<a id="sec-12"></a>
 ### Backend — Django + Django REST Framework
 - Models, migrations, ORM queries (`filter/annotate/select_related/prefetch_related`)
 - DRF: serializers, viewsets, routers, authentication/permissions, pagination
 - Request/response cycle, middleware, settings, `.env`/secrets
 - Auth: session vs token/JWT; CSRF; CORS
 
-<a id="sec-8"></a>
+<a id="sec-13"></a>
 ### Backend — FastAPI (JD lists "expertise")
 - Path/query/body params, Pydantic models & validation, response models
 - Async endpoints (`async def`), dependency injection, routers
 - Auto docs (OpenAPI/Swagger), status codes, error handling
 - FastAPI vs Django/DRF: when to use which (lightweight/async APIs vs batteries-included)
 
-<a id="sec-9"></a>
+<a id="sec-14"></a>
 ### Frontend — React + Next.js
 - Components, props, state, hooks (useState/useEffect/useRef/useMemo/useCallback)
 - Lists/keys, controlled forms, lifting state, conditional rendering, fetching data
 - Next.js: pages/app router, SSR vs SSG vs CSR, API routes, file-based routing (high level)
 - Responsive/UI-UX basics, calling REST APIs from the UI
 
-<a id="sec-10"></a>
+<a id="sec-15"></a>
 ### Systems & practices (JD "good to have"/preferred)
 - REST principles, microservices basics, API design
 - **Async programming, message queues (e.g., Celery/RabbitMQ/Redis), event-driven** (know the "why")
@@ -125,10 +175,10 @@
 
 ---
 
-<a id="sec-11"></a>
+<a id="sec-16"></a>
 # QUESTION BANK WITH ANSWERS
 
-<a id="sec-12"></a>
+<a id="sec-17"></a>
 ## Python — output / concept (very common)
 1. `print(type([]) is list)` → **True**. `print([] == [])` → **True**; `print([] is [])` → **False**.
 2. Mutable default arg trap: `def f(x, l=[]): l.append(x); return l` → repeated calls **accumulate**
@@ -147,7 +197,7 @@
 14. List comprehension: `[x*x for x in range(5) if x%2==0]` → `[0,4,16]`.
 15. `dict.get(k, default)` avoids KeyError; `setdefault`, `defaultdict`, `Counter` are handy.
 
-<a id="sec-13"></a>
+<a id="sec-18"></a>
 ## SQL — practice (write these)
 - Second highest salary:
   `SELECT MAX(salary) FROM emp WHERE salary < (SELECT MAX(salary) FROM emp);`
@@ -158,7 +208,7 @@
   normalization (remove redundancy), transactions (ACID), primary vs foreign key,
   `DELETE` vs `TRUNCATE` vs `DROP`, N+1 query problem.
 
-<a id="sec-14"></a>
+<a id="sec-19"></a>
 ## Django / DRF — Q&A
 - **Django request lifecycle:** URL → middleware → view → model/ORM → template/serializer → response.
 - **ORM optimize:** `select_related` (FK, SQL join) vs `prefetch_related` (M2M/reverse, extra query).
@@ -167,7 +217,7 @@
 - **MVT** (Model-View-Template) vs MVC.
 - **CSRF/CORS:** CSRF protects form posts; CORS controls cross-origin API access.
 
-<a id="sec-15"></a>
+<a id="sec-20"></a>
 ## FastAPI — Q&A
 - **What/why:** modern, fast, async Python API framework; auto validation (Pydantic) + auto Swagger docs.
 - **Pydantic model:** declares request/response schema; validates types automatically.
@@ -176,7 +226,7 @@
 - **FastAPI vs Django:** FastAPI = lightweight async APIs/microservices; Django = full-batteries
   (ORM, admin, auth) monolith. Use FastAPI for high-performance APIs, Django for full apps.
 
-<a id="sec-16"></a>
+<a id="sec-21"></a>
 ## React / Next.js — Q&A
 - **Hooks:** useState (state), useEffect (side effects/lifecycle), useRef (mutable ref/no re-render),
   useMemo/useCallback (memoize value/fn).
@@ -185,7 +235,7 @@
 - **Next.js rendering:** SSR (per request), SSG (build time), CSR (client) — pick per page needs.
 - **Why Next.js:** routing, SSR/SEO, API routes, performance out of the box.
 
-<a id="sec-17"></a>
+<a id="sec-22"></a>
 ## Async / systems — Q&A
 - **Async vs threads vs multiprocessing:** async = single-thread cooperative (I/O-bound);
   threads limited by GIL; multiprocessing for CPU-bound.
@@ -194,7 +244,7 @@
 - **Event-driven:** components react to events/messages (pub-sub) → scalable, loosely coupled.
 - **REST vs microservices:** REST = API style; microservices = many small independently-deployable services.
 
-<a id="sec-18"></a>
+<a id="sec-23"></a>
 ## Machine / practical round — how to approach
 1. Clarify requirements & data model. 2. Design the schema/endpoints. 3. Build a minimal working
    API (Django/DRF or FastAPI) + one React screen. 4. Handle validation/errors. 5. Talk through
@@ -203,10 +253,10 @@
 
 ---
 
-<a id="sec-19"></a>
+<a id="sec-24"></a>
 # RESOURCE LINKS (clickable)
 
-<a id="sec-20"></a>
+<a id="sec-25"></a>
 ## Python + DSA
 - Python docs: https://docs.python.org/3/
 - Real Python (deep tutorials): https://realpython.com/
@@ -215,52 +265,52 @@
 - GeeksforGeeks Python: https://www.geeksforgeeks.org/python-programming-language/
 - YouTube: **CodeWithHarry (Python)**, **take U forward (DSA)**, **Corey Schafer (Python/Django)**
 
-<a id="sec-21"></a>
+<a id="sec-26"></a>
 ## SQL
 - SQLBolt (interactive): https://sqlbolt.com/
 - Mode SQL tutorial: https://mode.com/sql-tutorial/
 - LeetCode SQL 50: https://leetcode.com/studyplan/top-sql-50/
 - GfG SQL interview questions: https://www.geeksforgeeks.org/sql-interview-questions/
 
-<a id="sec-22"></a>
+<a id="sec-27"></a>
 ## Django + DRF
 - Django docs: https://docs.djangoproject.com/
 - DRF docs: https://www.django-rest-framework.org/
 - YouTube: **Corey Schafer Django**, **Dennis Ivy (Django/DRF)**
 
-<a id="sec-23"></a>
+<a id="sec-28"></a>
 ## FastAPI
 - FastAPI docs (excellent tutorial): https://fastapi.tiangolo.com/
 - FastAPI interview questions: https://goodspace.ai/interview-questions/fastapi
 
-<a id="sec-24"></a>
+<a id="sec-29"></a>
 ## React + Next.js
 - React docs: https://react.dev/
 - Next.js docs/learn: https://nextjs.org/learn
 - YouTube: **Codevolution (React/Next)**, **Web Dev Simplified**
 
-<a id="sec-25"></a>
+<a id="sec-30"></a>
 ## Full-stack interview question sets
 - Python Full Stack Qs (CCBP): https://www.ccbp.in/blog/articles/python-full-stack-developer-interview-questions
 - Full Stack Qs (GfG): https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/
 - Full-stack interview QA (GitHub): https://github.com/AhmedAbdelbasetAli/full-stack-interview-qa
 
-<a id="sec-26"></a>
+<a id="sec-31"></a>
 ## LLMs / LangChain (differentiator)
 - LangChain docs: https://python.langchain.com/
 - LangGraph docs: https://langchain-ai.github.io/langgraph/
 
-<a id="sec-27"></a>
+<a id="sec-32"></a>
 ## Cloud / Docker / Git
 - Docker get started: https://docs.docker.com/get-started/
 - Git handbook: https://guides.github.com/introduction/git-handbook/
 
 ---
 
-<a id="sec-28"></a>
+<a id="sec-33"></a>
 # BEHAVIORAL / HR — SCRIPTS (tailored to Shivam)
 
-<a id="sec-29"></a>
+<a id="sec-34"></a>
 ## Self-introduction (Python full-stack framing)
 "I'm Shivam Gupta, final-year B.Tech CSE at ITM University (2027). I'm a full-stack developer who
 works across Python/Django REST on the backend and React/TypeScript on the frontend. As a Full
@@ -270,14 +320,14 @@ React + custom CMS) and open-source AI tooling (an MCP server, 16+ LLM 'skills')
 ITM Developers Club and enjoy building scalable APIs and clean UIs — which is exactly the Python
 full-stack work this role involves."
 
-<a id="sec-30"></a>
+<a id="sec-35"></a>
 ## "Why Stackmentalist?"
 "I want to work in a fast-moving team where I can own features end-to-end across backend and
 frontend. Stackmentalist builds intelligent, scalable solutions, and this role spans exactly my
 stack — Python/Django/FastAPI + React/Next.js — plus room to use my AI/LangChain background. A
 startup pace means faster learning and real ownership early, which suits how I work."
 
-<a id="sec-31"></a>
+<a id="sec-36"></a>
 ## HR questions → how to answer
 - **Intern vs trainee:** show you're technically strong (you want the paid intern slot) but are
   eager to learn regardless — focus on contribution.
@@ -287,7 +337,7 @@ startup pace means faster learning and real ownership early, which suits how I w
 - **Biggest project:** NETWORKED or Parakh — problem, your role, tech, outcome (STAR).
 - **Why should we hire you:** proven shipping (live products), full-stack range, AI differentiator.
 
-<a id="sec-32"></a>
+<a id="sec-37"></a>
 ## Smart questions to ask
 - "What does an intern work on in the first 3 months here?"
 - "Which stack/product would I start on — more backend (FastAPI/Django) or frontend (React/Next)?"
@@ -296,10 +346,10 @@ startup pace means faster learning and real ownership early, which suits how I w
 
 ---
 
-<a id="sec-33"></a>
+<a id="sec-38"></a>
 # STUDY PLAN
 
-<a id="sec-34"></a>
+<a id="sec-39"></a>
 ## 10-day plan
 - **D1:** Python core (data model, OOP, decorators, generators) + 10 easy DSA.
 - **D2:** DSA (arrays/strings/hashmaps, two-pointer, sliding window) + Big-O.
@@ -312,11 +362,11 @@ startup pace means faster learning and real ownership early, which suits how I w
 - **D9:** Mock: Python + SQL + DSA questions timed; revise LangChain basics.
 - **D10:** Behavioral/HR + resume walkthrough + project deep-dive notes.
 
-<a id="sec-35"></a>
+<a id="sec-40"></a>
 ## Daily routine
 - 1 hr Python/DSA · 1 hr backend (Django/FastAPI) · 45 min SQL · 45 min React/Next · 30 min concepts/HR.
 
-<a id="sec-36"></a>
+<a id="sec-41"></a>
 ## Common mistakes to avoid
 - Weak SQL (JD stresses DB design) — practice joins/group-by/subqueries.
 - Not being able to explain FastAPI vs Django (they'll ask).
@@ -326,10 +376,10 @@ startup pace means faster learning and real ownership early, which suits how I w
 
 ---
 
-<a id="sec-37"></a>
+<a id="sec-42"></a>
 # PROGRESS TRACKER
 
-<a id="sec-38"></a>
+<a id="sec-43"></a>
 ## Concepts
 - [ ] Python: OOP, decorators, generators, mutable-default trap, GIL
 - [ ] DSA: arrays/strings/hashmaps, two-pointer, sliding window, Big-O
@@ -340,7 +390,7 @@ startup pace means faster learning and real ownership early, which suits how I w
 - [ ] Async/MQ/REST/microservices; Docker/Git; cloud basics
 - [ ] LangChain/LLM basics (differentiator)
 
-<a id="sec-39"></a>
+<a id="sec-44"></a>
 ## Practice done
 - [ ] 40+ Python questions + 30 DSA problems (NeetCode/LeetCode)
 - [ ] LeetCode SQL 50 (or 25+)
@@ -348,14 +398,14 @@ startup pace means faster learning and real ownership early, which suits how I w
 - [ ] Built a React/Next UI calling that API (end-to-end mini project)
 - [ ] 1 timed mock (Python + SQL + DSA)
 
-<a id="sec-40"></a>
+<a id="sec-45"></a>
 ## Ready-to-go
 - [ ] Self-intro + "Why Stackmentalist" rehearsed
 - [ ] STAR stories (NETWORKED, Parakh, IDC, Hacksagon/Odoo)
 - [ ] Project deep-dive notes ready
 - [ ] Resume PDF final (stackmentalist-python-fullstack-2027) + uploaded
 
-<a id="sec-41"></a>
+<a id="sec-46"></a>
 ## Mistakes log
 | Date | Topic | Mistake | Fix/Note |
 | --- | --- | --- | --- |

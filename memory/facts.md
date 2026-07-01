@@ -30,3 +30,11 @@
 - Note: keep gray-area items (gmail generator, cert/tool bypasses) out of formal ATS resumes
 
 _Last updated: 2026-06-30_
+
+## Stackmentalist (research)
+- StackMentalist Ventures Pvt Ltd, Pune (Hinjewadi Phase 1) + Dubai. Early-stage IT services+product.
+- Stack: React/Next/Angular/TS, Node/Django/FastAPI/NestJS/Go, PostgreSQL/MongoDB/Redis,
+  AWS/GCP/Docker/K8s/Terraform, LangChain/ChromaDB/OpenAI/TF/PyTorch, security tools.
+- Services: App dev, Data Science, Cloud/DevOps, IoT, Big Data, UI/UX, CyberSec, System Design.
+- Clients: Vinkapp (insurance), Anujan (van booking), Procureasify. Hackathon: InnovateX.
+- Contact work@StackMentalist.com, +91 91318 61460. LinkedIn /company/thestackmentalist.
