@@ -1,0 +1,131 @@
+%==========================================================
+% Shivam Gupta — Resume tailored for JOSH Technology Group
+% Role: Front End Developer (2027 batch, campus)
+% ATS-safe: single column, standard sections, selectable text.
+% Single page. Compiles on Overleaf with pdfLaTeX/XeLaTeX. No images.
+%==========================================================
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[top=1cm,bottom=1cm,left=1.4cm,right=1.4cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+
+\definecolor{accent}{HTML}{1A5276}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.02}
+
+% Uniform list spacing (same gap above bullets everywhere)
+\setlist[itemize]{leftmargin=1.4em, topsep=2pt, itemsep=2pt, parsep=0pt, partopsep=0pt}
+
+% Uniform section heading style: UPPERCASE, accent, rule; equal spacing before/after
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{\MakeUppercase}[\vspace{-3pt}\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+
+% Experience/Education entry: title (left) + date (right); role (left) + place (right)
+\newcommand{\entry}[4]{%
+  \vspace{3pt}%
+  \textbf{#1}\hfill #2\par
+  \vspace{1pt}%
+  \textit{#3}\hfill \textit{#4}\par
+  \vspace{2pt}%
+}
+
+\begin{document}
+
+%================= HEADER =================
+\begin{center}
+  {\Huge \textbf{Shivam Gupta}}\\[4pt]
+  {\color{accent}\textbf{Front End Developer}}\\[5pt]
+  {\small
+  \faMapMarker~Gwalior, M.P. \quad
+  \faPhone~+91-8269699824 \quad
+  \faEnvelope~\href{mailto:guptashivam93660@gmail.com}{guptashivam93660@gmail.com} \quad
+  \faLinkedin~\href{https://www.linkedin.com/in/ur-990q}{LinkedIn} \quad
+  \faGithub~\href{https://github.com/Shivam990q}{GitHub} \quad
+  \faGlobe~\href{https://shivam-portfolio-a1s4.onrender.com}{Portfolio}}
+\end{center}
+
+%================= SUMMARY =================
+\section{Summary}
+Front-end focused full-stack developer skilled in \textbf{React.js}, \textbf{JavaScript (ES6+)},
+\textbf{TypeScript}, \textbf{HTML5}, and \textbf{CSS3}. Builds reusable, responsive, cross-platform
+UI components and integrates REST APIs, with multiple live products shipped.
+
+%================= SKILLS =================
+\section{Technical Skills}
+\begin{itemize}[label={}, leftmargin=0pt, topsep=2pt, itemsep=2pt]
+  \item \textbf{Languages:} JavaScript (ES6+), TypeScript, HTML5, CSS3, Python, Java, C, SQL
+  \item \textbf{Frontend:} React.js, React Native, Redux, React Query, React Router, Responsive
+        Design, Tailwind CSS, Bootstrap, SASS/LESS, Material Design, shadcn/ui, Framer Motion
+  \item \textbf{Backend \& Data:} Node.js, Django, REST APIs, PostgreSQL, MongoDB
+  \item \textbf{Tools \& Practices:} Vite, Git \& GitHub, Docker, CI/CD, Figma, Unit Testing,
+        Cross-browser, Web Performance
+\end{itemize}
+
+%================= EXPERIENCE =================
+\section{Experience}
+\entry{Full Stack Engineer (Intern)}{May 2025 -- Feb 2026}{ITM University, Gwalior}{On-site}
+\begin{itemize}
+  \item Redeveloping the university ERP with \textbf{React.js} and \textbf{Django REST APIs} ---
+        building reusable, responsive front-end components for admin, examination, and quiz modules.
+  \item Integrated REST endpoints for seamless front-end/back-end data flow; optimized FE
+        performance for smooth, defect-free deployments.
+\end{itemize}
+
+\entry{WordPress Developer (Internship)}{Jul 2024 -- Aug 2024}{AdRyter Advertising}{On-site}
+\begin{itemize}
+  \item Built advanced, responsive websites and custom UI features using \textbf{React}, REST APIs,
+        Gutenberg blocks, ACF, and headless WordPress.
+\end{itemize}
+
+\entry{Subject Matter Expert (Internship)}{Jan 2024 -- Aug 2024}{Solvitude Solutions (Brainly.com, US)}{Remote}
+\begin{itemize}
+  \item Delivered accurate, high-quality real-time technical solutions for the Brainly (US) platform.
+\end{itemize}
+
+%================= PROJECTS =================
+\section{Projects}
+\begin{itemize}
+  \item \textbf{IDC Website} (\href{https://idcwebsite.onrender.com}{live})\\
+        Official ITM Developers Club site --- responsive \textbf{React + TypeScript} (info, teams, events).
+  \item \textbf{NETWORKED --- Live Web Platform} (\href{https://networkedconsultancy.com}{live})\\
+        Production \textbf{React + TypeScript} over a custom Django REST CMS; responsive, SEO-ready, lazy-loaded.
+  \item \textbf{ITMU Parakh Portal --- University MIS} (\href{https://parakh.itmuniversity.ac.in}{live})\\
+        \textbf{React.js + Vite} front-end, Django REST backend; admin, examination, and quiz modules.
+  \item \textbf{Techrythm 2.0 --- TechFest Website} (\href{https://techfest.itmuniversity.ac.in}{live})\\
+        Event site for ITM's tech fest --- responsive \textbf{React + TypeScript} (events, schedule, registration).
+  \item \textbf{Barterly --- Skill-Trading Marketplace} (\href{https://github.com/Shivam990q/Barterly-Redesigned}{GitHub})\\
+        Responsive \textbf{React + TypeScript} app with AI-powered search and a skill-hours wallet.
+\end{itemize}
+
+%================= ACHIEVEMENTS =================
+\section{Achievements \& Leadership}
+\begin{itemize}
+  \item \textbf{President}, ITM Developers Club (IDC) --- led the team and organized tech events/talks.
+  \item \textbf{Secured 3rd Position} --- Full Stack Development Bootcamp, ITM University (Dec 2025).
+  \item \textbf{8th Rank (Solo)} --- Odoo Online Hackathon (qualified and competed solo).
+  \item Certificate of Achievement, Google Developer Groups Solution Challenge 2025.
+  \item \textbf{Top Performer --- Open Innovation}, Hacksagon 2025 (IEEE, ABV-IIITM Gwalior).
+\end{itemize}
+
+%================= EDUCATION =================
+\section{Education}
+\entry{B.Tech, Computer Science \& Engineering}{2023 -- 2027}{ITM University, Gwalior}{CGPA: 7.47}
+
+%================= CERTIFICATIONS =================
+\section{Certifications}
+\begin{itemize}
+  \item Full Stack Web Application Development with Django --- Udemy
+  \item Postman API Fundamentals Student Expert --- Postman
+  \item MongoDB Basics for Students --- MongoDB
+  \item Career Essentials in Generative AI --- LinkedIn Learning
+\end{itemize}
+
+\end{document}

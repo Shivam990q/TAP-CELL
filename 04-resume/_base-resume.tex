@@ -1,0 +1,123 @@
+%==========================================================
+% BASE RESUME TEMPLATE - Shivam Gupta
+% Copied per job by tools/new_application.py into 04-resume/tailored/<slug>.tex
+% TAILOR PER JOB:
+%   1. Update the role subtitle (\rolesubtitle) to match the JD title.
+%   2. Reorder Technical Skills to surface JD keywords first.
+%   3. Pick the 3-5 most relevant projects; trim others.
+%   4. Keep it ONE page: verify with `python tools/build_resume.py <tex> --preview`.
+% ATS-safe: single column, standard sections, selectable text. No images.
+%==========================================================
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[top=1cm,bottom=1cm,left=1.4cm,right=1.4cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+
+\definecolor{accent}{HTML}{1A5276}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.02}
+
+\setlist[itemize]{leftmargin=1.4em, topsep=2pt, itemsep=2pt, parsep=0pt, partopsep=0pt}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{\MakeUppercase}[\vspace{-3pt}\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+
+\newcommand{\rolesubtitle}{Software Developer} % <-- TAILOR per JD
+\newcommand{\entry}[4]{%
+  \vspace{3pt}%
+  \textbf{#1}\hfill #2\par
+  \vspace{1pt}%
+  \textit{#3}\hfill \textit{#4}\par
+  \vspace{2pt}%
+}
+
+\begin{document}
+
+\begin{center}
+  {\Huge \textbf{Shivam Gupta}}\\[4pt]
+  {\color{accent}\textbf{\rolesubtitle}}\\[5pt]
+  {\small
+  \faMapMarker~Gwalior, M.P. \quad
+  \faPhone~+91-8269699824 \quad
+  \faEnvelope~\href{mailto:guptashivam93660@gmail.com}{guptashivam93660@gmail.com} \quad
+  \faLinkedin~\href{https://www.linkedin.com/in/ur-990q}{LinkedIn} \quad
+  \faGithub~\href{https://github.com/Shivam990q}{GitHub} \quad
+  \faGlobe~\href{https://shivam-portfolio-a1s4.onrender.com}{Portfolio}}
+\end{center}
+
+\section{Summary}
+Full-stack developer skilled in \textbf{React.js}, \textbf{JavaScript (ES6+)}, \textbf{TypeScript},
+\textbf{Python}, and \textbf{Django}. Build reusable, responsive UI components and REST APIs;
+multiple live products shipped. Strong ownership, problem-solving, and communication.
+
+\section{Technical Skills}
+\begin{itemize}[label={}, leftmargin=0pt, topsep=2pt, itemsep=2pt]
+  \item \textbf{Languages:} JavaScript (ES6+), TypeScript, HTML5, CSS3, Python, Java, C, SQL
+  \item \textbf{Frontend:} React.js, React Native, Redux, React Query, React Router, Responsive
+        Design, Tailwind CSS, Bootstrap, SASS/LESS, Material Design, shadcn/ui, Framer Motion
+  \item \textbf{Backend \& Data:} Node.js, Django, REST APIs, PostgreSQL, MongoDB
+  \item \textbf{Tools \& Practices:} Vite, Git \& GitHub, Docker, CI/CD, Figma, Unit Testing,
+        Cross-browser, Web Performance
+\end{itemize}
+
+\section{Experience}
+\entry{Full Stack Engineer (Intern)}{May 2025 -- Feb 2026}{ITM University, Gwalior}{On-site}
+\begin{itemize}
+  \item Redeveloping the university ERP with \textbf{React.js} and \textbf{Django REST APIs} ---
+        building reusable, responsive components for admin, examination, and quiz modules.
+  \item Integrated REST endpoints for seamless front-end/back-end data flow; optimized
+        performance for smooth, defect-free deployments.
+\end{itemize}
+
+\entry{WordPress Developer (Internship)}{Jul 2024 -- Aug 2024}{AdRyter Advertising}{On-site}
+\begin{itemize}
+  \item Built advanced, responsive websites and custom UI features using \textbf{React}, REST APIs,
+        Gutenberg blocks, ACF, and headless WordPress.
+\end{itemize}
+
+\entry{Subject Matter Expert (Internship)}{Jan 2024 -- Aug 2024}{Solvitude Solutions (Brainly.com, US)}{Remote}
+\begin{itemize}
+  \item Delivered accurate, high-quality real-time technical solutions for the Brainly (US) platform.
+\end{itemize}
+
+\section{Projects}
+\begin{itemize}
+  \item \textbf{NETWORKED --- Live Web Platform} (\href{https://networkedconsultancy.com}{live}):
+        Production \textbf{React + TypeScript} front-end (Tailwind, Framer Motion, TanStack Query)
+        over a custom Django REST CMS; responsive, SEO-ready, lazy-loaded.
+  \item \textbf{Open Figma MCP} (\href{https://github.com/Shivam990q/open-figma-mcp}{GitHub}):
+        Converts Figma designs into design tokens (8 formats) and generates UI code across 8
+        frameworks (React, Vue, Svelte, Angular, HTML, Flutter, SwiftUI).
+  \item \textbf{ITMU Parakh Portal --- University MIS}: \textbf{React.js + Vite} front-end,
+        Django REST backend; reusable components for academic/admin workflows.
+  \item \textbf{Barterly --- Skill-Trading Marketplace} (\href{https://github.com/Shivam990q/Barterly-Redesigned}{GitHub}):
+        Responsive \textbf{React + TypeScript} app with AI-powered search and a skill-hours wallet.
+\end{itemize}
+
+\section{Achievements \& Leadership}
+\begin{itemize}
+  \item \textbf{President}, ITM Developers Club (IDC) --- led the team and organized tech events/talks.
+  \item \textbf{Secured 3rd Position} --- Full Stack Development Bootcamp, ITM University (Dec 2025).
+  \item Certificate of Achievement, Google Developer Groups Solution Challenge 2025.
+  \item \textbf{Top Performer --- Open Innovation}, Hacksagon 2025 (IEEE, ABV-IIITM Gwalior).
+\end{itemize}
+
+\section{Education}
+\entry{B.Tech, Computer Science \& Engineering}{2023 -- 2027}{ITM University, Gwalior}{CGPA: 7.47}
+
+\section{Certifications}
+\begin{itemize}
+  \item Full Stack Web Application Development with Django --- Udemy
+  \item Postman API Fundamentals Student Expert --- Postman
+  \item MongoDB Basics for Students --- MongoDB
+  \item Career Essentials in Generative AI --- LinkedIn Learning
+\end{itemize}
+
+\end{document}
