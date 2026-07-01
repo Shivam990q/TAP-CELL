@@ -49,8 +49,28 @@
   - [Practice done](#sec-44)
   - [Ready-to-go](#sec-45)
   - [Mistakes log](#sec-46)
+- [MEGA RESOURCE VAULT (GitHub repos, sheets, platforms) — qualify at any cost](#sec-47)
+  - [GitHub — Python / Django / FastAPI / backend](#sec-48)
+  - [GitHub — frontend (React/Next side of the role)](#sec-49)
+  - [GitHub — general interview + DSA + system design](#sec-50)
+  - [Practice platforms](#sec-51)
+  - [LLM / LangChain (your differentiator here)](#sec-52)
+  - [Company-wise PYQ portals](#sec-53)
+  - [Community compilations (use with caution)](#sec-54)
+- [MORE RESOURCES v2 (roadmaps, mock interviews, sheets, cheatsheets)](#sec-55)
+  - [Roadmaps (full-stack picture)](#sec-56)
+  - [DSA sheets & cheatsheets (Python-friendly)](#sec-57)
+  - [SQL — extra practice (JD stresses DB design)](#sec-58)
+  - [Mock interviews (practice live)](#sec-59)
+  - [Backend/Python references & cheatsheets](#sec-60)
+  - [System design (it's a listed Stackmentalist service)](#sec-61)
+  - [Extra YouTube](#sec-62)
 
 <!-- TOC END -->
+
+
+
+
 
 
 
@@ -410,3 +430,132 @@ startup pace means faster learning and real ownership early, which suits how I w
 | Date | Topic | Mistake | Fix/Note |
 | --- | --- | --- | --- |
 | | | | |
+
+---
+
+<a id="sec-47"></a>
+# MEGA RESOURCE VAULT (GitHub repos, sheets, platforms) — qualify at any cost
+
+> Curated, high-signal resources for a Python Full Stack role. Star the repos. Prioritize ⭐.
+
+<a id="sec-48"></a>
+## GitHub — Python / Django / FastAPI / backend
+- ⭐ **rohan-paul/Awesome-Python-Django-Interview** — Python+Django backend interview notes:
+  https://github.com/rohan-paul/Awesome-Python-Django-Interview
+- ⭐ **rohanmistry231/Fast-API-Interview-Preparation** — FastAPI concepts + practice:
+  https://github.com/rohanmistry231/Fast-API-Interview-Preparation
+- **Devinterview-io/django-interview-questions**:
+  https://github.com/Devinterview-io/django-interview-questions
+- **Devinterview-io/api-design-interview-questions** — REST/API design:
+  https://github.com/Devinterview-io/api-design-interview-questions
+- **Tanu-N-Prabhu/Python** — Python coding interview prep (beginner→advanced):
+  https://github.com/Tanu-N-Prabhu/Python
+- **fabinhojorge/Back-End-Developer-Interview-Questions-1** — backend concepts:
+  https://github.com/fabinhojorge/Back-End-Developer-Interview-Questions-1
+- ⭐ **TheAlgorithms/Python** — algorithms implemented in Python:
+  https://github.com/TheAlgorithms/Python
+- **AhmedAbdelbasetAli/full-stack-interview-qa** — JS/React/Node/DSA/system design/cloud:
+  https://github.com/AhmedAbdelbasetAli/full-stack-interview-qa
+
+<a id="sec-49"></a>
+## GitHub — frontend (React/Next side of the role)
+- **sudheerj/reactjs-interview-questions**: https://github.com/sudheerj/reactjs-interview-questions
+- **sudheerj/javascript-interview-questions**: https://github.com/sudheerj/javascript-interview-questions
+- **lydiahallie/javascript-questions** (JS output): https://github.com/lydiahallie/javascript-questions
+
+<a id="sec-50"></a>
+## GitHub — general interview + DSA + system design
+- ⭐ **yangshun/tech-interview-handbook**: https://github.com/yangshun/tech-interview-handbook
+- **jwasham/coding-interview-university**: https://github.com/jwasham/coding-interview-university
+- ⭐ **donnemartin/system-design-primer** (System Design is a listed Stackmentalist service):
+  https://github.com/donnemartin/system-design-primer
+- **abhiXsliet/DSA-SHEETS** (Striver + Love Babbar): https://github.com/abhiXsliet/DSA-SHEETS
+- **shubhanshurav/Interview-Preparation-Notes** (notes + DSA PDFs):
+  https://github.com/shubhanshurav/Interview-Preparation-Notes
+
+<a id="sec-51"></a>
+## Practice platforms
+- ⭐ **NeetCode 150** (DSA patterns): https://neetcode.io/practice
+- ⭐ **LeetCode** — Top Interview 150 + **SQL 50**: https://leetcode.com/studyplan/top-interview-150/
+  · https://leetcode.com/studyplan/top-sql-50/
+- ⭐ **DataLemur** (SQL + analytics interview): https://datalemur.com/
+- **SQLBolt** (interactive SQL): https://sqlbolt.com/  · **Mode SQL**: https://mode.com/sql-tutorial/
+- **HackerRank** (Python/SQL/problem-solving): https://www.hackerrank.com/
+- **Real Python** (deep Python/Django/FastAPI): https://realpython.com/
+- **FastAPI docs tutorial**: https://fastapi.tiangolo.com/  · **Django docs**: https://docs.djangoproject.com/
+
+<a id="sec-52"></a>
+## LLM / LangChain (your differentiator here)
+- LangChain (Python) docs: https://python.langchain.com/
+- LangGraph docs: https://langchain-ai.github.io/langgraph/
+- ChromaDB docs: https://docs.trychroma.com/  · OpenAI API: https://platform.openai.com/docs/
+
+<a id="sec-53"></a>
+## Company-wise PYQ portals
+- GeeksforGeeks interview experiences: https://www.geeksforgeeks.org/  (search "Python full stack" + startups)
+- **PrepInsta**: https://prepinsta.com/  · **InterviewBit**: https://www.interviewbit.com/
+- **AmbitionBox**: https://www.ambitionbox.com/  · **Glassdoor**: https://www.glassdoor.co.in/
+  (limited data for Stackmentalist — rely on the JD + repos above)
+
+<a id="sec-54"></a>
+## Community compilations (use with caution)
+- Community **Google Drive / Notion** placement compilations exist — search
+  `python full stack interview notes drive` or `placement preparation notion`. Unofficial; prefer
+  the curated GitHub repos above. Telegram placement groups share PYQ PDFs — verify before trusting.
+
+---
+
+<a id="sec-55"></a>
+# MORE RESOURCES v2 (roadmaps, mock interviews, sheets, cheatsheets)
+
+<a id="sec-56"></a>
+## Roadmaps (full-stack picture)
+- roadmap.sh Backend: https://roadmap.sh/backend
+- roadmap.sh Python: https://roadmap.sh/python
+- roadmap.sh Full Stack: https://roadmap.sh/full-stack
+- roadmap.sh System Design: https://roadmap.sh/system-design
+- roadmap.sh React / Frontend: https://roadmap.sh/react · https://roadmap.sh/frontend
+
+<a id="sec-57"></a>
+## DSA sheets & cheatsheets (Python-friendly)
+- **Grind 75 / Blind 75**: https://www.techinterviewhandbook.org/grind75/
+- shobhitsinha-A/Leetcode-Blind-75 (Python solutions): https://github.com/shobhitsinha-A/Leetcode-Blind-75-
+- sathvik-spartan/Neetcode-150-and-Blind-75 (+ Anki): https://github.com/sathvik-spartan/Neetcode-150-and-Blind-75-DSA-Practice-
+- nikhiljsk/Strivers_SDE_Sheet (Python + Go solutions): https://github.com/nikhiljsk/Strivers_SDE_Sheet
+- Pradetto/DSA-Cheat-Sheets: https://github.com/Pradetto/DSA-Cheat-Sheets
+- Striver A2Z DSA: https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
+
+<a id="sec-58"></a>
+## SQL — extra practice (JD stresses DB design)
+- DataLemur SQL questions: https://datalemur.com/questions
+- StrataScratch (SQL + Python data): https://www.stratascratch.com/
+- SQLZoo: https://sqlzoo.net/
+- Use The Index, Luke (indexing/perf): https://use-the-index-luke.com/
+
+<a id="sec-59"></a>
+## Mock interviews (practice live)
+- **Pramp / Exponent** (free peer mocks): https://www.pramp.com/
+- **interviewing.io** (anonymous mocks): https://interviewing.io/
+- Peer mocks: build a CRUD live with a friend watching (mimics a practical round)
+
+<a id="sec-60"></a>
+## Backend/Python references & cheatsheets
+- DevDocs (offline all-in-one docs): https://devdocs.io/
+- Python cheatsheet (gto76): https://github.com/gto76/python-cheatsheet
+- Real Python (Django/FastAPI/DSA): https://realpython.com/
+- Full Speed Python (free book): https://github.com/joaoventura/full-speed-python
+- Testdriven.io (FastAPI/Django + Docker tutorials): https://testdriven.io/blog/
+
+<a id="sec-61"></a>
+## System design (it's a listed Stackmentalist service)
+- donnemartin/system-design-primer: https://github.com/donnemartin/system-design-primer
+- roadmap.sh system design: https://roadmap.sh/system-design
+- ByteByteGo (Alex Xu) YouTube + newsletter: https://www.youtube.com/@ByteByteGo
+
+<a id="sec-62"></a>
+## Extra YouTube
+- Corey Schafer — Python/Django (playlists): https://www.youtube.com/@coreyms
+- Dennis Ivy — Django/DRF + FastAPI: https://www.youtube.com/@DennisIvy
+- CodeWithHarry — Python (Hindi): https://www.youtube.com/@CodeWithHarry
+- take U forward — DSA: https://www.youtube.com/@takeUforward
+- ByteByteGo — system design: https://www.youtube.com/@ByteByteGo

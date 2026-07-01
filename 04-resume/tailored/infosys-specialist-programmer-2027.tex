@@ -1,0 +1,131 @@
+%==========================================================
+% Shivam Gupta — Resume tailored for Infosys Ltd
+% Role: Specialist Programmer / Digital Specialist Engineer (2027 batch, campus)
+% ATS-safe: single column, standard sections, selectable text.
+% Single page. Compiles on Overleaf with pdfLaTeX/XeLaTeX. No images.
+%==========================================================
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[top=1cm,bottom=1cm,left=1.4cm,right=1.4cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+
+\definecolor{accent}{HTML}{1A5276}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.02}
+
+% Uniform list spacing (same gap above bullets everywhere)
+\setlist[itemize]{leftmargin=1.4em, topsep=2pt, itemsep=2pt, parsep=0pt, partopsep=0pt}
+
+% Uniform section heading style: UPPERCASE, accent, rule; equal spacing before/after
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{\MakeUppercase}[\vspace{-3pt}\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+
+% Experience/Education entry: title (left) + date (right); role (left) + place (right)
+\newcommand{\entry}[4]{%
+  \vspace{3pt}%
+  \textbf{#1}\hfill #2\par
+  \vspace{1pt}%
+  \textit{#3}\hfill \textit{#4}\par
+  \vspace{2pt}%
+}
+
+\begin{document}
+
+%================= HEADER =================
+\begin{center}
+  {\Huge \textbf{Shivam Gupta}}\\[4pt]
+  {\color{accent}\textbf{Software Engineer}}\\[5pt]
+  {\small
+  \faMapMarker~Gwalior, M.P. \quad
+  \faPhone~+91-8269699824 \quad
+  \faEnvelope~\href{mailto:guptashivam93660@gmail.com}{guptashivam93660@gmail.com} \quad
+  \faLinkedin~\href{https://www.linkedin.com/in/ur-990q}{LinkedIn} \quad
+  \faGithub~\href{https://github.com/Shivam990q}{GitHub} \quad
+  \faGlobe~\href{https://shivam-portfolio-a1s4.onrender.com}{Portfolio}}
+\end{center}
+
+%================= SUMMARY =================
+\section{Summary}
+Software engineer with strong \textbf{data structures \& algorithms} and programming skills in
+\textbf{C++, Java, and Python}, plus full-stack development (\textbf{React} + \textbf{Django/Node}).
+Solid CS fundamentals (DBMS, OOP, OS); multiple live products shipped. Strong problem-solving,
+ownership, and communication; comfortable learning any technology.
+
+%================= SKILLS =================
+\section{Technical Skills}
+\begin{itemize}[label={}, leftmargin=0pt, topsep=2pt, itemsep=2pt]
+  \item \textbf{Languages:} C++, Java, Python, JavaScript (ES6+), TypeScript, SQL, C
+  \item \textbf{CS Fundamentals:} Data Structures \& Algorithms, OOP, DBMS/SQL, Operating Systems,
+        Computer Networks, System Design (basics)
+  \item \textbf{Full-stack:} React.js, Node.js, Django, Django REST, REST APIs, PostgreSQL, MongoDB
+  \item \textbf{Tools \& Cloud:} Git \& GitHub, Docker, CI/CD, AWS, Postman, Linux
+\end{itemize}
+
+%================= EXPERIENCE =================
+\section{Experience}
+\entry{Full Stack Engineer (Intern)}{May 2025 -- Feb 2026}{ITM University, Gwalior}{On-site}
+\begin{itemize}
+  \item Redeveloping the university ERP with \textbf{React.js} and \textbf{Django REST APIs} ---
+        building reusable, responsive front-end components for admin, examination, and quiz modules.
+  \item Integrated REST endpoints for seamless front-end/back-end data flow; optimized FE
+        performance for smooth, defect-free deployments.
+\end{itemize}
+
+\entry{WordPress Developer (Internship)}{Jul 2024 -- Aug 2024}{AdRyter Advertising}{On-site}
+\begin{itemize}
+  \item Built advanced, responsive websites and custom UI features using \textbf{React}, REST APIs,
+        Gutenberg blocks, ACF, and headless WordPress.
+\end{itemize}
+
+\entry{Subject Matter Expert (Internship)}{Jan 2024 -- Aug 2024}{Solvitude Solutions (Brainly.com, US)}{Remote}
+\begin{itemize}
+  \item Delivered accurate, high-quality real-time technical solutions for the Brainly (US) platform.
+\end{itemize}
+
+%================= PROJECTS =================
+\section{Projects}
+\begin{itemize}
+  \item \textbf{NETWORKED --- Live Web Platform} (\href{https://networkedconsultancy.com}{live})\\
+        Full-stack \textbf{React + TypeScript} front-end over a custom \textbf{Django REST} + PostgreSQL CMS; CI/CD to VPS.
+  \item \textbf{ITMU Parakh Portal --- University MIS} (\href{https://parakh.itmuniversity.ac.in}{live})\\
+        \textbf{React.js + Vite} front-end, \textbf{Django REST} backend; admin, examination, and quiz modules.
+  \item \textbf{Better Than Claude Skills} (\href{https://github.com/Shivam990q/better-than-claude-skills}{GitHub})\\
+        \textbf{Python} toolkit of 16+ LLM agent skills with an MCP builder and progressive-disclosure design.
+  \item \textbf{CivicTrack --- Civic Issue Platform}\\
+        Full-stack \textbf{React + Django} app for citizens to report and track local civic issues.
+  \item \textbf{Barterly --- Skill-Trading Marketplace} (\href{https://github.com/Shivam990q/Barterly-Redesigned}{GitHub})\\
+        Responsive \textbf{React + TypeScript} app with AI-powered search and a skill-hours wallet.
+\end{itemize}
+
+%================= ACHIEVEMENTS =================
+\section{Achievements \& Leadership}
+\begin{itemize}
+  \item \textbf{President}, ITM Developers Club (IDC) --- led the team and organized tech events/talks.
+  \item \textbf{Secured 3rd Position} --- Full Stack Development Bootcamp, ITM University (Dec 2025).
+  \item \textbf{8th Rank (Solo)} --- Odoo Online Hackathon (qualified and competed solo).
+  \item Certificate of Achievement, Google Developer Groups Solution Challenge 2025.
+  \item \textbf{Top Performer --- Open Innovation}, Hacksagon 2025 (IEEE, ABV-IIITM Gwalior).
+\end{itemize}
+
+%================= EDUCATION =================
+\section{Education}
+\entry{B.Tech, Computer Science \& Engineering}{2023 -- 2027}{ITM University, Gwalior}{CGPA: 7.47}
+
+%================= CERTIFICATIONS =================
+\section{Certifications}
+\begin{itemize}
+  \item Full Stack Web Application Development with Django --- Udemy
+  \item Postman API Fundamentals Student Expert --- Postman
+  \item MongoDB Basics for Students --- MongoDB
+  \item Career Essentials in Generative AI --- LinkedIn Learning
+\end{itemize}
+
+\end{document}

@@ -82,8 +82,25 @@
   - [Practice done](#sec-77)
   - [Ready-to-go](#sec-78)
   - [Mistakes log (fill as you practice)](#sec-79)
+- [MEGA RESOURCE VAULT (GitHub repos, sheets, platforms) — qualify at any cost](#sec-80)
+  - [GitHub — Frontend / JavaScript interview repos](#sec-81)
+  - [GitHub — general interview + DSA + system design](#sec-82)
+  - [Practice platforms](#sec-83)
+  - [Company-wise PYQ portals (search "Josh Technology")](#sec-84)
+  - [Community compilations (use with caution)](#sec-85)
+- [MORE RESOURCES v2 (roadmaps, mock interviews, sheets, cheatsheets)](#sec-86)
+  - [Roadmaps (know the full picture)](#sec-87)
+  - [Curated question lists](#sec-88)
+  - [Mock interviews (practice live — huge for confidence)](#sec-89)
+  - [DSA sheets & cheatsheets (for the C/C++ + logic MCQs and PI logic)](#sec-90)
+  - [CSS/JS cheatsheets & references](#sec-91)
+  - [Extra YouTube playlists](#sec-92)
 
 <!-- TOC END -->
+
+
+
+
 
 
 > Goal: clear an 8–9 round elimination process. Screening is HEAVY on CSS + core JavaScript,
@@ -772,3 +789,124 @@ Pod.AI — that breadth matches how I like to learn and build."
 | Date | Topic | Mistake | Fix/Note |
 | --- | --- | --- | --- |
 | | | | |
+
+
+---
+
+<a id="sec-80"></a>
+# MEGA RESOURCE VAULT (GitHub repos, sheets, platforms) — qualify at any cost
+
+> Curated, high-signal resources. Star the GitHub repos so you can revisit. Prioritize ⭐.
+
+<a id="sec-81"></a>
+## GitHub — Frontend / JavaScript interview repos
+- ⭐ **yangshun/front-end-interview-handbook** — the gold standard FE interview handbook:
+  https://github.com/yangshun/front-end-interview-handbook
+- ⭐ **lydiahallie/javascript-questions** — famous JS output/concept questions (with explanations):
+  https://github.com/lydiahallie/javascript-questions
+- ⭐ **sudheerj/javascript-interview-questions** — 1000+ JS Q&A:
+  https://github.com/sudheerj/javascript-interview-questions
+- ⭐ **sudheerj/reactjs-interview-questions** — huge React Q&A set:
+  https://github.com/sudheerj/reactjs-interview-questions
+- **leonardomso/33-js-concepts** — 33 core JS concepts every dev must know:
+  https://github.com/leonardomso/33-js-concepts
+- **suveshmoza/FE-Interview-Preparation** — polyfills + machine coding + DOM:
+  https://github.com/suveshmoza/FE-Interview-Preparation
+- **ghoshsuman845/frontend-interview-preparation-kit**:
+  https://github.com/ghoshsuman845/frontend-interview-preparation-kit
+- **meeshh/frontend-interview-prep** — HTML/CSS/JS/React curated Q&A:
+  https://github.com/meeshh/frontend-interview-prep
+- **subhasisbilas/Frontend-Developer-Interview-Preparation**:
+  https://github.com/subhasisbilas/Frontend-Developer-Interview-Preparation
+- **nenadjaja/frontend_interview** — JS coding challenges (+ HTML/CSS):
+  https://github.com/nenadjaja/frontend_interview
+- Real JTG assignment sample: https://github.com/yadavg123/JOSH-TECHNOLOGY-GROUP-Assignment
+
+<a id="sec-82"></a>
+## GitHub — general interview + DSA + system design
+- ⭐ **yangshun/tech-interview-handbook** — algorithms + behavioral + resume + negotiation:
+  https://github.com/yangshun/tech-interview-handbook
+- **jwasham/coding-interview-university** — full CS study plan:
+  https://github.com/jwasham/coding-interview-university
+- **donnemartin/system-design-primer** — system design (with Anki flashcards):
+  https://github.com/donnemartin/system-design-primer
+- **abhiXsliet/DSA-SHEETS** — Striver + Love Babbar sheets in one place:
+  https://github.com/abhiXsliet/DSA-SHEETS
+- **shubhanshurav/Interview-Preparation-Notes** — notes + DSA sheets (PDFs):
+  https://github.com/shubhanshurav/Interview-Preparation-Notes
+
+<a id="sec-83"></a>
+## Practice platforms
+- ⭐ **BFE.dev (BigFrontEnd)**: https://bigfrontend.dev/  (JS quiz + coding)
+- ⭐ **GreatFrontEnd**: https://www.greatfrontend.com/
+- **Frontend Mentor** (responsive pages): https://www.frontendmentor.io/
+- **JavaScript30 (Wes Bos, free)**: https://javascript30.com/
+- **NeetCode 150** (DSA): https://neetcode.io/practice
+- **LeetCode Top Interview 150**: https://leetcode.com/studyplan/top-interview-150/
+- **CodePen** (build/host components): https://codepen.io/
+- **Frontend practice — GreatFrontEnd/FrontendExpert** for machine coding drills
+
+<a id="sec-84"></a>
+## Company-wise PYQ portals (search "Josh Technology")
+- GeeksforGeeks interview experiences: https://www.geeksforgeeks.org/ (search "Josh Technology")
+- **PrepInsta** (company-wise prep): https://prepinsta.com/
+- **InterviewBit** (frontend + company prep): https://www.interviewbit.com/
+- **AmbitionBox** interviews: https://www.ambitionbox.com/  (search Josh Technology Group)
+- **Glassdoor** interviews: https://www.glassdoor.co.in/  (Josh Technology Group → Interviews)
+
+<a id="sec-85"></a>
+## Community compilations (use with caution)
+- Community **Google Drive / Notion** placement compilations exist — search
+  `Josh Technology placement material drive` or `frontend interview notes notion`. Treat as
+  unofficial; prefer the curated GitHub repos above (maintained, trusted).
+- Telegram placement groups often share PYQ PDFs — verify before trusting.
+
+
+---
+
+<a id="sec-86"></a>
+# MORE RESOURCES v2 (roadmaps, mock interviews, sheets, cheatsheets)
+
+<a id="sec-87"></a>
+## Roadmaps (know the full picture)
+- roadmap.sh Frontend: https://roadmap.sh/frontend
+- roadmap.sh JavaScript: https://roadmap.sh/javascript
+- roadmap.sh React: https://roadmap.sh/react
+- GreatFrontEnd Frontend Interview Playbook: https://www.greatfrontend.com/front-end-interview-playbook/introduction
+
+<a id="sec-88"></a>
+## Curated question lists
+- GreatFrontEnd **GFE 75** (start here) + 500+ questions: https://www.greatfrontend.com/questions
+- GreatFrontEnd 100+ React Qs (ex-interviewers, React 19): https://www.greatfrontend.com/blog/100-react-interview-questions-straight-from-ex-interviewers
+- GreatFrontEnd JS practice (160+): https://www.greatfrontend.com/front-end-interview-playbook/javascript
+- FrontendLead (all-in-one, free tier): https://frontendlead.com/
+
+<a id="sec-89"></a>
+## Mock interviews (practice live — huge for confidence)
+- **Pramp / Exponent** (free peer mocks): https://www.pramp.com/
+- **interviewing.io** (anonymous mock interviews): https://interviewing.io/
+- **FrontendLead / GreatFrontEnd** mock questions (self-timed)
+- Peer mocks: pair with a friend and screen-share (mimics JTG's live assignment round)
+
+<a id="sec-90"></a>
+## DSA sheets & cheatsheets (for the C/C++ + logic MCQs and PI logic)
+- **Blind 75** (Grind 75 upgrade): https://www.techinterviewhandbook.org/grind75/
+- Nerdcode/Leetcode-Grind75: https://github.com/Nerdcode/Leetcode-Grind75
+- sathvik-spartan/Neetcode-150-and-Blind-75 (+ Anki flashcards): https://github.com/sathvik-spartan/Neetcode-150-and-Blind-75-DSA-Practice-
+- Pradetto/DSA-Cheat-Sheets: https://github.com/Pradetto/DSA-Cheat-Sheets
+- Striver A2Z DSA (takeUforward): https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
+
+<a id="sec-91"></a>
+## CSS/JS cheatsheets & references
+- CSS-Tricks Almanac: https://css-tricks.com/almanac/
+- flexbox.malven.co (flex cheatsheet): https://flexbox.malven.co/
+- grid.malven.co (grid cheatsheet): https://grid.malven.co/
+- DevDocs (offline docs, all-in-one): https://devdocs.io/
+- JavaScript.info tasks (practice): https://javascript.info/
+
+<a id="sec-92"></a>
+## Extra YouTube playlists
+- Akshay Saini — Namaste JavaScript (playlist): https://www.youtube.com/@AkshaySaini
+- RoadsideCoder — Frontend Machine Coding (playlist): https://www.youtube.com/@RoadsideCoder
+- Kevin Powell — CSS (channel): https://www.youtube.com/@KevinPowell
+- Chai aur Code — JS/React (Hitesh): https://www.youtube.com/@chaiaurcode

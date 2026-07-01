@@ -259,3 +259,48 @@
   clients Vinkapp/Anujan/Procureasify; InnovateX hackathon). Added a "Company snapshot — Deep
   Research" section to stackmentalist-python-fullstack-PREP.md + refreshed TOC (45 entries).
   Also saved company facts to memory/facts.md.
+
+
+## 2026-07-01 — MEGA RESOURCE VAULT added to both PREP files
+- Researched & added curated GitHub repos + platforms to both prep files:
+  * JOSH (frontend): yangshun/front-end-interview-handbook, lydiahallie/javascript-questions,
+    sudheerj js+react questions, 33-js-concepts, suveshmoza FE-Interview-Preparation, tech-interview-handbook,
+    system-design-primer, DSA-SHEETS, BFE.dev, GreatFrontEnd, JavaScript30, NeetCode, PrepInsta/InterviewBit/AmbitionBox.
+  * Stackmentalist (backend/py): rohan-paul Awesome-Python-Django-Interview, rohanmistry231 FastAPI prep,
+    Devinterview django/api-design, Tanu-N-Prabhu Python, TheAlgorithms/Python, full-stack-interview-qa,
+    system-design-primer, DataLemur/SQLBolt/LeetCode SQL50, LangChain/LangGraph/Chroma docs.
+- Noted community Google Drive/Notion/Telegram compilations exist but flagged as unofficial (prefer repos).
+- Refreshed TOCs: JOSH 84 entries, Stackmentalist 53 entries.
+
+
+## 2026-07-01 — Resources v2 added to both PREP files
+- JOSH: roadmap.sh (frontend/js/react), GreatFrontEnd GFE75 + playbook + React-19 Qs, FrontendLead,
+  mock interviews (Pramp, interviewing.io), Grind75/Blind75 repos, DSA cheat sheets, CSS/JS cheatsheets
+  (malven flex/grid, css-tricks almanac, devdocs).
+- Stackmentalist: roadmap.sh (backend/python/full-stack/system-design), Grind75/Blind75 (Python),
+  Strivers SDE (Python), SQL practice (DataLemur/StrataScratch/SQLZoo/use-the-index-luke), mock
+  interviews, python-cheatsheet (gto76), testdriven.io, system-design-primer + ByteByteGo, extra YouTube.
+- Refreshed TOCs: JOSH 91, Stackmentalist 61. Audit: PREP files comprehensive; 37 pending markers
+  are profile/experience metrics (need Shivam's real numbers), not prep/resume gaps.
+
+
+## 2026-07-01 — 3rd application: Infosys (Specialist Programmer / DSE)
+- Campus drive via TAP Cell; deadline 02 Jul 2026 10 AM. Form: forms.gle/QC928sKwwaMJf3L96.
+- Roles: SP L1/L2/L3 (10/16/21 LPA) + DSE (6.25 LPA). Test tier decides package. PAN India.
+- Process: online coding test (3 DSA Qs, 180 min, medium-hard, DP-heavy) → 60-min technical interview
+  (DSA + DBMS/OS/CN/OOP + SQL + projects). Proctored via Wingspan. Eligibility: 60/65% + 6 CGPA,
+  NO active backlogs (Shivam: 10th 88.67, 12th 81.40, CGPA 7.47, 0 backlogs -> eligible; simple-average note).
+- Created: JD (infosys-specialist-programmer-2027.md), application + form values
+  (infosys-specialist-programmer.md), resume (copied base -> tailored as Software Engineer, DSA/CS-fundamentals
+  emphasis; 1 page verified), PREP (deep research + DSA topic plan + must-do problems + CS-fundamentals Q&A
+  + HR + MEGA resource vault + 2-week sprint + tracker; TOC 24 entries). Tracker updated.
+- Resources: Striver A2Z/SDE, NeetCode150, Aditya Verma DP, GfG Infosys SDE Sheet, LeetCode/Codeforces/Code360,
+  Great Learning/Educative/PrepInsta guides, Gate Smashers (CS fundamentals).
+- Key: DSA (esp DP) is the make-or-break; do timed 3Q/180min mocks.
+
+
+## 2026-07-01 — Infosys resume rebuilt from JOSH format
+- Per Shivam: copied josh-tech-frontend-2027.tex (preferred format) over infosys resume, then adapted:
+  subtitle "Software Engineer"; summary = DSA + C++/Java/Python + full-stack; skills = Languages /
+  CS Fundamentals (DSA/OOP/DBMS/OS/CN) / Full-stack / Tools&Cloud; projects = NETWORKED, Parakh,
+  Better Than Claude Skills, CivicTrack, Barterly (dropped IDC & Techrythm). Verified single page.
