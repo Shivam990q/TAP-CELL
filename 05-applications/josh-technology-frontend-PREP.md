@@ -1,10 +1,97 @@
+<a id="sec-1"></a>
 # JOSH Technology Group — Front End Developer: Prep Roadmap
+
+<!-- TOC START -->
+## Table of Contents
+
+  - [Strategy per round (what to expect → how to clear)](#sec-2)
+  - [Topic checklists](#sec-3)
+    - [CSS (MOST IMPORTANT — they grill this)](#sec-4)
+    - [JavaScript (core — heavily tested)](#sec-5)
+    - [HTML](#sec-6)
+    - [React (they use React JS & Native)](#sec-7)
+    - [CS fundamentals (light)](#sec-8)
+  - [Machine-coding practice (build from scratch, timed, vanilla JS + a few React)](#sec-9)
+  - [Day-wise plan](#sec-10)
+    - [2-week plan (if you have ~14 days)](#sec-11)
+    - [Crash 3–4 day plan (if assessment is very soon)](#sec-12)
+  - [Assessment-day tips](#sec-13)
+  - [Behavioral / HR (STAR stories to prepare)](#sec-14)
+  - [Resources](#sec-15)
+- [ROUND-BY-ROUND (very detailed, with resources)](#sec-16)
+  - [Round 1 — Online MCQ (elimination, ~1 hour, NEGATIVE marking)](#sec-17)
+  - [Round 2 — Online MCQ / Aptitude (elimination)](#sec-18)
+  - [Round 3 — Online Technical / Subjective (elimination)](#sec-19)
+  - [Round 4 — Take-home Technical Assessment (build a static page, ~1 week)](#sec-20)
+  - [Round 5 — On-site Machine Coding (timed <2 hr, SCREEN-SHARED, checked every ~20 min)](#sec-21)
+  - [Round 6 — Technical Personal Interview 1 (CSS-heavy)](#sec-22)
+  - [Round 7 — Technical Personal Interview 2 (deeper)](#sec-23)
+  - [Round 8 — HR / Managerial (culture fit, final)](#sec-24)
+  - [Notes that repeat across experiences](#sec-25)
+  - [STAR stories to lock (reuse across PI + HR)](#sec-26)
+  - [Consolidated resource list](#sec-27)
+- [COMPLETE RESOURCE HUB (question banks, PYQs, YouTube, courses) — GOAL: get selected](#sec-28)
+  - [A. YouTube channels (by purpose)](#sec-29)
+    - [Core JavaScript (for MCQ + JS + PI rounds)](#sec-30)
+    - [CSS (their MOST-tested area — do NOT skip)](#sec-31)
+    - [Machine coding (timed component building — the on-site round)](#sec-32)
+    - [React (they use React JS & Native)](#sec-33)
+    - [DSA / C++ basics (for the C/C++ MCQs + PI logic)](#sec-34)
+    - [Long free courses](#sec-35)
+  - [B. Written resources / docs (deep + reference)](#sec-36)
+  - [C. Question banks & practice platforms](#sec-37)
+  - [D. JTG-specific PYQ / patterns (READ THESE FIRST)](#sec-38)
+  - [E. Must-master JavaScript output/concept topics (MCQ + PI)](#sec-39)
+  - [F. Must-master CSS topics (their hardest area)](#sec-40)
+  - [G. Machine-coding component checklist (build each < 40 min, vanilla + React)](#sec-41)
+  - [H. Computer Networks (for PI) — quick list](#sec-42)
+  - [I. 7-day resource-mapped sprint (if time is short)](#sec-43)
+  - [J. Daily routine (until the drive)](#sec-44)
+  - [K. Golden rules to actually get selected](#sec-45)
+- [DIRECT RESOURCE LINKS (clickable)](#sec-46)
+  - [1. JTG PYQ / Interview Experiences (READ FIRST)](#sec-47)
+  - [2. Real assignment references (take-home round)](#sec-48)
+  - [3. MCQ / output-question practice (Round 1)](#sec-49)
+  - [4. Machine-coding practice (on-site timed round)](#sec-50)
+  - [5. Take-home page practice (pixel-perfect responsive)](#sec-51)
+  - [6. CSS practice (their MOST-tested area)](#sec-52)
+  - [7. Core docs / free books](#sec-53)
+  - [8. YouTube channels (direct)](#sec-54)
+  - [9. DSA-lite / logic (for PIs & C MCQs)](#sec-55)
+  - [How to use (fast path)](#sec-56)
+- [QUESTION BANK WITH ANSWERS (practice like the real rounds)](#sec-57)
+  - [JavaScript — output prediction (Round 1 style, learn the trap)](#sec-58)
+  - [JavaScript — concept Q&A](#sec-59)
+  - [CSS — concept Q&A (their hardest area)](#sec-60)
+  - [C / C++ — output MCQ samples (for the ~10 C/C++ MCQs)](#sec-61)
+  - [Machine-coding — how to approach (say this out loud)](#sec-62)
+    - [Mini template — Counter/Accordion pattern (vanilla)](#sec-63)
+  - [Take-home assignment — quality rubric (score yourself)](#sec-64)
+- [BEHAVIORAL / HR — SCRIPTS (tailored to Shivam)](#sec-65)
+  - [Self-introduction (60–90 sec, memorize the flow, not word-for-word)](#sec-66)
+  - ["Why JTG?" (be specific — they'll notice)](#sec-67)
+  - [Common HR questions → how Shivam should answer (STAR / honest)](#sec-68)
+  - [Smart questions to ASK the interviewer (shows interest)](#sec-69)
+- [LOGISTICS & MINDSET](#sec-70)
+  - [Day-before checklist](#sec-71)
+  - [During the MCQ (negative marking) — strategy](#sec-72)
+  - [During machine coding / assignment](#sec-73)
+  - [Common mistakes to avoid](#sec-74)
+- [PROGRESS TRACKER (tick as you go)](#sec-75)
+  - [Concepts](#sec-76)
+  - [Practice done](#sec-77)
+  - [Ready-to-go](#sec-78)
+  - [Mistakes log (fill as you practice)](#sec-79)
+
+<!-- TOC END -->
+
 
 > Goal: clear an 8–9 round elimination process. Screening is HEAVY on CSS + core JavaScript,
 > starts with a negative-marked MCQ, and includes a take-home page + a timed screen-shared
 > machine-coding assignment, then technical PIs + HR.
 > See company/process details in `06-job-descriptions/josh-technology-DEEP-RESEARCH.md`.
 
+<a id="sec-2"></a>
 ## Strategy per round (what to expect → how to clear)
 1. **MCQ (50–70 Qs, 1 hr, negative marking):** ~10 C/C++ + ~40 HTML/CSS/JS; output-prediction,
    syntax, pseudo-code. → Prioritize ACCURACY; skip unsure ones (negative marking). Practice
@@ -17,8 +104,10 @@
 5. **Technical PIs:** CSS (grilled), JS, HTML, Computer Networks, dry-run code. → Explain reasoning aloud.
 6. **HR/managerial:** culture fit, ownership, communication, "why JTG". → STAR stories ready.
 
+<a id="sec-3"></a>
 ## Topic checklists
 
+<a id="sec-4"></a>
 ### CSS (MOST IMPORTANT — they grill this)
 - Box model, margin collapse, `box-sizing`
 - Positioning: static/relative/absolute/fixed/sticky; stacking context & z-index
@@ -30,6 +119,7 @@
 - Transitions, transforms, animations (keyframes); SASS/LESS basics
 - display types, overflow, `position: sticky`, common layout bugs
 
+<a id="sec-5"></a>
 ### JavaScript (core — heavily tested)
 - Data types, coercion, `==` vs `===`, hoisting, scope, TDZ
 - Closures, `this` binding (call/apply/bind), arrow vs regular
@@ -40,19 +130,23 @@
 - DOM manipulation, event delegation, bubbling/capturing
 - Output-prediction snippets (for MCQ)
 
+<a id="sec-6"></a>
 ### HTML
 - Semantic tags, forms & validation, accessibility (a11y) basics
 - meta/SEO tags, `data-*`, media, tables
 
+<a id="sec-7"></a>
 ### React (they use React JS & Native)
 - Components, props, state, hooks (useState/useEffect/useRef/useMemo/useCallback)
 - Lists & keys, controlled inputs, lifting state, conditional rendering
 - Basic performance (memo), component design; (context/router basics)
 
+<a id="sec-8"></a>
 ### CS fundamentals (light)
 - Computer Networks: HTTP/HTTPS, status codes, DNS, TCP vs UDP, request/response, CORS basics
 - C/C++: output/pointer MCQs, operators, loops, OOP basics (for the MCQ round)
 
+<a id="sec-9"></a>
 ## Machine-coding practice (build from scratch, timed, vanilla JS + a few React)
 - Accordion, Tabs, Modal/Dialog, Carousel/Slider
 - Star rating, Toast notifications, Todo list (add/edit/delete/filter)
@@ -61,8 +155,10 @@
 - Responsive navbar (hamburger), Image gallery/lightbox
 > Do each in < 40 min, clean code, then redo in React.
 
+<a id="sec-10"></a>
 ## Day-wise plan
 
+<a id="sec-11"></a>
 ### 2-week plan (if you have ~14 days)
 - **D1–2:** CSS deep dive (flexbox, grid, positioning, specificity) + 3 layout clones.
 - **D3–4:** JS core (closures, this, promises, async, event loop) + 30 output MCQs/day.
@@ -75,18 +171,21 @@
 - **D13:** Behavioral/HR prep (STAR stories, why JTG) + resume walkthrough.
 - **D14:** Light revision + mock technical interview (explain out loud) + rest.
 
+<a id="sec-12"></a>
 ### Crash 3–4 day plan (if assessment is very soon)
 - **Day 1:** CSS flexbox/grid/specificity + centering; JS promises/async/closures.
 - **Day 2:** 60 output-prediction MCQs (JS + a few C/C++); 2 machine-coding components.
 - **Day 3:** Responsive page build + React basics; Computer Networks quick pass.
 - **Day 4:** Mock MCQ (negative-marking discipline) + 2 timed components + HR answers.
 
+<a id="sec-13"></a>
 ## Assessment-day tips
 - Labs with **webcam + mic ON** — dress/setup accordingly, stable environment.
 - MCQ: read carefully, **skip risky ones** (negative marking); manage the 1-hour clock.
 - Machine coding: talk through your plan first, commit small working steps, handle edge cases.
 - Interviews: think aloud, ask clarifying questions, dry-run with sample inputs.
 
+<a id="sec-14"></a>
 ## Behavioral / HR (STAR stories to prepare)
 - **Leadership:** President, ITM Developers Club — leading team, organizing events.
 - **Impact/build:** NETWORKED (client platform, end-to-end delivery, CI/CD).
@@ -95,6 +194,7 @@
 - **"Why JTG?":** product-builder/CTO-office model, direct mentorship from founders, flat
   hierarchy, latest tech across domains, own products like Pod.AI.
 
+<a id="sec-15"></a>
 ## Resources
 - MDN (CSS/JS reference), javascript.info (JS deep), Flexbox Froggy / Grid Garden (CSS games),
   GreatFrontEnd / Frontend practice for machine coding, GeeksforGeeks "Josh Technology"
@@ -103,12 +203,14 @@
 
 ---
 
+<a id="sec-16"></a>
 # ROUND-BY-ROUND (very detailed, with resources)
 
 > Consolidated from multiple GeeksforGeeks JTG Front End Developer experiences (2024–2025).
 > Format varies slightly by year: typically **9 rounds = ~4 online (home/college) + ~5 at the
 > Gurugram office**, every round is an ELIMINATION round. Content rephrased for compliance.
 
+<a id="sec-17"></a>
 ## Round 1 — Online MCQ (elimination, ~1 hour, NEGATIVE marking)
 - **What:** ~50 MCQs (some years ~70). Split roughly **~10 C/C++** + **~40 HTML/CSS/JS**.
   Question types: output-prediction, language syntax, pseudo-code, single-line integer output.
@@ -121,6 +223,7 @@
   - GeeksforGeeks: "Josh Technology Interview" MCQ articles; JS output-prediction question sets
   - InterviewBit / GfG C output-question quizzes (for the C/C++ part)
 
+<a id="sec-18"></a>
 ## Round 2 — Online MCQ / Aptitude (elimination)
 - **What:** Second objective round in some years — more HTML/CSS/JS, sometimes light aptitude
   and logical reasoning. Still negative marking in most reports.
@@ -128,12 +231,14 @@
   percentages, series) if included.
 - **Resources:** IndiaBix/GfG aptitude (quick), css-tricks "Complete Guide to Flexbox/Grid".
 
+<a id="sec-19"></a>
 ## Round 3 — Online Technical / Subjective (elimination)
 - **What:** Conceptual HTML/CSS/JS — "easy but fundamental" per experiences. May ask to write
   short code/explain output. In SDE variants you write full programs WITH comments (comments help scoring).
 - **Study:** Explain concepts crisply (event loop, promises, box model, positioning, specificity).
 - **Resources:** javascript.info (Promises/async), "What the heck is the event loop" (Philip Roberts talk).
 
+<a id="sec-20"></a>
 ## Round 4 — Take-home Technical Assessment (build a static page, ~1 week)
 - **What:** Build a **static web page using ONLY HTML, CSS, JavaScript** (no framework).
   Judged on pixel-perfection, responsiveness, clean/semantic code, and JS interactivity.
@@ -145,6 +250,7 @@
     (search "JOSH-TECHNOLOGY-GROUP-Assignment") — study structure, don't copy
   - MDN "Responsive design", css-tricks media queries
 
+<a id="sec-21"></a>
 ## Round 5 — On-site Machine Coding (timed <2 hr, SCREEN-SHARED, checked every ~20 min)
 - **What:** Build a working UI component/feature live while the interviewer watches and asks for
   updates every ~20 minutes. Tests speed + clean code + edge cases.
@@ -158,6 +264,7 @@
   - Medium: "React JS Machine Coding: 25+ Must-Do Questions with Solutions" (sanchit0496)
   - GitHub: "frontend-interview-preparation-kit" (ghoshsuman845)
 
+<a id="sec-22"></a>
 ## Round 6 — Technical Personal Interview 1 (CSS-heavy)
 - **What:** Introduction → deep questions on **CSS (they grill this hardest)**, JavaScript, HTML,
   and **Computer Networks** basics. Expect follow-ups and dry-running code.
@@ -165,6 +272,7 @@
   CN (HTTP/HTTPS, status codes, DNS, TCP vs UDP, CORS, how a URL loads a page).
 - **Resources:** css-tricks, javascript.info, GfG Computer Networks basics.
 
+<a id="sec-23"></a>
 ## Round 7 — Technical Personal Interview 2 (deeper)
 - **What:** Deeper problem-solving — more machine coding / DOM tasks, project deep-dive
   (they'll probe NETWORKED, Parakh, etc.), and reasoning. Sometimes light DSA/logic.
@@ -172,6 +280,7 @@
   Revisit basic DSA (arrays, strings, hashmaps) and DOM manipulation.
 - **Resources:** Your own repos (know them cold), GfG DSA basics.
 
+<a id="sec-24"></a>
 ## Round 8 — HR / Managerial (culture fit, final)
 - **What:** Communication, ownership, teamwork, "Why JTG?", strengths/weaknesses, relocation to
   Gurugram, bond acknowledgement, salary/joining.
@@ -179,6 +288,7 @@
   mentorship, flat hierarchy, Pod.AI, latest tech). Be honest and confident.
 - **Resources:** Prepare 5–6 STAR stories (see below) + 6–8 common HR questions.
 
+<a id="sec-25"></a>
 ## Notes that repeat across experiences
 - Every round is an **elimination** round — no coasting.
 - **CSS is the single most-tested area** for FED; JavaScript async/promises close second.
@@ -186,6 +296,7 @@
 - Writing **comments** in subjective/coding rounds improves scoring.
 - Communication is genuinely evaluated (JTG values blogs/presentations/teamwork).
 
+<a id="sec-26"></a>
 ## STAR stories to lock (reuse across PI + HR)
 1. Leadership — President, ITM Developers Club (led team, ran events/talks).
 2. End-to-end build — NETWORKED client platform (concept → production, CI/CD).
@@ -193,6 +304,7 @@
 4. Ownership/learning — modernizing university ERP (React + Django, real users).
 5. Problem-solving — a tough bug/optimization you fixed (pick a concrete one).
 
+<a id="sec-27"></a>
 ## Consolidated resource list
 - **CSS:** css-tricks (Flexbox & Grid complete guides), Flexbox Froggy, Grid Garden, MDN CSS.
 - **JavaScript:** javascript.info, MDN JS, "What the heck is the event loop?" (Philip Roberts).
@@ -204,13 +316,16 @@
 
 ---
 
+<a id="sec-28"></a>
 # COMPLETE RESOURCE HUB (question banks, PYQs, YouTube, courses) — GOAL: get selected
 
 > Everything mapped to JTG's screening (CSS + core JS heavy, MCQ negative marking, take-home
 > page, timed machine coding, technical PIs + HR). Prioritize the ⭐ items.
 
+<a id="sec-29"></a>
 ## A. YouTube channels (by purpose)
 
+<a id="sec-30"></a>
 ### Core JavaScript (for MCQ + JS + PI rounds)
 - ⭐ **Akshay Saini — "Namaste JavaScript"**: closures, hoisting, event loop, callbacks,
   promises, async/await. THE series for JS internals (exactly what JTG's output MCQs test).
@@ -220,29 +335,35 @@
 - **Web Dev Simplified (Kyle Cook)**: crisp JS/CSS/React concept videos.
 - **Fireship**: quick "100 seconds" refreshers before the test.
 
+<a id="sec-31"></a>
 ### CSS (their MOST-tested area — do NOT skip)
 - ⭐ **Kevin Powell**: best CSS channel — flexbox, grid, positioning, responsive, centering.
 - **Web Dev Simplified**: CSS crash + flexbox/grid.
 - Practice games: **Flexbox Froggy**, **Grid Garden**, **CSS Diner** (selectors), **CSS Battle**.
 
+<a id="sec-32"></a>
 ### Machine coding (timed component building — the on-site round)
 - ⭐ **RoadsideCoder — "Frontend Machine Coding" / "React Interview Questions" playlists**:
   builds accordion, tabs, autocomplete, star rating, pagination, OTP, etc. with explanations.
 - **GreatFrontEnd (YouTube + site)**: machine coding approach & solutions.
 - **Codevolution**: deep React (hooks, patterns) for React-based machine coding.
 
+<a id="sec-33"></a>
 ### React (they use React JS & Native)
 - ⭐ **Codevolution — React + React Hooks** playlists.
 - **Chai aur Code / Web Dev Simplified**: React fundamentals & hooks.
 
+<a id="sec-34"></a>
 ### DSA / C++ basics (for the C/C++ MCQs + PI logic)
 - **take U forward (Striver)**: DSA sheet + videos.
 - **CodeHelp — Love Babbar**: C++/DSA.
 - **Gate Smashers**: Computer Networks + OS (for CN questions in PI).
 
+<a id="sec-35"></a>
 ### Long free courses
 - **freeCodeCamp**, **Traversy Media** (Modern JS, project builds), **Apna College** (web dev).
 
+<a id="sec-36"></a>
 ## B. Written resources / docs (deep + reference)
 - ⭐ **javascript.info** — free book; do Fundamentals + "Advanced functions" + "Promises/async".
 - ⭐ **MDN Web Docs** — CSS & JS reference (authoritative).
@@ -250,6 +371,7 @@
 - **"You Don't Know JS" (Kyle Simpson)** — free on GitHub; deep JS (scope/closures, this).
 - **web.dev (Google)** — Learn CSS, Learn Responsive Design.
 
+<a id="sec-37"></a>
 ## C. Question banks & practice platforms
 - ⭐ **BFE.dev (BigFrontEnd)** — JS quiz (output-based) + coding + system design. Gold for MCQ practice.
 - ⭐ **GreatFrontEnd** — front-end interview platform: quizzes, machine coding, JS utils, system design.
@@ -260,6 +382,7 @@
 - **30 seconds of code** — snippet patterns (debounce, deep clone, etc.).
 - **CodePen** — build/host your take-home & practice components.
 
+<a id="sec-38"></a>
 ## D. JTG-specific PYQ / patterns (READ THESE FIRST)
 - ⭐ **GeeksforGeeks → search "Josh Technology"**: read 5–6 Front End Developer interview
   experiences (2024–2025) to internalize the exact MCQ style, round order, and assignment type.
@@ -268,6 +391,7 @@
   structure/quality expected; build your own, don't copy).
 - **AmbitionBox / Glassdoor → Josh Technology "Interviews"** tab — more Q reports.
 
+<a id="sec-39"></a>
 ## E. Must-master JavaScript output/concept topics (MCQ + PI)
 - Hoisting (var/let/const, TDZ), scope chain, closures
 - `this` binding (implicit/explicit/new/arrow), call/apply/bind
@@ -280,6 +404,7 @@
 - Practice output sets: dev.to "tricky promise output", Medium "JavaScript output-based questions",
   BFE.dev quiz.
 
+<a id="sec-40"></a>
 ## F. Must-master CSS topics (their hardest area)
 - Box model + `box-sizing`, margin collapse
 - Flexbox (grow/shrink/basis, align/justify) & Grid (template, areas, auto-fit/fill, minmax)
@@ -290,6 +415,7 @@
 - Common interview asks: "center a div", "difference between flex & grid", "how does z-index work",
   "position sticky vs fixed", "specificity calc".
 
+<a id="sec-41"></a>
 ## G. Machine-coding component checklist (build each < 40 min, vanilla + React)
 Accordion · Tabs · Modal · Carousel/Slider · Star rating · Todo (CRUD + filter) ·
 Autocomplete/typeahead (debounced) · Pagination · Infinite scroll · Responsive navbar (hamburger) ·
@@ -297,11 +423,13 @@ OTP input · Stopwatch/Timer · Toast notifications · Nested comments · Image 
 Progress bar · Tic-tac-toe · Traffic light · Data table (sort/filter).
 > Source playlists: RoadsideCoder, GreatFrontEnd, FrontendGeek "20+ machine coding".
 
+<a id="sec-42"></a>
 ## H. Computer Networks (for PI) — quick list
 HTTP/HTTPS, methods, status codes (2xx/3xx/4xx/5xx), request/response headers, cookies vs
 localStorage vs sessionStorage, DNS resolution, TCP vs UDP, what happens when you type a URL,
 CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 
+<a id="sec-43"></a>
 ## I. 7-day resource-mapped sprint (if time is short)
 - **D1 CSS:** Kevin Powell flexbox+grid → Flexbox Froggy + Grid Garden → build 2 responsive layouts.
 - **D2 JS core:** Namaste JS (closures, hoisting, event loop) → 20 BFE.dev output quizzes.
@@ -311,6 +439,7 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 - **D6 Take-home:** Frontend Mentor challenge — one polished responsive page.
 - **D7 Mock + CN + HR:** timed BFE MCQ mock, CN quick pass, STAR stories + "why JTG".
 
+<a id="sec-44"></a>
 ## J. Daily routine (until the drive)
 - 1 hr JS (concept + 15 output questions)
 - 1 hr CSS (concept + one layout)
@@ -318,6 +447,7 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 - 30 min DSA-lite / CN / MCQ mock
 - 15 min revise notes + track mistakes in a "mistakes log"
 
+<a id="sec-45"></a>
 ## K. Golden rules to actually get selected
 - Master **CSS + JS async** cold — that's where JTG cuts people.
 - Do **mock MCQs with negative marking** so you learn to skip smartly.
@@ -329,11 +459,13 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 
 ---
 
+<a id="sec-46"></a>
 # DIRECT RESOURCE LINKS (clickable)
 
 > JTG PYQ = GeeksforGeeks interview experiences (read these FIRST — they reveal the exact MCQ
 > style, rounds, and assignment). Treat external content as reference.
 
+<a id="sec-47"></a>
 ## 1. JTG PYQ / Interview Experiences (READ FIRST)
 - FED 2024 on-campus (9 rounds; R1 = 50 MCQ: 10 C/C++ + 40 HTML/CSS/JS):
   https://www.geeksforgeeks.org/interview-experiences/josh-technology-group-interview-experience-for-frontend-developer-2024-on-campus-opportunity/
@@ -358,12 +490,14 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 - More anytime → Google: `Josh Technology interview experience site:geeksforgeeks.org`
 - Also check the "Interviews" tab on AmbitionBox & Glassdoor for Josh Technology Group.
 
+<a id="sec-48"></a>
 ## 2. Real assignment references (take-home round)
 - Sample submitted FE assignment repo (study structure/quality — build your own, don't copy):
   https://github.com/yadavg123/JOSH-TECHNOLOGY-GROUP-Assignment
 - Frontend interview prep kit (curated):
   https://github.com/ghoshsuman845/frontend-interview-preparation-kit
 
+<a id="sec-49"></a>
 ## 3. MCQ / output-question practice (Round 1)
 - JavaScript Output-Based Interview Questions (GfG):
   https://www.geeksforgeeks.org/javascript/javascript-output-based-interview-questions/
@@ -376,6 +510,7 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 - Tricky Promise output questions (dev.to):
   https://dev.to/hitheshkumar/master-javascript-promises-10-tricky-output-questions-every-developer-must-know-part-1-1l43
 
+<a id="sec-50"></a>
 ## 4. Machine-coding practice (on-site timed round)
 - GreatFrontEnd (machine coding + JS utils + quizzes): https://www.greatfrontend.com/
 - GreatFrontEnd — Machine Coding Round guide: https://www.greatfrontend.com/blog/machine-coding-round
@@ -385,10 +520,12 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
   https://medium.com/@sanchit0496/react-js-machine-coding-25-must-do-questions-with-solutions-344f47dee15d
 - BFE.dev coding challenges: https://bigfrontend.dev/coding
 
+<a id="sec-51"></a>
 ## 5. Take-home page practice (pixel-perfect responsive)
 - Frontend Mentor (real responsive challenges): https://www.frontendmentor.io/
 - JSchallenger (JS exercises): https://www.jschallenger.com/
 
+<a id="sec-52"></a>
 ## 6. CSS practice (their MOST-tested area)
 - Flexbox Froggy: https://flexboxfroggy.com/
 - Grid Garden: https://cssgridgarden.com/
@@ -398,11 +535,13 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 - CSS-Tricks — Complete Guide to Grid: https://css-tricks.com/snippets/css/complete-guide-grid/
 - web.dev — Learn CSS: https://web.dev/learn/css/
 
+<a id="sec-53"></a>
 ## 7. Core docs / free books
 - javascript.info (free JS book): https://javascript.info/
 - MDN Web Docs: https://developer.mozilla.org/
 - You Don't Know JS (free, GitHub): https://github.com/getify/You-Dont-Know-JS
 
+<a id="sec-54"></a>
 ## 8. YouTube channels (direct)
 - Namaste JavaScript — Akshay Saini (JS internals): https://www.youtube.com/@AkshaySaini
 - RoadsideCoder (frontend interview + machine coding): https://www.youtube.com/@RoadsideCoder
@@ -415,11 +554,13 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 - take U forward — Striver (DSA): https://www.youtube.com/@takeUforward
 > If a handle doesn't open, search the channel name on YouTube.
 
+<a id="sec-55"></a>
 ## 9. DSA-lite / logic (for PIs & C MCQs)
 - LeetCode — Top Interview 150: https://leetcode.com/studyplan/top-interview-150/
 - GeeksforGeeks DSA: https://www.geeksforgeeks.org/dsa/
 - Computer Networks (GfG): https://www.geeksforgeeks.org/computer-network-tutorials/
 
+<a id="sec-56"></a>
 ## How to use (fast path)
 1. Read 4–5 JTG PYQ links (Section 1) → note exact MCQ style + round order.
 2. Grind BFE.dev + GfG output questions (Section 3) with a timer + negative-marking mindset.
@@ -430,10 +571,12 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 
 ---
 
+<a id="sec-57"></a>
 # QUESTION BANK WITH ANSWERS (practice like the real rounds)
 
 > Cover these cold. Answers are concise; type them out / run them to internalize.
 
+<a id="sec-58"></a>
 ## JavaScript — output prediction (Round 1 style, learn the trap)
 1. `console.log(1 + "2" + 3)` → **"123"** ; `console.log(1 + 2 + "3")` → **"33"** (left-to-right; string concat).
 2. `console.log(a); var a = 5;` → **undefined** (var hoisted, not init).
@@ -451,6 +594,7 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 14. `Promise.resolve(1).then(x=>{console.log(x);return 2}).then(console.log)` → **1** then **2**.
 15. `console.log(0.1 + 0.2 === 0.3)` → **false** (floating point).
 
+<a id="sec-59"></a>
 ## JavaScript — concept Q&A
 - **Closure:** function + its lexical scope; inner fn remembers outer variables even after outer returns.
 - **Hoisting:** declarations moved to top of scope; `var`=undefined, `let/const`=TDZ, functions fully hoisted.
@@ -463,6 +607,7 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 - **Event delegation:** attach one listener on parent, use `event.target` (bubbling) — fewer listeners.
 - **Promise vs callback:** promises avoid callback hell, chainable, better error handling.
 
+<a id="sec-60"></a>
 ## CSS — concept Q&A (their hardest area)
 - **Center a div:** `display:flex; justify-content:center; align-items:center;` (or grid `place-items:center`).
 - **Flex vs Grid:** flex = 1D (row OR column); grid = 2D (rows AND columns).
@@ -474,6 +619,7 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 - **Responsive:** mobile-first, media queries, relative units, `clamp()`, flexible images.
 - **Margin collapse:** vertical margins of adjacent blocks collapse to the larger one.
 
+<a id="sec-61"></a>
 ## C / C++ — output MCQ samples (for the ~10 C/C++ MCQs)
 - `int a=10,b=3; printf("%d", a%b);` → **1**
 - `int arr[]={1,2,3}; printf("%d", *(arr+1));` → **2**
@@ -482,6 +628,7 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 - `int i=1; printf("%d", i<<2);` → **4** (bit shift)
 > Revise: operators, precedence, loops, arrays/pointers basics, ternary, bitwise, `sizeof`.
 
+<a id="sec-62"></a>
 ## Machine-coding — how to approach (say this out loud)
 1. **Clarify** requirements & edge cases (30–60s).
 2. **Plan** structure: HTML skeleton → state → events → render.
@@ -489,6 +636,7 @@ CORS, HTTP caching, HTTP/1.1 vs 2. → Gate Smashers CN + GfG CN.
 4. **Handle edge cases** (empty, loading, invalid input) & clean up listeners.
 5. **Talk while coding**; keep functions small & named.
 
+<a id="sec-63"></a>
 ### Mini template — Counter/Accordion pattern (vanilla)
 ```js
 // state -> render -> events
@@ -504,6 +652,7 @@ container.addEventListener('click', (e) => {
 render();
 ```
 
+<a id="sec-64"></a>
 ## Take-home assignment — quality rubric (score yourself)
 - [ ] Pixel-perfect vs the given design; responsive (mobile→desktop)
 - [ ] Semantic HTML; accessible (labels, alt, keyboard)
@@ -515,8 +664,10 @@ render();
 
 ---
 
+<a id="sec-65"></a>
 # BEHAVIORAL / HR — SCRIPTS (tailored to Shivam)
 
+<a id="sec-66"></a>
 ## Self-introduction (60–90 sec, memorize the flow, not word-for-word)
 "I'm Shivam Gupta, a final-year B.Tech CSE student at ITM University, Gwalior (2027 batch).
 I'm a front-end-focused full-stack developer — my strongest stack is React with JavaScript/TypeScript
@@ -528,6 +679,7 @@ I also lead as President of the ITM Developers Club and was a Top Performer at t
 hackathon. I love building clean, performant UIs, and JTG's product-builder culture is exactly where
 I want to grow."
 
+<a id="sec-67"></a>
 ## "Why JTG?" (be specific — they'll notice)
 "Three reasons: First, the product-builder / CTO-office model means I'd own products end-to-end and
 see real business impact early. Second, the flat hierarchy and direct mentorship from senior directors
@@ -535,6 +687,7 @@ and founders is rare — I learn fastest with strong mentors. Third, JTG works a
 (healthcare, fintech, edutech) and the latest tech (React, Node, Go, cloud), plus your own product
 Pod.AI — that breadth matches how I like to learn and build."
 
+<a id="sec-68"></a>
 ## Common HR questions → how Shivam should answer (STAR / honest)
 - **Strengths:** fast learner, ownership, ship real products, comfortable across FE+BE.
 - **Weakness:** pick a real, improving one (e.g., "I used to over-polish; now I timebox and ship, then iterate").
@@ -546,6 +699,7 @@ Pod.AI — that breadth matches how I like to learn and build."
 - **Where in 5 years?** Senior full-stack/front-end engineer owning products; strong system-design depth.
 - **Why should we hire you?** Proven shipping (live products), leadership, strong FE fundamentals, fast learner.
 
+<a id="sec-69"></a>
 ## Smart questions to ASK the interviewer (shows interest)
 - "What does the first 3–6 months look like for a front-end intern here?"
 - "Which product/domain would I most likely start on?"
@@ -555,22 +709,27 @@ Pod.AI — that breadth matches how I like to learn and build."
 
 ---
 
+<a id="sec-70"></a>
 # LOGISTICS & MINDSET
 
+<a id="sec-71"></a>
 ## Day-before checklist
 - [ ] Test webcam + mic + internet (online rounds need both ON)
 - [ ] Quiet, well-lit room; ID ready; charger/backup connection
 - [ ] Revise: JS output notes, CSS specificity/flex/grid, event loop, your projects
 - [ ] Skim 2–3 JTG PYQ links again; sleep well
 
+<a id="sec-72"></a>
 ## During the MCQ (negative marking) — strategy
 - Two passes: Pass 1 = answer only the sure ones; Pass 2 = attempt likely ones; SKIP pure guesses.
 - Track time (≈1 min/Q for 50 in 60 min). Don't get stuck.
 
+<a id="sec-73"></a>
 ## During machine coding / assignment
 - Restate the task; agree on scope; build minimal working first; talk through decisions;
   handle edge cases; keep it clean; leave 5 min to test.
 
+<a id="sec-74"></a>
 ## Common mistakes to avoid
 - Guessing in negative-marked MCQ.
 - Weak CSS (their #1 filter) — don't wing flexbox/positioning/specificity.
@@ -580,8 +739,10 @@ Pod.AI — that breadth matches how I like to learn and build."
 
 ---
 
+<a id="sec-75"></a>
 # PROGRESS TRACKER (tick as you go)
 
+<a id="sec-76"></a>
 ## Concepts
 - [ ] CSS: flexbox, grid, positioning, specificity, centering, responsive
 - [ ] JS: closures, hoisting/TDZ, `this`, event loop, promises/async
@@ -590,6 +751,7 @@ Pod.AI — that breadth matches how I like to learn and build."
 - [ ] CN: HTTP, status codes, DNS, TCP/UDP, CORS
 - [ ] C/C++: output/pointer/operator MCQs
 
+<a id="sec-77"></a>
 ## Practice done
 - [ ] 100+ JS output MCQs (BFE.dev + GfG)
 - [ ] 2 responsive pages (Frontend Mentor)
@@ -597,6 +759,7 @@ Pod.AI — that breadth matches how I like to learn and build."
 - [ ] 1 timed mock MCQ (negative marking)
 - [ ] 1 mock technical interview (spoken aloud)
 
+<a id="sec-78"></a>
 ## Ready-to-go
 - [ ] Self-intro rehearsed
 - [ ] "Why JTG" rehearsed
@@ -604,6 +767,7 @@ Pod.AI — that breadth matches how I like to learn and build."
 - [ ] Projects deep-dive notes (NETWORKED, Parakh) ready
 - [ ] Resume PDF final + uploaded
 
+<a id="sec-79"></a>
 ## Mistakes log (fill as you practice)
 | Date | Topic | Mistake | Fix/Note |
 | --- | --- | --- | --- |

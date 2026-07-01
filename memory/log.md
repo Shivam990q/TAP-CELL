@@ -236,3 +236,10 @@
   Behavioral/HR scripts tailored to Shivam (self-intro, "Why JTG", HR Q&A, questions to ask);
   Logistics (day-before, MCQ strategy, common mistakes); and a Progress Tracker + mistakes log.
 - PREP file now covers: rounds, checklists, resources, direct links, Q&A bank, HR scripts, tracker.
+
+
+## 2026-07-01 — Clickable TOC for PREP + reusable tool
+- Added tools/add_toc.py: inserts explicit `<a id="sec-N">` anchors before every heading + a
+  Table of Contents (between <!-- TOC START/END -->) after the title. Idempotent, numeric anchors
+  (work in GitHub/VS Code/Kiro). Skips fenced code blocks.
+- Ran on josh-technology-frontend-PREP.md (78 TOC entries). Reuse on any md: `python tools/add_toc.py <file>`.
