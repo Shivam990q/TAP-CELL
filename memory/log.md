@@ -243,3 +243,11 @@
   Table of Contents (between <!-- TOC START/END -->) after the title. Idempotent, numeric anchors
   (work in GitHub/VS Code/Kiro). Skips fenced code blocks.
 - Ran on josh-technology-frontend-PREP.md (78 TOC entries). Reuse on any md: `python tools/add_toc.py <file>`.
+
+
+## 2026-07-01 — Stackmentalist Python Full Stack PREP created
+- Created 05-applications/stackmentalist-python-fullstack-PREP.md (mirrors JOSH structure):
+  company snapshot, inferred 3-5 round process, topic checklists (Python/DSA, SQL, Django/DRF,
+  FastAPI, React/Next, async/MQ, LangChain), Q&A bank with answers, resource links, HR scripts
+  (tailored), 10-day plan, progress tracker. Added clickable TOC (40 entries) via add_toc.py.
+- Note: Stackmentalist = small Pune startup, limited public interview data → plan built from JD skills.

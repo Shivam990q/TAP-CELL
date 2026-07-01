@@ -27,8 +27,10 @@
 | Updated CV | PDF from stackmentalist-python-fullstack-2027.tex |
 
 ## Interview prep
-- Python (DSA), SQL & DB design, Django/DRF + FastAPI, React/Next.js, REST/microservices.
-- Be ready to discuss LangChain/LLM work (differentiator). Agile/SDLC, Git, Docker, CI/CD.
+- Full plan: `stackmentalist-python-fullstack-PREP.md` (rounds, topic checklists, Q&A bank with
+  answers, resources/links, HR scripts, 10-day plan, tracker).
+- Focus: Python + DSA, SQL & DB design, Django/DRF + FastAPI, React/Next.js; be ready to build a
+  small end-to-end CRUD (practical round). LangChain/LLM = differentiator.
 
 ## Next step
 - Register before deadline; upload tailored PDF.
