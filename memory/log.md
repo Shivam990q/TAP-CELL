@@ -304,3 +304,47 @@
   subtitle "Software Engineer"; summary = DSA + C++/Java/Python + full-stack; skills = Languages /
   CS Fundamentals (DSA/OOP/DBMS/OS/CN) / Full-stack / Tools&Cloud; projects = NETWORKED, Parakh,
   Better Than Claude Skills, CivicTrack, Barterly (dropped IDC & Techrythm). Verified single page.
+
+
+## 2026-07-01 — Infosys PREP: MEGA RESOURCE VAULT v2 added
+- Added Infosys/HackWithInfy PYQ repos (karthikreddy-7/Infosys-SP-Coding-Questions,
+  itsmeheisenberg/HackWithInfy, shubhammore9/InfyTQ_Coding, SUDARSHANTADAGE/InfyTQ-Answers),
+  PrepInsta SP/HackWithInfy coding pages, Codeforces Infosys OA blog, DP resources (Aditya Verma,
+  Striver, Grokking DP, DP-pattern repos), DSA-pattern repos (Chanda-Abdul, PranabNandy, NeetCode
+  roadmap, 14-patterns gist), online judges (LeetCode/CF/CC/AtCoder), lang-specific + CS fundamentals.
+  Refreshed TOC (32 entries).
+
+
+## 2026-07-02 — Infosys PREP deep research v2 + resume edits
+- Resume edits (per Shivam): removed C++ (summary+skills); swapped Better Than Claude Skills -> Autonomy
+  (Social Media Automation, Python); swapped CivicTrack -> NewsFlow (Astro news aggregator). 1 page verified.
+- CGPA corrected everywhere earlier: 7.11 (simple avg of 5 SGPAs; 7.47 was only Sem-5 SGPA; portal cumulative N/A).
+- Added DEEP RESEARCH v2 to infosys PREP: EXACT cutoffs (1-1.5Q->DSE, 2Q->SP, 3Q->top/L3), InfyTQ cert tip,
+  real technical interview Q&A (OOP/DBMS/SQL/OS/CN/Java), SP frequently-asked coding problems, extra links
+  (InfyTQ, faceprep, Great Learning, techprep, interviewquery, GfG SDE sheet, PrepInsta). TOC 47 entries.
+- GitHub sync: 98 repos (new TAP-CELL — flagged it's PUBLIC & has personal data -> advise make private).
+
+
+## 2026-07-02 — Infosys PREP: ULTIMATE RESOURCE INDEX added
+- Added exhaustive 15-category resource index to infosys PREP: official (HackWithInfy/InfyTQ),
+  coding platforms (LeetCode/GfG/Code360/HackerRank/InterviewBit/Codolio), CP (Codeforces/CSES/
+  AtCoder/cp-algorithms/CodeChef), sheets/roadmaps (Striver A2Z+SDE/NeetCode/Grind75/Babbar450),
+  YouTube DSA (Striver/Aditya Verma/Abdul Bari/NeetCode) + CS fundamentals (Gate Smashers/Knowledge
+  Gate), GitHub banks, cheatsheets (bigO/DSA/SQL), PYQ (GfG/PrepInsta/faceprep/Glassdoor/AmbitionBox),
+  LinkedIn strategy, Telegram (with caution), Google Drive/Scribd (with caution), mock interviews
+  (Pramp/interviewing.io), HR, aptitude note. TOC now 64 entries. Flagged unofficial sources.
+
+
+## 2026-07-02 — JOSH PREP: ULTIMATE RESOURCE INDEX added
+- Added exhaustive 15-category frontend resource index to josh-technology-frontend-PREP.md
+  (JTG PYQ, FE platforms GreatFrontEnd/BFE/FrontendLead, JS/CSS practice, machine coding, DSA-lite,
+  YouTube JS/CSS/React + CN, GitHub repos, docs/books, cheatsheets malven/cssreference, roadmaps,
+  technical-round theory, LinkedIn strategy, Telegram/Drive with caution, mock+HR). TOC 108 entries.
+- (User's message said "Infosys" but pointed to josh PREP file — treated as JOSH frontend index.)
+
+
+## 2026-07-02 — Stackmentalist PREP: ULTIMATE RESOURCE INDEX added
+- Added exhaustive 16-category Python-full-stack resource index (Python/DSA/SQL, Django/DRF, FastAPI,
+  React/Next, system design, LangChain, YouTube, GitHub banks, cheatsheets, roadmaps, PYQ, LinkedIn/
+  Telegram/Drive with caution, mocks, HR) + reality-check (execution focus). TOC 79 entries.
+- All 3 companies' PREP files now have full ULTIMATE RESOURCE INDEX + TOC. Advised execution > more links.

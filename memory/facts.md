@@ -5,7 +5,7 @@
 ## Identity
 - Name: Shivam Gupta
 - College / branch / year: ITM University Gwalior, B.Tech CSE (plain CSE per Shivam; sem records once showed "AIML"), 2023–2027
-- Graduation: July 2027 (placements as 2027 batch); CGPA 7.47; 0 backlogs
+- Graduation: July 2027 (placements as 2027 batch); CGPA 7.11 (simple avg of 5 sems; 7.47 is Sem-5 SGPA only, cumulative N/A on portal); 0 backlogs
 - 10th: 88.67% | 12th: 81.40%
 - Location: Morena/Gwalior, MP, India
 - DOB: 31/07/2004 | Roll No: BETN1CS23071

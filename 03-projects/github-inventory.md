@@ -1,13 +1,15 @@
 # GitHub Inventory - Shivam990q
 
-Auto-generated 2026-07-01 03:13. Total: 97 repos (25 public, 72 private, 7 forks).
+Auto-generated 2026-07-02 09:44. Total: 98 repos (26 public, 72 private, 7 forks).
 
 > Regenerate anytime: `python tools/sync_github.py`
 
 | Repo | Lang | Vis | Fork | Stars | Updated | Description |
 | --- | --- | --- | --- | --- | --- | --- |
+| [RedRob-Hackathon](https://github.com/Shivam990q/RedRob-Hackathon) | Python | priv |  | 1 | 2026-07-01 |  |
+| [TAP-CELL](https://github.com/Shivam990q/TAP-CELL) | TeX | pub |  | 0 | 2026-07-01 |  |
+| [kiro-autonomy](https://github.com/Shivam990q/kiro-autonomy) | PowerShell | pub |  | 0 | 2026-07-01 | One-click full autonomy for Kiro IDE. Stop the Trust/Run/Reject prompts. Cross-platform installer + recipes for Windows, macOS, and Linux. |
 | [Autonomy-Social-Media](https://github.com/Shivam990q/Autonomy-Social-Media) | Python | priv |  | 0 | 2026-06-30 |  |
-| [RedRob-Hackathon](https://github.com/Shivam990q/RedRob-Hackathon) | Python | priv |  | 1 | 2026-06-29 |  |
 | [pay-with-palm](https://github.com/Shivam990q/pay-with-palm) | - | priv |  | 0 | 2026-06-27 |  |
 | [spectatecsuit](https://github.com/Shivam990q/spectatecsuit) | TypeScript | priv |  | 0 | 2026-06-25 |  |
 | [say-idc](https://github.com/Shivam990q/say-idc) | TypeScript | priv |  | 0 | 2026-06-25 |  |
@@ -18,7 +20,6 @@ Auto-generated 2026-07-01 03:13. Total: 97 repos (25 public, 72 private, 7 forks
 | [AGENTIC-ERP](https://github.com/Shivam990q/AGENTIC-ERP) | - | priv |  | 0 | 2026-06-02 |  |
 | [DSA](https://github.com/Shivam990q/DSA) | C++ | pub |  | 0 | 2026-06-01 |  |
 | [government](https://github.com/Shivam990q/government) | Dart | pub |  | 0 | 2026-05-29 |  |
-| [kiro-autonomy](https://github.com/Shivam990q/kiro-autonomy) | PowerShell | pub |  | 0 | 2026-05-26 | One-click full autonomy for Kiro IDE. Stop the Trust/Run/Reject prompts. Cross-platform installer + recipes for Windows, macOS, and Linux. |
 | [simplifying-skills](https://github.com/Shivam990q/simplifying-skills) | HTML | priv |  | 0 | 2026-05-23 |  |
 | [better-than-claude-skills](https://github.com/Shivam990q/better-than-claude-skills) | Python | pub |  | 2 | 2026-05-15 | The Ultimate AI Arsenal of 16+ Elite, Production-Ready Skills for Claude LLM. Transform Your AI into a Self-Evolving Autonomous Agent Engineered for Full-Scale Web Engineering, Claude Code Expert, MCP Builder & Data Supremacy, and Algorithmic Art at Unmatched Precision. 🚀 |
 | [personal-portfolio](https://github.com/Shivam990q/personal-portfolio) | Makefile | priv |  | 0 | 2026-05-04 |  |

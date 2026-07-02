@@ -24,13 +24,14 @@
 | 10th % | 88.67% |
 | 12th % | 81.40% |
 | Diploma | N/A |
-| Graduation CGPA/% | 7.47 CGPA (use simple-average per Infosys rule; ~74.7% if ×10) |
+| Graduation CGPA/% | 7.11 CGPA (simple avg of 5 sems) / ~71.1% |
 | Active backlogs | 0 (none) |
 | Willing to relocate (PAN India) | Yes |
 | Resume | PDF from infosys-specialist-programmer-2027.tex |
 
-> IMPORTANT: Infosys uses **simple average** of ALL semesters/subjects. Confirm your grad % by
-> their method before entering. Both 7.47 and ~7.11 clear the 6.0/65% bar; 0 backlogs required (OK).
+> IMPORTANT: Portal Cumulative CGPA = N/A; 7.47 is only the Sem-5 SGPA. Correct current aggregate
+> = simple average of 5 SGPAs (7.13,6.50,6.43,8.04,7.47) = **7.11** → use 7.11; Graduation % ~71.1%.
+> Both clear Infosys' 6.0/65% bar; 0 backlogs (OK).
 
 ## Test-day checklist (Infosys guidelines)
 - Laptop (i3+, 4GB, Chrome/Edge), stable net; run the System Check link beforehand.

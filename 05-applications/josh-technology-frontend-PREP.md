@@ -95,8 +95,27 @@
   - [DSA sheets & cheatsheets (for the C/C++ + logic MCQs and PI logic)](#sec-90)
   - [CSS/JS cheatsheets & references](#sec-91)
   - [Extra YouTube playlists](#sec-92)
+- [ULTIMATE RESOURCE INDEX (everything — every source type)](#sec-93)
+  - [1. JTG-specific PYQ / interview experiences (READ FIRST)](#sec-94)
+  - [2. Frontend interview platforms (the core)](#sec-95)
+  - [3. JavaScript practice](#sec-96)
+  - [4. CSS practice (their MOST-tested area)](#sec-97)
+  - [5. Machine coding (on-site timed round)](#sec-98)
+  - [6. DSA-lite (for the ~10 C/C++ MCQs + interview logic)](#sec-99)
+  - [7. YouTube — JS / CSS / React / machine coding](#sec-100)
+  - [8. GitHub — frontend interview repos](#sec-101)
+  - [9. Docs / free books](#sec-102)
+  - [10. Cheatsheets](#sec-103)
+  - [11. Roadmaps](#sec-104)
+  - [12. Technical-round theory (for the PI: CSS/JS/CN)](#sec-105)
+  - [13. LinkedIn (real experiences + networking)](#sec-106)
+  - [14. Telegram / Google Drive (UNOFFICIAL — reference only, verify)](#sec-107)
+  - [15. Mock interviews & HR](#sec-108)
+  - [How to use (don't drown)](#sec-109)
 
 <!-- TOC END -->
+
+
 
 
 
@@ -910,3 +929,124 @@ Pod.AI — that breadth matches how I like to learn and build."
 - RoadsideCoder — Frontend Machine Coding (playlist): https://www.youtube.com/@RoadsideCoder
 - Kevin Powell — CSS (channel): https://www.youtube.com/@KevinPowell
 - Chai aur Code — JS/React (Hitesh): https://www.youtube.com/@chaiaurcode
+
+
+---
+
+<a id="sec-93"></a>
+# ULTIMATE RESOURCE INDEX (everything — every source type)
+
+> Exhaustive, frontend-tailored for JTG (CSS + JS + machine coding + take-home). Prioritize ⭐.
+> Community sources (Telegram/Drive) are UNOFFICIAL — reference only; verify before trusting.
+
+<a id="sec-94"></a>
+## 1. JTG-specific PYQ / interview experiences (READ FIRST)
+- GeeksforGeeks — search **"Josh Technology"** (10+ FED experiences; see the Direct Links section above).
+- AmbitionBox — Josh Technology "Interviews": https://www.ambitionbox.com/
+- Glassdoor — Josh Technology Group "Interviews": https://www.glassdoor.co.in/
+- PrepInsta (company-wise): https://prepinsta.com/
+- Real assignment repo: https://github.com/yadavg123/JOSH-TECHNOLOGY-GROUP-Assignment
+
+<a id="sec-95"></a>
+## 2. Frontend interview platforms (the core)
+- ⭐ GreatFrontEnd (GFE 75, 500+ Qs, system design): https://www.greatfrontend.com/
+- ⭐ BigFrontEnd / BFE.dev (JS quiz + coding): https://bigfrontend.dev/
+- FrontendLead: https://frontendlead.com/  · FrontendExpert (AlgoExpert): https://www.algoexpert.io/frontend/
+- Frontend Mentor (responsive pages / take-home): https://www.frontendmentor.io/
+- DevChallenges: https://devchallenges.io/
+
+<a id="sec-96"></a>
+## 3. JavaScript practice
+- javascript.info tasks: https://javascript.info/
+- JSchallenger: https://www.jschallenger.com/  · Edabit: https://edabit.com/  · Codewars: https://www.codewars.com/
+- LeetCode JavaScript / "30 Days of JS": https://leetcode.com/studyplan/30-days-of-javascript/
+- BFE.dev coding (polyfills, output): https://bigfrontend.dev/coding
+
+<a id="sec-97"></a>
+## 4. CSS practice (their MOST-tested area)
+- ⭐ Flexbox Froggy: https://flexboxfroggy.com/  · Grid Garden: https://cssgridgarden.com/
+- CSS Diner (selectors): https://flukeout.github.io/  · CSS Battle: https://cssbattle.dev/
+- 100 Days CSS: https://100dayscss.com/  · web.dev Learn CSS: https://web.dev/learn/css/
+
+<a id="sec-98"></a>
+## 5. Machine coding (on-site timed round)
+- ⭐ GreatFrontEnd machine coding guide: https://www.greatfrontend.com/blog/machine-coding-round
+- FrontendGeek 20+ questions: https://www.frontendgeek.com/blogs/20-frontend-machine-coding-round-interview-questions
+- React 25+ machine coding (Medium): https://medium.com/@sanchit0496/react-js-machine-coding-25-must-do-questions-with-solutions-344f47dee15d
+- uidev challenges / build components from scratch (CodePen: https://codepen.io/)
+
+<a id="sec-99"></a>
+## 6. DSA-lite (for the ~10 C/C++ MCQs + interview logic)
+- NeetCode 150: https://neetcode.io/practice  · LeetCode Top 150: https://leetcode.com/studyplan/top-interview-150/
+- Striver A2Z (basics): https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
+
+<a id="sec-100"></a>
+## 7. YouTube — JS / CSS / React / machine coding
+- ⭐ Akshay Saini — Namaste JavaScript (JS internals): https://www.youtube.com/@AkshaySaini
+- ⭐ RoadsideCoder — machine coding + JS/React interview: https://www.youtube.com/@RoadsideCoder
+- ⭐ Kevin Powell — CSS master: https://www.youtube.com/@KevinPowell
+- Web Dev Simplified: https://www.youtube.com/@WebDevSimplified  · Codevolution (React): https://www.youtube.com/@Codevolution
+- Chai aur Code (Hitesh): https://www.youtube.com/@chaiaurcode  · Fireship: https://www.youtube.com/@Fireship
+- Gate Smashers — Computer Networks (for the PI): https://www.youtube.com/@GateSmashers
+> JTG-specific: search **"Josh Technology frontend interview"** and machine-coding solution videos.
+
+<a id="sec-101"></a>
+## 8. GitHub — frontend interview repos
+- ⭐ yangshun/front-end-interview-handbook: https://github.com/yangshun/front-end-interview-handbook
+- ⭐ lydiahallie/javascript-questions: https://github.com/lydiahallie/javascript-questions
+- sudheerj/javascript-interview-questions: https://github.com/sudheerj/javascript-interview-questions
+- sudheerj/reactjs-interview-questions: https://github.com/sudheerj/reactjs-interview-questions
+- leonardomso/33-js-concepts: https://github.com/leonardomso/33-js-concepts
+- suveshmoza/FE-Interview-Preparation (polyfills+machine coding): https://github.com/suveshmoza/FE-Interview-Preparation
+- ghoshsuman845/frontend-interview-preparation-kit: https://github.com/ghoshsuman845/frontend-interview-preparation-kit
+
+<a id="sec-102"></a>
+## 9. Docs / free books
+- ⭐ MDN: https://developer.mozilla.org/  · ⭐ javascript.info: https://javascript.info/
+- You Don't Know JS (free): https://github.com/getify/You-Dont-Know-JS
+- CSS-Tricks (flexbox/grid guides): https://css-tricks.com/  · patterns.dev (React/JS patterns): https://www.patterns.dev/
+- react.dev: https://react.dev/
+
+<a id="sec-103"></a>
+## 10. Cheatsheets
+- Flexbox: https://flexbox.malven.co/  · Grid: https://grid.malven.co/
+- CSS-Tricks Almanac: https://css-tricks.com/almanac/  · CSS reference: https://cssreference.io/  · HTML reference: https://htmlreference.io/
+- Big-O cheat sheet: https://www.bigocheatsheet.com/  · DevDocs (offline): https://devdocs.io/
+
+<a id="sec-104"></a>
+## 11. Roadmaps
+- roadmap.sh Frontend: https://roadmap.sh/frontend  · JavaScript: https://roadmap.sh/javascript  · React: https://roadmap.sh/react
+- GreatFrontEnd Frontend Interview Playbook: https://www.greatfrontend.com/front-end-interview-playbook/introduction
+
+<a id="sec-105"></a>
+## 12. Technical-round theory (for the PI: CSS/JS/CN)
+- CSS/JS: MDN + javascript.info + Kevin Powell
+- Computer Networks basics: GfG CN (https://www.geeksforgeeks.org/computer-network-tutorials/) + Gate Smashers
+- "What happens when you type a URL", HTTP/HTTPS, DNS, CORS — know these.
+
+<a id="sec-106"></a>
+## 13. LinkedIn (real experiences + networking)
+- Search **"Josh Technology frontend interview experience"**, **"JTG Front End Developer"** → filter Posts.
+- Follow hashtags: #FrontendInterview #JavaScript #ReactJS #PlacementPreparation.
+- Connect with ITM/other seniors placed at JTG → ask their exact rounds/assignment.
+
+<a id="sec-107"></a>
+## 14. Telegram / Google Drive (UNOFFICIAL — reference only, verify)
+- Telegram: search **"Josh Technology"**, **"frontend interview material"**, **"placement material"**,
+  **"off campus jobs"** (e.g., "Off Campus Jobs 4u", "IT Freshers Jobs" — verify current handles).
+- Google Drive/Notion: search **"frontend interview notes drive"**, **"JavaScript machine coding notion"**.
+- ⚠️ Community-shared; may be outdated — cross-check with MDN/GreatFrontEnd/BFE.dev.
+
+<a id="sec-108"></a>
+## 15. Mock interviews & HR
+- Pramp / Exponent (free peer mocks): https://www.pramp.com/  · interviewing.io: https://interviewing.io/
+- GreatFrontEnd / FrontendLead mock questions (self-timed).
+- HR: rehearse self-intro, "Why JTG", STAR stories (see Behavioral section above).
+
+<a id="sec-109"></a>
+## How to use (don't drown)
+1. CSS: Kevin Powell + Flexbox Froggy/Grid Garden → build 2 Frontend Mentor pages.
+2. JS: Namaste JavaScript → grind BFE.dev output quizzes (negative-marking mindset).
+3. Machine coding: RoadsideCoder + GreatFrontEnd → build 10 components under time.
+4. PYQ: read 5 GfG "Josh Technology" experiences → know the exact rounds.
+5. Mock (Pramp) + HR rehearsal. Keep a mistakes log.
