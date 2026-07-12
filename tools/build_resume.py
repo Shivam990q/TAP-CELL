@@ -1,7 +1,7 @@
 """Compile a resume .tex with Tectonic and verify it fits on one page.
 
 Usage:
-    python tools/build_resume.py 04-resume/tailored/josh-tech-frontend-2027.tex
+    python tools/build_resume.py 04-resume/tailored/josh-technology/josh-tech-frontend-2027.tex
     python tools/build_resume.py <tex> --pages 1 --preview
 
 - Compiles with tectonic, reads the log for the page count.

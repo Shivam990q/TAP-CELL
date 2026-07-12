@@ -1,6 +1,10 @@
 <a id="sec-1"></a>
 # Infosys — Specialist Programmer / DSE: Prep Roadmap
 
+> 🔖 **PROVENANCE:** ~70% **[SRC]** — resource links (Striver, NeetCode, GfG, PrepInsta, Aditya Verma,
+> repos) real hain. ~30% **[AI-EXPLANATION]** — roadmap, study plan, CS-fundamentals topic notes AI ne
+> organize kiye. Legend: `README.md` → PROVENANCE INDEX.
+
 <!-- TOC START -->
 ## Table of Contents
 
@@ -93,7 +97,7 @@
 > Goal: crack the online coding test (3 DSA problems / 180 min) → clear the 60-min technical
 > interview. This role is **DSA-heavy** — the test tier decides your package (DSE ₹6.25L →
 > SP L1 ₹10L → L2 ₹16L → L3 ₹21L). Aim high: strong DSA = higher tier.
-> JD & logistics: `06-job-descriptions/infosys-specialist-programmer-2027.md`.
+> JD & logistics: `../../06-job-descriptions/infosys/infosys-specialist-programmer-2027.md`.
 
 <a id="sec-2"></a>
 ## Company snapshot — Infosys Ltd

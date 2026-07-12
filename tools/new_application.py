@@ -3,11 +3,12 @@
 Usage:
     python tools/new_application.py --company "JOSH Technology Group" --role "Front End Developer"
     python tools/new_application.py -c "Acme" -r "SDE Intern" --slug acme-sde
+    python tools/new_application.py -c "Infosys Ltd" -r "SP" --company-slug infosys
 
-Creates:
-    06-job-descriptions/<slug>.md   (paste the JD here)
-    05-applications/<slug>.md       (tracker + Google-form values prefilled from profile.json)
-    04-resume/tailored/<slug>.tex   (copy of 04-resume/_base-resume.tex to tailor)
+Creates (company-wise subfolders):
+    06-job-descriptions/<company>/<slug>.md   (paste the JD here)
+    05-applications/<company>/<slug>.md       (tracker + form values prefilled from profile.json)
+    04-resume/tailored/<company>/<slug>.tex   (copy of 04-resume/_base-resume.tex to tailor)
 Appends a row to 05-applications/tracker.md.
 """
 from __future__ import annotations
@@ -47,7 +48,7 @@ def jd_template(company: str, role: str) -> str:
 """
 
 
-def application_template(company: str, role: str, slug: str, p: dict) -> str:
+def application_template(company: str, role: str, slug: str, company_slug: str, p: dict) -> str:
     per = p["personal"]
     edu = p["education"]
     links = p["links"]
@@ -56,8 +57,8 @@ def application_template(company: str, role: str, slug: str, p: dict) -> str:
 
 - Date: {today}
 - Source:
-- JD file: `06-job-descriptions/{slug}.md`
-- Resume used: `04-resume/tailored/{slug}.tex`
+- JD file: `../../06-job-descriptions/{company_slug}/{slug}.md`
+- Resume used: `../../04-resume/tailored/{company_slug}/{slug}.tex`
 - Registration link:
 - Status: Registering
 - Role chosen: {role}
@@ -85,7 +86,7 @@ def application_template(company: str, role: str, slug: str, p: dict) -> str:
 | LinkedIn | {links['linkedin']} |
 | GitHub | {links['github']} |
 | Portfolio | {links['portfolio']} |
-| CV / Resume | PDF from 04-resume/tailored/{slug}.tex |
+| CV / Resume | PDF from 04-resume/tailored/{company_slug}/{slug}.tex |
 
 > Branch note: {edu['branch_note']}
 
@@ -102,20 +103,23 @@ def main() -> None:
     ap.add_argument("-c", "--company", required=True)
     ap.add_argument("-r", "--role", required=True)
     ap.add_argument("--slug", default=None)
+    ap.add_argument("--company-slug", default=None,
+                    help="Folder name per company (default: slugified company name)")
     args = ap.parse_args()
 
     slug = args.slug or slugify(f"{args.company}-{args.role}")
+    company_slug = args.company_slug or slugify(args.company)
     p = load_profile()
 
-    jd = ROOT / "06-job-descriptions" / f"{slug}.md"
-    app = ROOT / "05-applications" / f"{slug}.md"
-    resume = ROOT / "04-resume" / "tailored" / f"{slug}.tex"
+    jd = ROOT / "06-job-descriptions" / company_slug / f"{slug}.md"
+    app = ROOT / "05-applications" / company_slug / f"{slug}.md"
+    resume = ROOT / "04-resume" / "tailored" / company_slug / f"{slug}.tex"
     tracker = ROOT / "05-applications" / "tracker.md"
 
     created = []
     for path, content in [
         (jd, jd_template(args.company, args.role)),
-        (app, application_template(args.company, args.role, slug, p)),
+        (app, application_template(args.company, args.role, slug, company_slug, p)),
     ]:
         if path.exists():
             print(f"SKIP (exists): {path.relative_to(ROOT)}")
@@ -132,7 +136,7 @@ def main() -> None:
     # Append tracker row
     if tracker.exists():
         row = (f"| {args.company} | {args.role} | "
-               f"{dt.date.today():%d %b %Y} | Registering | Tailor resume + submit | `{slug}.md` |\n")
+               f"{dt.date.today():%d %b %Y} | Registering | Tailor resume + submit | `{company_slug}/{slug}.md` |\n")
         with open(tracker, "a", encoding="utf-8", newline="\n") as f:
             f.write(row)
 
@@ -140,9 +144,9 @@ def main() -> None:
     for c in created:
         print("  + " + str(c.relative_to(ROOT)))
     print("\nNext:")
-    print(f"  1. Paste the JD into 06-job-descriptions/{slug}.md")
-    print(f"  2. Tailor 04-resume/tailored/{slug}.tex (role subtitle + skills order + projects)")
-    print(f"  3. python tools/build_resume.py 04-resume/tailored/{slug}.tex --preview")
+    print(f"  1. Paste the JD into 06-job-descriptions/{company_slug}/{slug}.md")
+    print(f"  2. Tailor 04-resume/tailored/{company_slug}/{slug}.tex (role subtitle + skills order + projects)")
+    print(f"  3. python tools/build_resume.py 04-resume/tailored/{company_slug}/{slug}.tex --preview")
 
 
 if __name__ == "__main__":

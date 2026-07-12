@@ -1,7 +1,7 @@
 """Add a clickable Table of Contents with explicit anchors to a markdown file.
 
 Usage:
-    python tools/add_toc.py 05-applications/josh-technology-frontend-PREP.md
+    python tools/add_toc.py 05-applications/josh-technology/josh-technology-frontend-PREP.md
 
 - Inserts `<a id="sec-N"></a>` before each heading (levels 1-6) and a TOC block right after
   the first (title) heading, between <!-- TOC START --> / <!-- TOC END --> markers.

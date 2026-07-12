@@ -4,7 +4,7 @@
 
 ## Who I am
 - Name: Shivam Gupta
-- Current status: B.Tech CSE, ITM University Gwalior (2023–2027), CGPA 7.47; 2027 batch
+- Current status: B.Tech CSE, ITM University Gwalior (2023–2027), CGPA 7.11 (simple avg of 5 sems; 7.47 = Sem-5 SGPA only, cumulative N/A on portal); 0 backlogs; 2027 batch
 - Target roles: to confirm — likely Full-stack / Software Engineer / Gen-AI
 - Location: Morena/Gwalior, MP, India; open to work — Gurugram (+2), on-site/hybrid/remote
 
@@ -32,7 +32,13 @@ intern at ITM University; strong in web, mobile, AI/agents, and Android systems.
 - Email: guptashivam93660@gmail.com | Phone: +91 8269699824
 - GitHub: https://github.com/Shivam990q | LeetCode: pending
 
+## Active applications (2027 batch)
+- Infosys SP/DSE — **application submitted 11 Jul 2026**; awaiting shortlist for 3-coding-Q/180-min test.
+- JOSH Technology (Front End) + Stackmentalist (Python Full Stack) — registering.
+- Files are company-wise: `05-applications/<company>/`, `06-job-descriptions/<company>/`,
+  `04-resume/tailored/<company>/`. Tracker: `05-applications/tracker.md`.
+
 ## How to help me
-- When I share a job description, tailor my resume from `04-resume/master-resume.md`
-  and the project/experience files, optimized for ATS keyword matching.
-- Always keep this file and the master resume in sync when new info is added.
+- When I share a job description, tailor a resume from the base template `04-resume/_base-resume.tex`
+  (copied into `04-resume/tailored/<company>/`) using project/experience files, ATS-optimized.
+- Use CGPA 7.11 (simple average) on forms/resumes, not 7.47. Keep this file in sync as info changes.

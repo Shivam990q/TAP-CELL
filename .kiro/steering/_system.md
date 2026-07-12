@@ -11,11 +11,12 @@
 | Education / skills / positioning | `01-profile/` |
 | Work, internships, achievements | `02-experience/` |
 | Projects (one file each) | `03-projects/` (index: `03-projects/README.md`) |
-| Resume (full) | `04-resume/master-resume.md` |
+| Resume base template | `04-resume/_base-resume.tex` (copied per job into `04-resume/tailored/<company>/`) |
 | ATS rules | `04-resume/ats-guide.md` |
-| Tailored resumes | `04-resume/tailored/` |
-| Applications + status | `05-applications/tracker.md` |
-| Saved job descriptions | `06-job-descriptions/` |
+| Tailored resumes | `04-resume/tailored/<company>/` (company-wise subfolders) |
+| Applications + status | `05-applications/tracker.md` (per-company files in `05-applications/<company>/`) |
+| Saved job descriptions | `06-job-descriptions/<company>/` (company-wise subfolders) |
+| Company prep/solutions (e.g. Infosys) | `05-applications/<company>/` (Infosys: PREP, DEEP-RESEARCH, QUESTION-BANK, SOLUTIONS, ESSENTIALS, 1WEEK-DSE-PLAN) |
 | Structured form-fill data (single source) | `data/profile.json` |
 | Automation scripts | `tools/` (see `tools/README.md`) |
 | Long-term memory / decisions | `memory/log.md`, `memory/facts.md` |
@@ -24,8 +25,9 @@
 1. Context window is finite and resets. I do NOT try to hold everything. I retrieve.
 2. Before substantive work, skim `memory/facts.md` and the relevant folder via search,
    then read only the files the task needs.
-3. For a job application: read the JD + `04-resume/master-resume.md` + the most relevant
-   `03-projects/*` and `02-experience/*`, then produce a tailored, ATS-tuned resume.
+3. For a job application: read the JD + `04-resume/_base-resume.tex` + the most relevant
+   `03-projects/*` and `02-experience/*`, then produce a tailored, ATS-tuned resume in
+   `04-resume/tailored/<company>/`.
 4. After meaningful changes or new facts, append to `memory/log.md` and update
    `memory/facts.md` so continuity survives context compaction.
 
@@ -46,7 +48,7 @@
 - Never invent facts about the user. Use only what's in this repo or what the user states.
   If something is missing, say so and ask.
 - Keep always-on steering small. New bulk data goes into folders, not steering.
-- Keep `04-resume/master-resume.md` in sync when profile/experience/projects change.
+- Keep `04-resume/_base-resume.tex` in sync when profile/experience/projects change.
 - Keep `about-me.md` accurate and concise as the user evolves.
 - Keep `data/profile.json` in sync with `01-profile/` when contact/academic details change;
   scaffold new applications with `tools/new_application.py` so structure stays consistent.

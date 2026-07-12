@@ -110,7 +110,7 @@
 > Goal: convert this internship/PPO drive (Pune). Role screens on **Python + DSA, SQL & DB design,
 > Django + FastAPI (backend), React + Next.js (frontend)**, plus Agile/SDLC, Git/Docker, and
 > (good-to-have) LLMs/LangChain. Interview decides intern (paid ₹8–15k) vs trainee (unpaid).
-> JD source: `06-job-descriptions/stackmentalist-python-fullstack-2027.md`.
+> JD source: `../../06-job-descriptions/stackmentalist/stackmentalist-python-fullstack-2027.md`.
 
 <a id="sec-2"></a>
 ## Company snapshot — Deep Research

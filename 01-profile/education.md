@@ -16,9 +16,11 @@
   → Use **7.11** as "Current Avg CGPA"; Graduation % ≈ **71.1%** (×10) or official conversion.
 - Only 5 semesters' results declared (6th pending) — normal for 2027 batch; use available data.
 - Current backlogs: **0** | History of backlogs: **No**
-- 10th (High School): **88.67%**
-- 12th (Intermediate): **81.40%**
+- 10th (High School): **88.67%** (266/300) — MPBSE (MP Board, Bhopal), passed **2020**
+- 12th (Intermediate): **81.40%** (407/500) — MPBSE (MP Board, Bhopal), passed **2022**, PCM
+- School: Ganga Public H.S. School, Duttapura, Morena
 - Diploma: N/A
+- **Academic gap: ~12 months** between 12th (2022) and B.Tech (2023) — drop year; declare honestly.
 
 ## Semester-wise SGPA (Controller of Examinations)
 | Sem | Branch | SGPA | Status |

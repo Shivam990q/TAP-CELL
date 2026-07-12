@@ -29,7 +29,29 @@
 ## Constraints / preferences
 - Note: keep gray-area items (gmail generator, cert/tool bypasses) out of formal ATS resumes
 
-_Last updated: 2026-06-30_
+## Active applications (2027 batch)
+- **Infosys SP/DSE** — official Application for Employment SUBMITTED 11 Jul 2026 (email
+  guptashivam93660@gmail.com). Next: shortlist → in-person test = 3 coding Qs / 180 min (pure coding,
+  confirmed via TAP meeting; Q1 easy/Q2 greedy/Q3 DP; partial scoring). Target SP, floor DSE.
+- **JOSH Technology** (Front End) + **Stackmentalist** (Python Full Stack) — registering.
+
+## Repo structure (company-wise since 11 Jul 2026)
+- `05-applications/<company>/` (prep, solutions, application record) + root `tracker.md`, `_TEMPLATE.md`
+- `06-job-descriptions/<company>/` (JD + deep research) + root `README.md`
+- `04-resume/tailored/<company>/` (per-job .tex/.pdf); base = `04-resume/_base-resume.tex`
+- Companies so far: `infosys`, `josh-technology`, `stackmentalist`
+- 03-ESSENTIALS now has a "DSA FROM ZERO" section (Part A complexity, B data-structures, C 15 patterns,
+  D roadmap) — all with real-life analogies for a zero-DSA learner. 04-PLAN has a Day 0 foundation.
+- Infosys prep set (in `05-applications/infosys/`, numbered for order): README (index) · 01 application ·
+  02 DEEP-RESEARCH · 03 ESSENTIALS · 04 1WEEK-DSE-PLAN · 05 QUESTION-BANK · 06 SOLUTIONS (51 problems,
+  Tier1-3 test + Tier4 interview) · 07 PREP · 08 INTERVIEW-CS (OOP/DBMS/OS/CN/GenAI full answers) ·
+  09 MOCK-PAPERS (5 timed 3Q/180min sets = 15 full problems + PATTERN-MIXED section (4 layered) +
+  REAL PYQ bank + REAL EXAM SIMULATOR guide; ~30+ full-statement real problems).
+- Coverage complete for BOTH roles: DSE (Tier1-2 + Tier4 + CS) and SP (all Tier1-4 + CS + hard edge).
+- Solutions/mocks in Python; user prefers understanding patterns over rote (learns in one pass).
+- `new_application.py` scaffolds all three company folders automatically.
+
+_Last updated: 2026-07-11_
 
 ## Stackmentalist (research)
 - StackMentalist Ventures Pvt Ltd, Pune (Hinjewadi Phase 1) + Dubai. Early-stage IT services+product.

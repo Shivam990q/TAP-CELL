@@ -125,7 +125,7 @@
 > Goal: clear an 8–9 round elimination process. Screening is HEAVY on CSS + core JavaScript,
 > starts with a negative-marked MCQ, and includes a take-home page + a timed screen-shared
 > machine-coding assignment, then technical PIs + HR.
-> See company/process details in `06-job-descriptions/josh-technology-DEEP-RESEARCH.md`.
+> See company/process details in `../../06-job-descriptions/josh-technology/josh-technology-DEEP-RESEARCH.md`.
 
 <a id="sec-2"></a>
 ## Strategy per round (what to expect → how to clear)

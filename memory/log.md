@@ -348,3 +348,310 @@
   React/Next, system design, LangChain, YouTube, GitHub banks, cheatsheets, roadmaps, PYQ, LinkedIn/
   Telegram/Drive with caution, mocks, HR) + reality-check (execution focus). TOC 79 entries.
 - All 3 companies' PREP files now have full ULTIMATE RESOURCE INDEX + TOC. Advised execution > more links.
+
+
+## 2026-07-02 — Saved marksheet + POD-form data
+- 10th: MPBSE, 2020, 88.67% (266/300), English medium; 12th: MPBSE, 2022, 81.40% (407/500), PCM.
+  School: Ganga Public Higher Secondary School, Duttapura, Morena. (education.md + profile.json)
+- Academic gap: 12 months (12th 2022 -> B.Tech 2023); reason = IIT-JEE preparation.
+- CGPA corrected to 7.11 (simple avg of 5 SGPAs; 7.47 was Sem-5 SGPA; portal cumulative N/A) everywhere.
+- Added to profile.json: languages (English/Hindi), marital status Single, father Mukesh Gupta,
+  mother Alpana Gupta, current address (Godamkoot, Mala Road, Gwalior 474001), permanent (Choti
+  Bazaria, Jiwaji Ganj, Morena 476001) — flagged to verify exact spelling.
+- JOSH POD portal: profile fully filled but final submit showed "Registration closed" (already
+  registered via Google Form earlier). Drafted email to support@pod.ai + TAP cell to resolve.
+
+## 2026-07-11 — Infosys official Application for Employment submitted
+- Completed the 89-question Infosys "Application for Employment" form (the mandatory campus
+  recruitment application emailed by Talent.Acquisition@infosys.com; deadline Sun 12 Jul 2026).
+- Filled from `data/profile.json`. Key values used:
+  - Personal: Shivam Gupta, MALE, DOB 31/07/2004, email guptashivam93660@gmail.com, mobile 8269699824.
+  - Passport: NO (has other govt IDs but no passport). Citizenship: Indian.
+  - Communication address: Gwalior (current) — pincode 474001; post office to verify.
+  - Education (simple-average per form instruction): X 88.67% (MPBSE, 2020), XII 81.40% PCM (MPBSE,
+    HSC, 2022), B.Tech CSE ITM University Gwalior 7.11 CGPA, passing 2027.
+  - Backlogs: NO. Gaps: YES — 12 months, reason JEE/competitive-exam prep drop year.
+  - Association with Infosys previously: NO. Director/Partner/Criminal declarations: all NO.
+  - Uploads: passport photo (<512KB), resume PDF (<2MB), college/govt photo ID PDF (NOT Aadhaar).
+  - Declaration: I Agree + captcha.
+- User confirmed all uploads done and submitted.
+- NOTE reaffirmed: use 7.11 simple-average CGPA (NOT 7.47 sem-5 SGPA) — Infosys declaration requires
+  simple average of all subjects/semesters.
+- Next: await shortlist; grind DSA (DP/graphs/arrays) for 3-question / 180-min coding test.
+
+## 2026-07-11 — Infosys deep research (2026) compiled
+- Created `05-applications/infosys-DEEP-RESEARCH-2026.md` from fresh 2026 web sources.
+- Key new findings vs old PREP:
+  - Test = 3Q/180min, no sectional limit; Q1 easy 20 marks (DS/algo), Q2 medium 30 (Greedy),
+    Q3 hard 50 (DP). Partial scoring by test cases. Langs C/C++/Java/Python/JS.
+  - Selection = test-cases-passed × difficulty × approach. Strong partials beat one perfect solve.
+  - Real timeline (last cycle): qualifier ~July 12, results ~July 24, split Cat1 (immediate offline
+    interviews, top→SP+hackathon ~100, decent→DSE) vs Cat2 (direct SP/DSE interviews). Interviews
+    Sep–Dec, final results Jan–Feb. Both start as "Power Intern".
+  - Interview: offline, live coding ~45 min solve 1 of 2 in front of interviewer; carry laptop +
+    hardcopy resume + 2-slide PPT (intro + goals). Topics: trees/graphs/DP/recursion/binary
+    search/greedy/sliding window; OOP+design patterns; DBMS joins/normalization/window functions +
+    SQL on paper; OS/CN basics; ★ NEW basics of ML/GenAI (HWI 2026 is AI-themed) — Shivam's agent/
+    GenAI work (ROSE, MCP, CrewAI) is a differentiator to lead with.
+  - ★ 2026 integrity crackdown: Infosys flagged proxy/identity-theft, paused tests to tighten
+    verification → expect stricter ID checks + heavy proctoring. Tab/window/app switch = auto violation.
+  - InfyTQ free cert boosts SP shortlist.
+- Game plan emphasis: over-index DP+Greedy, do 3 timed 3Q/180min mocks, InfyTQ cert, rehearse
+  self-intro + projects + GenAI talk, zero integrity risk, yes to relocation/any-tech.
+
+## 2026-07-11 — Infosys emails reviewed, both files updated with missing details
+- Cross-checked the Infosys program email (09 Jul) + ITM TAP notice (01 Jul, reopened 03 Jul).
+- Added to JD + application files:
+  - Program name: "Infosys Campus Recruitment Program 2026-27"; Shivam nominated by ITM.
+  - Official form deadline 12 Jul 2026; must use only the invited email; shortlist based on form.
+  - ★ IMPORTANT DISCREPANCY: Infosys email says assessment + interview are **IN-PERSON** (phased);
+    ITM notice called the test "internet-based." Flagged to confirm exact mode with TAP Cell.
+  - Eligibility nuance: better of Class XII / Diploma considered; simple average incl. all subjects.
+  - Full eligible specializations list; ITM TAP contact tap.cell@itmuniversity.ac.in (Sahil Chhabria, CRPO).
+  - Queries only to talent.acquisition@infosys.com.
+
+## 2026-07-11 — Infosys DSE-focused prep files created
+- Created `05-applications/infosys-1WEEK-DSE-PLAN.md` — 7-day intensive plan to clear DSE anyhow
+  (Q1 full + Q2/Q3 partials), day-by-day checkboxes, daily routine, golden rules, + a "saari files
+  order me" index of all Infosys files and what each is for.
+- Created `05-applications/infosys-QUESTION-BANK.md` — topic-wise must-do problems (priority map:
+  Arrays/Strings/Hashing + Greedy + DP basics for DSE), CS fundamentals Q&A, ML/GenAI angle, HR.
+- DSE target logic reaffirmed: ~1–1.5 questions worth of test cases clears DSE; 2 full solves → SP.
+
+## 2026-07-11 — Infosys GOLDMINE research merged into existing files
+- Ran market research on real SP/DSE PYQ. Merged (no new files):
+  - `infosys-QUESTION-BANK.md`: added GOLDMINE section — real PYQ problem-types table w/ LeetCode
+    equivalents, exact resources (Striver, Aditya Verma DP, Gate Smashers, NeetCode, InfyTQ),
+    Infosys PYQ GitHub repos, a curated **40-problem list in 3 tiers** (Tier1=20 DSE-lock,
+    Tier1+2=32 SP chance, all 40 = SP L2/L3), and project-connected interview answers (self-intro,
+    NETWORKED/Parakh/ROSE/MCP/CrewAI hooks, CS fundamentals, HR).
+  - `infosys-DEEP-RESEARCH-2026.md`: added real PYQ patterns + ⚠️ possible 2026 pattern change
+    (aptitude + pseudo-code tracing common gate in some SP processes) — our campus JD says pure
+    coding 3Q/180min; flagged pseudo-code as insurance + confirm with TAP Cell.
+- Key intel: FacePrep/TechPrep report a common OA gate (aptitude/pseudo-code/coding) for SE/SP/PP in
+  2026; PrepInsta says SP/DSE process differs from SE. Our JD = pure coding. Verify with TAP Cell.
+
+## 2026-07-11 — Infosys pattern CONFIRMED + full solutions file created
+- User confirmed via ITM TAP Cell MEETING: test = **3 coding questions / 180 min, PURE CODING**
+  (no aptitude, no pseudo-code). Updated DEEP-RESEARCH + QUESTION-BANK to mark this RESOLVED
+  (removed the pseudo-code "insurance" ambiguity).
+- User wants FULL answers to every goldmine question (never done LeetCode/DP before but learns fast;
+  will sit 1 week, understand logic + patterns from solutions).
+- Created `05-applications/infosys-SOLUTIONS.md` — FULL solutions for all 40 goldmine problems in
+  Python: each with Pattern → Samajh (approach) → Code → Complexity → Key insight. Organized in
+  Tier 1 (20 DSE-lock), Tier 2 (12 SP push), Tier 3 (8 SP L2/L3), + a 12-pattern cheat-sheet at end.
+- User preference noted: redundancy is FINE (don't consolidate); just wants all important questions
+  + answers in one place. God-level learner, 90+ projects, 5+ yrs hardware/software; grasps concepts
+  in one pass but has zero DSA practice — so solutions/patterns matter more than drilling.
+- File order index updated (1WEEK plan) to include SOLUTIONS as #6.
+
+## 2026-07-11 — Infosys ESSENTIALS (zero-gaps foundation) created
+- User's ask: he grasps anything in one pass but can't handle what's NOT in his "data" (no unknown
+  unknowns allowed). Wants every smallest detail covered.
+- Created `05-applications/infosys-ESSENTIALS.md` — the plumbing a first-timer misses:
+  test mechanics + partial scoring, full Python cheat sheet (fast stdin I/O, collections, heap,
+  deque, sorting/comparator, string/math ops), constraints→algorithm table, universal 6-step
+  problem template, PATTERN-TRIGGER table (keyword→pattern), universal edge-case checklist,
+  common bugs/traps (off-by-one, int division, [[0]*n]*m pitfall, recursion limit), Big-O refresher,
+  test-day micro-checklist.
+- Language chosen: Python 3 (least boilerplate). Java version pending user confirmation.
+- File index in 1WEEK plan updated: ESSENTIALS = read FIRST (#7 listed but marked "sabse pehle").
+
+## 2026-07-11 — 05-applications & 06-job-descriptions reorganized company-wise
+- Moved all files into per-company subfolders. Structure now:
+  - `05-applications/infosys/` (7 files: 1WEEK-DSE-PLAN, DEEP-RESEARCH-2026, ESSENTIALS,
+    QUESTION-BANK, SOLUTIONS, specialist-programmer-PREP, specialist-programmer)
+  - `05-applications/josh-technology/` (frontend-PREP, frontend)
+  - `05-applications/stackmentalist/` (python-fullstack-PREP, python-fullstack)
+  - `05-applications/` root keeps: tracker.md, _TEMPLATE.md
+  - `06-job-descriptions/infosys/`, `/josh-technology/`, `/stackmentalist/`; root keeps README.md
+- Updated cross-references (relative paths) in moved files, tracker.md detail paths, 1WEEK index,
+  06 README, and steering `.kiro/steering/_system.md` memory map (new company-wise paths).
+- Intra-company links use bare filenames (same folder); cross-folder use ../../<folder>/<company>/.
+
+## 2026-07-11 — Workspace consistency pass after company-wise reorg
+- Full audit done. Updated automation to match new structure:
+  - `tools/new_application.py`: now creates `06-job-descriptions/<company>/<slug>.md` and
+    `05-applications/<company>/<slug>.md` (added --company-slug arg; default = slugify(company)).
+    Templates + tracker row + JD path references updated to company-wise paths.
+  - `tools/add_toc.py`: usage example path updated to subfolder.
+  - `tools/check_health.py`: no change needed — uses rglob (recurses into subfolders).
+- memory/log.md historical entries left as-is (they record past state; not broken links).
+- Confirmed: all content files, cross-references, tracker, steering memory-map, and 06 README are
+  consistent with the company-wise structure. Root folders intact (01–06, data, memory, tools).
+
+## 2026-07-11 — Full workspace structure audit
+- Reviewed all main folders. Verdict:
+  - 01-profile (4 files), 02-experience (2), 04-resume, data, memory, tools = already clean &
+    single-purpose; NOT restructured (over-structuring small folders adds nav overhead + would
+    break tool/steering references). Left as-is intentionally.
+  - 03-projects: 12 project docs + `_`-prefixed inventory tooling/data. sync_github.py HARDCODES
+    `03-projects/github-inventory.md` + `_github-state.json`; .ps1 scripts use $PSScriptRoot to find
+    `_github-raw.json`. So moving these = risk with low benefit → left as-is (already grouped by `_`).
+  - Updated root `README.md` Structure + Workflow to document company-wise subfolders + tools flow.
+- Cleanup candidate flagged (NOT done — needs user OK): `.playwright-mcp/` ~40 temp browser logs
+  (.log) + screenshots (.png/.yml) = junk from earlier form automation. Firm rules allow deleting
+  temp .log/PNG artifacts; awaiting user confirmation before removing.
+
+## 2026-07-11 — 04-resume/tailored reorganized company-wise
+- Moved tailored resumes into per-company subfolders:
+  - `04-resume/tailored/infosys/` (infosys-specialist-programmer-2027.tex + .pdf)
+  - `04-resume/tailored/josh-technology/` (josh-tech-frontend-2027.tex)
+  - `04-resume/tailored/stackmentalist/` (stackmentalist-python-fullstack-2027.tex)
+  - `.gitkeep` stays at tailored/ root.
+- Updated all resume-path references: infosys/josh/stackmentalist application files, infosys JD
+  tailoring note, `tools/new_application.py` (resume path now company-wise + template + prints),
+  `tools/build_resume.py` usage, `tools/README.md`, `05-applications/_TEMPLATE.md`, steering _system.md.
+- new_application.py diagnostics clean. Now consistent: 04/05/06 all company-wise.
+- memory/log.md historical entries left as-is (past-state records).
+
+## 2026-07-11 — Consistency/freshness audit (facts, steering, CGPA)
+- Found + fixed staleness the earlier passes missed:
+  - `.kiro/steering/about-me.md`: CGPA 7.47 → 7.11 (auto-loads every chat; was contradicting all
+    other files). Added "Active applications" block + company-wise structure note + "use 7.11" rule.
+    Replaced non-existent `04-resume/master-resume.md` reference with real `_base-resume.tex` + tailored.
+  - `memory/facts.md`: was last-updated 2026-06-30 (missing all July activity). Added active
+    applications (Infosys submitted, josh/stackmentalist), company-wise repo structure, Infosys prep
+    set list; bumped date to 2026-07-11.
+  - `.kiro/steering/_system.md`: fixed 3 `master-resume.md` pointers → `_base-resume.tex`/tailored.
+  - CGPA form-values corrected 7.47 → 7.11 (simple avg) in josh + stackmentalist application files
+    and Infosys JD "fit" line (were inconsistent with education.md/profile.json/Infosys decision).
+- Verified remaining 7.47 mentions are all correct-context (explaining Sem-5 SGPA), not form values.
+- Now consistent end-to-end: .kiro, 01-06, data, memory, tools all aligned on 7.11 + company-wise structure.
+
+## 2026-07-11 — Infosys files organized via master INDEX (README)
+- Created `05-applications/infosys/README.md` = master index organizing all 7 Infosys files
+  category-wise + type-wise + reading-order (line-wise):
+  - A Application (specialist-programmer.md) · B Strategy (DEEP-RESEARCH-2026) ·
+    C Plan/Reference (1WEEK-DSE-PLAN, PREP) · D DSA Prep (ESSENTIALS→QUESTION-BANK→SOLUTIONS).
+  - Includes reading-order flow, quick-start, category summaries.
+- Decision: kept the 7 files FLAT in infosys/ (not split into subfolders) because they are tightly
+  cross-linked; subfolders would break links + hurt navigation for only 7 files. README is the
+  organized view. (Same judgment as 03-projects: avoid over-fragmentation.)
+
+## 2026-07-11 — Infosys files numbered for explorer order
+- Added numeric prefixes (kept original names) so files sort in reading order:
+  README · 01-specialist-programmer · 02-DEEP-RESEARCH-2026 · 03-ESSENTIALS · 04-1WEEK-DSE-PLAN ·
+  05-QUESTION-BANK · 06-SOLUTIONS · 07-PREP.
+- Updated ALL references to new numbered names: README (rewritten), 04 file-index table + companion
+  line, cross-refs in 01/02/05/06, tracker.md (01-...), 06 JD (02-DEEP-RESEARCH), facts.md prep-set list.
+- Verified: no stale un-numbered inline refs remain (grep clean).
+
+## 2026-07-11 — Coverage audit → filled gaps for BOTH roles (DSE + SP)
+- Honest audit found 2 gaps:
+  1. Interview CS-fundamentals were TOPIC-only (no actual answers) in PREP/QUESTION-BANK.
+  2. DSA solutions missing trees, backtracking, linked-list (interview + SP-relevant).
+- Fixed:
+  - Appended TIER 4 to `06-infosys-SOLUTIONS.md` (11 new: subsets, permutations, combination sum,
+    max-depth, diameter, LCA, validate BST, level-order, reverse-LL, detect-cycle, merge-LL).
+    Now 51 solutions, 15 patterns (added backtracking, tree DFS/BFS, fast-slow pointer).
+  - Created `08-infosys-INTERVIEW-CS.md` — FULL crisp answers: OOP (with code), DBMS/SQL (queries),
+    OS, CN, ML/GenAI (ROSE/MCP/CrewAI hooks), Java/Python quick, HR.
+  - Updated README (added Category E interview + ROLE COVERAGE table), 04 index table, facts.md.
+- Verdict: both roles now covered end-to-end (test + interview). 8 numbered files + README.
+
+## 2026-07-11 — Added real Infosys-style MOCK PAPERS (test-feel gap filled)
+- User: solutions felt like renamed LeetCode; wanted ACTUAL Infosys-style problem statements so the
+  onsite test feels familiar (mock-like).
+- Researched real Infosys SP/DSE PYQ (PrepInsta, GfG OA experiences Dec 2024, Scribd 2024-25, HWI 2026).
+- Created `09-infosys-MOCK-PAPERS.md`:
+  - 2 full MOCK SETS (3Q/180min each, story-wrapped Infosys style with Input format/Constraints/
+    Sample I/O/Explanation + collapsible approach+solution): Popular Product, Festival Stalls,
+    Warehouse Partition (split-array-k-segments DP); Secret Code Palindrome, Treasure Picker (Khaled
+    N/2 greedy), Cashier Min Notes (coin change).
+  - REAL PYQ BANK with statements+approach: Hungry Fish, GET(l,r) max pairs, Spiral Matrix (HWI 2026),
+    Largest Number, Subset Sum, Drying Walls/Painter, Count-distinct-subarray.
+  - Test-day mock strategy.
+- Updated README (file order, Category D row, reading step MOCK), 04 index + Day-7 mock line, facts.md.
+- Infosys folder now: README + 01-09 (9 numbered files).
+
+## 2026-07-11 — Made QUESTION-BANK + SOLUTIONS "real" (Tier 5 real PYQ)
+- Appended TIER 5 to `06-infosys-SOLUTIONS.md` — 8 REAL Infosys PYQ with full story-statements +
+  solutions: Split-array-K-segments (DP), Painter's Partition (BS-on-answer), Aggressive Cows
+  (BS-on-answer), Job Sequencing (greedy), Prime pairs (Sieve), Distinct-in-window (sliding),
+  Subset Sum (DP), Khaled N/2 (greedy) + 5 approach-only (Hungry Fish, GET(l,r), guest-serving,
+  spiral, binary-string). Sources: PrepInsta, GfG OA 2024-25, Scribd PYQ, HWI 2026.
+- Added "REAL INFOSYS PYQ INDEX" to `05-infosys-QUESTION-BANK.md` — categorized real-PYQ→solution map.
+- Integrated real PYQ into `04-infosys-1WEEK-DSE-PLAN.md` (Days 4/5/6 + top callout; Day7 mock uses 09).
+- Honesty framing kept: can't guarantee identical live questions; these are real reported problems +
+  patterns → test will feel familiar. Not fabricated as "guaranteed exact".
+
+## 2026-07-11 — Made files self-contained (removed all "approach-only/reference-only")
+- User wanted everything IN the files (no "see link / figure it out / detail elsewhere").
+- Audited via grep for deferral markers. Fixed:
+  - `06-SOLUTIONS.md`: replaced the "REAL PYQ — approach only" block with **Tier 5 (contd.) R9-R13
+    FULL solutions**: Hungry Fish (greedy, verified on example), GET(l,r) max pairs, Guest Serving
+    (next-greater), Spiral Matrix (full code), Longest run + Max-consecutive-ones-with-K-flips.
+    Now 64 full solutions total (Tier1-4 core + Tier5 R1-R13 real PYQ). No approach-only left.
+  - `05-QUESTION-BANK.md` + `04-1WEEK`: CS-fundamentals pointers redirected from PREP (topics only)
+    to `08-INTERVIEW-CS.md` (actual full answers).
+  - `09-MOCK-PAPERS.md`: real-PYQ bank now notes full code is in 06 Tier 5.
+  - README solution count updated to 64, marked self-contained.
+- Remaining external links (YouTube/Striver/InfyTQ) are legit resource links, not missing content.
+
+## 2026-07-11 — Executed "real-exam" prompt: full-statement mocks + pattern-mixed (existing files enriched)
+- User gap: QB questions were 1-liners (unreal); wanted full story-wrapped real-exam problems, mixed
+  companies, pattern-mixed (layered) problems, deep research. Enrich existing files only (no new files).
+- Deep research: SP 2025 (LeetCode discuss) = offline, 2 problems, "solve 1 fully", topics greedy/
+  knapsack/DP/trees/graphs/segment-fenwick; company OA problems (Wipro sock-pairs, Accenture feed-rats,
+  Y→X working-backwards). Sources logged in files.
+- `09-MOCK-PAPERS.md` (enriched): added MOCK SET 3,4,5 (9 more full story-wrapped Q with solutions:
+  sock-pairs, feed-rats, burst-balloons interval-DP, reach-number, meeting-rooms-II heap, edit-distance,
+  balanced-brackets, fractional-knapsack, longest-palindromic-subsequence). Now 5 sets = 15 problems.
+  + PATTERN-MIXED section (MX1 book-allocation BS+greedy, MX2 task-scheduler greedy+math, MX3 cheapest-
+  flights graph+DP, MX4 distinct-window sliding+hash). + REAL EXAM SIMULATOR 6-step guide.
+- `05-QUESTION-BANK.md`: added intro clarifying 1-liners = topic-checklist; full real problems in 06 Tier5
+  + 09 (routed). `06` unchanged (already 64 full). README + facts updated.
+- Honesty kept: no "guaranteed exact Q" claim; framed as real patterns + layered + timed sim = familiar.
+
+## 2026-07-11 — QUESTION-BANK Tier-1 converted to FULL statements (zero-DSA friendly)
+- User (zero DSA) confused: QB Tier-1 problems were 1-liners ("Two Sum — hashmap") — useless for a
+  beginner + not how Infosys actually asks. Confirmed: Infosys asks FULL story-wrapped problems, NOT 1-liners.
+- Fixed `05-QUESTION-BANK.md`: replaced Tier-1 20 one-liners with 20 FULL real-Infosys-style statements
+  (Hinglish story + Input/Output format + Constraints + Sample I/O + explanation), each → solution # in
+  `06-SOLUTIONS.md`. Kept a name-only quick-checklist below for later revision.
+- Tier 2-3 still name-checklist (they map to `06` #21-40 full solutions); can convert on request.
+
+## 2026-07-11 — Filled zero-DSA gap: "DSA FROM ZERO" teaching added
+- Read 03-ESSENTIALS; found it had plumbing/triggers but never TAUGHT the concepts (a zero-DSA person
+  can't use "Sliding Window"/"HashMap" triggers without knowing what they are).
+- Added to `03-infosys-ESSENTIALS.md` a big "DSA FROM ZERO" section:
+  - Part A: Big-O/complexity via analogy (book-search) + N→algo rule.
+  - Part B: 9 data structures zero se (Array/HashMap/Set/Stack/Queue/Heap/Tree/Graph/LinkedList) —
+    each with real-life analogy + when + Python.
+  - Part C: all 15 patterns zero se — kya + analogy + kab + kaise + mini example + link to 06 #.
+  - Part D: zero-DSA learning roadmap (order to learn).
+- Cross-linked: ESSENTIALS intro flags it; 06-SOLUTIONS intro points here for unknown concepts;
+  04-PLAN got a "Day 0 FOUNDATION" (read DSA-from-zero before Day 1). facts.md updated.
+- Now a true zero-DSA learner can understand in one read, then use QUESTION-BANK/SOLUTIONS/MOCKS.
+
+## 2026-07-11 — Completeness verified: QUESTION-BANK + SOLUTIONS + MOCK all complete
+- Found QB Tier-2/3 were still 1-liners → converted ALL to full statements.
+  QUESTION-BANK now: Tier1 (20) + Tier2 (12) + Tier3 (8) = 40 FULL-statement problems (story+I/O+
+  constraints+sample+solution#) + real-PYQ index + interview + HR. COMPLETE.
+- SOLUTIONS verified via grep: #1-40 (Tier1-3) + #41-51 (Tier4 trees/backtracking/LL) + R1-R13
+  (Tier5 real PYQ) — all with full code. COMPLETE.
+- MOCK-PAPERS verified: MOCK SET 1-5 (15 full problems) + MX1-MX4 (pattern-mixed) + REAL EXAM
+  SIMULATOR. COMPLETE.
+
+## 2026-07-11 — Added complete SOURCE/REFERENCE MAP (every question traceable)
+- User asked if every question has an exact reference/source. Honest: Tier 5 + mocks had per-problem
+  sources, but Tier 1-4 standard problems didn't each carry an exact source line.
+- Added "SOURCE / REFERENCE MAP" to `05-QUESTION-BANK.md`: every problem → exact origin
+  (LeetCode number / GfG / Infosys PYQ source): Tier1 (LC 1,121,53,169,242,125,26,283,88,704,35,3,560,
+  49,70,198,322,55,56,20), Tier2 (LC 179,435,134,GfG-knapsack,416,1143,300,72,64/62,200,994,207),
+  Tier3 (LC 42,496,239,215,347,GfG-dijkstra/743,GfG-palindrome,136/421), Tier4 (LC 78,46,39,104,543,
+  236,98,102,206,141,21), Tier5 R1-R13 (PrepInsta/GfG-OA/Scribd/karthikreddy/HWI origins), mocks +
+  master resource links. Honest note: standard = LeetCode canonical (not exact-guaranteed); Tier5 = real reported.
+
+## 2026-07-11 — Provenance labeling added (real vs AI, honest)
+- User wanted every content piece labelled: real-sourced vs AI-generated/reworded/explained.
+- Added master "PROVENANCE INDEX" + LEGEND to `README.md` (file-by-file real% vs AI%, honest bottom line).
+- Added a top-of-file PROVENANCE banner to all 9 numbered files (01-09) classifying content:
+  01 factual · 02 ~85% WEB-VERIFIED · 03 ~90% AI-EXPLANATION · 04 ~80% AI-GENERATED plan ·
+  05 Tier1-4 AI-REWORDED of SRC-LC# + Tier5 REAL-PYQ · 06 problems SRC/PYQ + code AI-EXPLANATION ·
+  07 ~70% SRC resources · 08 ~95% AI-EXPLANATION (standard CS) · 09 mock stories AI-GENERATED + PYQ bank REAL-PYQ.
+- Tags: [SRC][WEB-VERIFIED][REAL-PYQ][AI-REWORDED][AI-GENERATED][AI-EXPLANATION][UNVERIFIED].
+- Honest bottom line documented: real-reported Infosys content (02, Tier5, PYQ bank, WEB-VERIFIED) vs
+  standard LeetCode-canonical (Tier1-4, AI-reworded) vs AI's own teaching/practice (03,04,08,09 stories,
+  all code). No fake sources. Never claimed "exact same question guaranteed".

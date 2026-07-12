@@ -23,17 +23,25 @@ application tracking, and job-targeted content during campus placements (and bey
 | --- | --- |
 | `01-profile/` | Personal info, education, skills, all platform links |
 | `02-experience/` | Work, internships, achievements, certifications |
-| `03-projects/` | One file per project (use `_TEMPLATE.md`) |
-| `04-resume/` | Master resume, ATS guide, tailored versions |
-| `05-applications/` | Application tracker (use `_TEMPLATE.md`) |
-| `06-job-descriptions/` | Saved JDs I'm targeting |
+| `03-projects/` | One file per project (use `_TEMPLATE.md`); `_`-prefixed = GitHub inventory tooling/data |
+| `04-resume/` | Base resume template, ATS guide, `tailored/` per-job versions |
+| `05-applications/` | `tracker.md` (all apps) + **per-company subfolder** `05-applications/<company>/` (prep, solutions, application record) |
+| `06-job-descriptions/` | **Per-company subfolder** `06-job-descriptions/<company>/` (JD + deep research) |
+| `data/` | `profile.json` — machine-readable single source for form-fill |
+| `memory/` | `log.md` (journal) + `facts.md` (stable snapshot) |
+| `tools/` | Python automation (new_application, sync_github, build_resume, check_health) |
+
+> Company subfolders (e.g. `infosys/`, `josh-technology/`, `stackmentalist/`) keep all files for one
+> drive together in both `05-applications/` and `06-job-descriptions/`. New drives: run
+> `python tools/new_application.py -c "Company" -r "Role"` — it scaffolds the company folder automatically.
 
 ## Workflow
 1. Fill folders in order, starting with `01-profile/`.
 2. Add a file per project in `03-projects/`.
-3. Keep `04-resume/master-resume.md` as the complete "kitchen-sink" resume.
-4. For each opening: save the JD in `06-job-descriptions/`, then generate a tailored,
-   ATS-tuned resume from the master data.
+3. Keep the base resume (`04-resume/_base-resume.tex`) as the reusable single-page template.
+4. For each opening: `python tools/new_application.py -c "Company" -r "Role"` scaffolds the
+   company subfolder (JD + application record + tailored resume copy) → paste JD → tailor `.tex`
+   → `python tools/build_resume.py <tex> --preview`.
 
 ## Status checklist
 - [ ] 01-profile filled in
