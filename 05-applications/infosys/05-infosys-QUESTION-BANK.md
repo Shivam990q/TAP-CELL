@@ -587,6 +587,15 @@ karna aur naye stacks seekhna pasand hai."
 | R11 | Guest Serving / Next Greater | Scribd Infosys SP PYQ · LC 496 |
 | R12 | Spiral Matrix | HackWithInfy 2026 (LeetCode discuss) · LC 54 |
 | R13 | Longest run / Max consecutive ones (K flips) | LC 485 / 1004 (binary-string PYQ) |
+| R14 | Task scheduling (profit − delay×step), maximize | **HackWithInfy 2026 Round 2** (LeetCode discuss, May 2026) — fresh PYQ |
+
+## TIER 6 (audit-added high-frequency — full code in `06` #52-55)
+| # | Problem | Exact source |
+| --- | --- | --- |
+| 52 | 3Sum | LeetCode 15 |
+| 53 | Search in Rotated Sorted Array | LeetCode 33 |
+| 54 | Largest Rectangle in Histogram | LeetCode 84 |
+| 55 | Number of Provinces (Union-Find / DSU) | LeetCode 547 · GfG "Union-Find / Disjoint Set" |
 
 ## MOCK PAPERS (`09`) sources
 - SET 1-5 problems: story-wrapped versions of real patterns; each problem me "Mirrors: [source]" note hai

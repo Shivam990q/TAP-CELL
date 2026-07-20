@@ -402,7 +402,8 @@ Ek-ek karke poochho, main jawab dunga, tum sahi/galat + 1-line reason. Interview
 | Bit / Math (gcd, sieve, modulo) | ⭐⭐ light | `06` (sieve R-series) |
 | DFS/BFS / Topological / Dijkstra | ⭐ (SP-edge + interview) | `06` Tier 4 |
 | Trees / Backtracking / Linked List | ⭐ interview (test me kam) | `06` Tier 4 |
-| Trie / DSU / Segment tree | ❌ abhi skip | — (baad me curiosity) |
+| DSU / Union-Find | ⭐ SP-edge + interview (connectivity/merge) | `06` #55 |
+| Trie / Segment tree | ❌ abhi skip | — (baad me curiosity) |
 | Amortized / memory hierarchy / concurrency / system design | ❌ coding round ke liye NAHI | (interview/senior — abhi noise) |
 
 ## 🗓️ 10-din order (naksha → action)

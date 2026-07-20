@@ -79,19 +79,18 @@ Organizer maximum kitne stalls allow kar sakta hai bina kisi do slots ke overlap
 ```
 4
 1 3
-2 5
-4 7
-6 8
+3 5
+2 4
+5 7
 ```
 **Sample Output:**
 ```
 3
 ```
-**Explanation:** [1,3], [4,7], ... ya [1,3],[4,7]? Choose [1,3], [4,7]? overlap check → [1,3],[4,7],[?]
-Best: [1,3], [4,7] hmm. Actually [1,3],[6,8] + [4,?]. Optimal = 3? Let's see: [1,3],[4,7] overlap with
-[6,8]? 7>6 yes overlap. So [1,3],[4,7] = wait [4,7] and [6,8] overlap. Non-overlap set: [1,3],[4,7] OR
-[1,3],[6,8] → but can we get 3? [1,3] then [4,7]? then need one starting ≥7: none except [6,8](starts 6<7).
-Hmm actual max here = 2. (Yeh dry-run tu khud verify kar — yahi test-day skill hai!)
+**Explanation:** End-time pe sort → `[1,3],[2,4],[3,5],[5,7]`. Greedy pick jiska end sabse jaldi:
+`[1,3]` lo (end=3) → `[2,4]` skip (start 2 < 3, overlap) → `[3,5]` lo (start 3 ≥ 3) → `[5,7]` lo
+(start 5 ≥ 5). Total = **3** non-overlapping stalls. (Slot `[start,end)` half-open hai, isliye end==start
+touch overlap nahi.)
 
 <details><summary>APPROACH + SOLUTION</summary>
 
@@ -138,10 +137,10 @@ minimum** ho. Minimum total cost print karo.
 ```
 **Sample Output:**
 ```
-45
+52
 ```
-**Explanation:** best split = [1,2,3] & [4] → 6² + 4² = 36+16 = 52; [1,2]&[3,4] → 9+49=58;
-[1]&[2,3,4] → 1+81=82. Min = 52? (Sample number illustrative — tu khud optimal dhoondh, DP se.)
+**Explanation:** 2 groups ke possible splits: `[1][2,3,4]` → 1² + 9² = 82; `[1,2][3,4]` → 3² + 7² =
+9+49 = 58; `[1,2,3][4]` → 6² + 4² = 36+16 = **52**. Minimum = **52**.
 
 <details><summary>APPROACH + SOLUTION</summary>
 
@@ -332,10 +331,10 @@ def spiralOrder(mat):
         for i in range(top,bot+1): res.append(mat[i][right])
         right-=1
         if top<=bot:
-            for j in range(right,left-1,-1): res.append(mat[bot][j]); 
+            for j in range(right,left-1,-1): res.append(mat[bot][j])
             bot-=1
         if left<=right:
-            for i in range(bot,top-1,-1): res.append(mat[i][left]); 
+            for i in range(bot,top-1,-1): res.append(mat[i][left])
             left+=1
     return res
 ```
@@ -511,9 +510,10 @@ Ek counter `X` pe start hai. Ek move me ya to counter **+1** karo ya **×2**. Mi
 ```
 **Sample Output:**
 ```
-3
+4
 ```
-**Explanation:** 3→6(×2)→12? no. Reverse socho: 11(odd)→10(+1)→5(÷2)→ ... 3. Moves = 3.
+**Explanation:** Forward: `3 →(+1) 4 →(+1) 5 →(×2) 10 →(+1) 11` = **4 moves**. (Code backward chalta:
+`11→10→5→4→3` = 4 steps — jo tez hai.) 3 moves me 11 possible nahi (verify: max reach checks).
 **Edge:** X==Y → 0.
 
 <details><summary>SOLUTION</summary>
@@ -845,7 +845,7 @@ def solve():
         for u,v,p in flights:
             if dist[u] != INF and dist[u]+p < newd[v]:
                 newd[v] = dist[u]+p
-            dist = newd
+        dist = newd                             # ★ round ke END me update (K-stops bound sahi rahe)
     print(dist[dst] if dist[dst] != INF else -1)
 solve()
 ```

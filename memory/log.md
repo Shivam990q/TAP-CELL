@@ -694,3 +694,36 @@
   previews as tabs — answer = "Markdown: Toggle Preview Locking" per preview (locked = [Preview] in
   brackets → next preview opens as a new tab instead of reusing); or the "Markdown Multi Tab Preview"
   extension. `workbench.editor.enablePreview` is unrelated.
+
+## 2026-07-19 — Infosys prep DEEP AUDIT + gap-fill + research (best-means-best pass)
+- User: "again audit deeply and fill everything completely; research make sure its best means best."
+- Read ALL 11 infosys files end-to-end. Verdict: set was already comprehensive but had real defects + gaps.
+- RESEARCH (fresh 2026 web): pattern CONFIRMED current & accurate — 3Q/3hr, Q1 easy (impl/arrays/
+  strings/math/recursion), Q2 greedy (may need heaps), Q3 hard DP/advanced-graph/tree-DP; "1-2 full =
+  DSE/SES, all 3 = Power Programmer" (GfG Jul 2026, placementpreparation, Scribd HWI-2026 guide).
+  Interview probes space-complexity + dry-run on paper + DBMS delete-vs-truncate. Eligibility 2026 ~65%/
+  6.5 CGPA aggregate (Shivam clears). Nothing changed vs our 11-Jul files → confidence high.
+- CORRECTNESS BUGS FIXED (all in 09-MOCK-PAPERS.md — wrong sample outputs would've misled practice):
+  * SET1 Q2 "Festival Stalls": messy self-contradicting explanation + wrong output → changed sample
+    intervals to cleanly yield 3, rewrote greedy dry-run.
+  * SET1 Q3 "Warehouse Partition": output 45 → **52** (correct min for [1,2,3,4],K=2), clean explanation.
+  * SET4 Q1 "Reach the Number": output 3 → **4** (min moves 3→11 with +1/×2 is 4), correct forward+backward trace.
+  * MX3 "Cheapest Flights": `dist = newd` was wrongly indented INSIDE the flights loop (broke the
+    K-stops bound = bounded Bellman-Ford) → dedented to run once per round. Real algorithmic bug.
+  * Cleaned stray trailing semicolons in PYQ3 spiral snippet.
+- COVERAGE GAPS FILLED in 06-SOLUTIONS.md (were referenced elsewhere but had NO full code):
+  * #52 3Sum (sort + two-pointer k-sum), #53 Search in Rotated Sorted Array (BS variation),
+    #54 Largest Rectangle in Histogram (monotonic stack), #55 Number of Provinces = Union-Find/DSU
+    (path compression) — new "TIER 6 — GAP-FILL" section.
+  * R14 = fresh **HackWithInfy 2026 Round-2 PYQ**: task scheduling, profit − delay×step, maximize →
+    exchange-argument greedy (rearrangement inequality; sort delay desc, ans = Σprofit − Σ(delay_desc[i]*i)).
+  * Solution count 64 → **69**; pattern cheat-sheet 15 → **17** (added DSU + exchange-argument greedy).
+- LANGUAGE GAP FILLED: added "☕ APPENDIX: JAVA CHEAT-SHEET" to 03-ESSENTIALS (Java is Shivam's strongest
+  + allowed in test) — BufferedReader fast I/O, collections (ArrayDeque/PriorityQueue/TreeMap), comparator,
+  string/char/math, Java-specific GOTCHAS (int overflow→long, Arrays.sort O(n²) adversarial, ==vs.equals,
+  2D-array no shared-row trap, recursion depth), + pattern templates (two-pointer/window/BS/DP/BFS).
+- RECONCILED: file 10 Part-5 filter — DSU moved from "❌ skip" to "⭐ SP-edge (06 #55)". 05 SOURCE MAP +
+  added R14 + Tier6 (#52-55) rows (all traceable to LC 15/33/84/547 + HWI-2026). README counts updated
+  (69 solutions, 17 patterns, Java appendix noted). facts.md prep-set line updated.
+- HONESTY preserved: no "guaranteed exact Q" claims; R14 tagged as reported HWI-2026 PYQ; gap-fill = LC-canonical.
+- Verified file 06 solution code all correct on re-read; bugs were confined to 09's hand-written samples + MX3.

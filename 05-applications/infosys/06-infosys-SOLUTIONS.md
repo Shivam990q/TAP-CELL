@@ -1238,7 +1238,140 @@ def longest_ones(nums, k):
 ```
 **Pattern:** A = single pass; B = **sliding window** (window me at most k zeros). O(n).
 
+## R14. Task Scheduling — Profit − Delay×Step — Greedy ★ (HackWithInfy 2026, Round 2 — FRESH PYQ)
+**Story:** N tasks hain; har task ka `profit[i]` aur `delay[i]`. Saare tasks ko steps `0,1,...,N-1` me
+karna hai (har step ek task — matlab ek ORDER choose karo). Jo task step `s` pe karoge uska contribution
+= `profit − delay×s`. **Total profit maximize** karo.
+**Example:** profit=`[10,20,30]`, delay=`[3,1,2]` → **56**.
+```python
+def max_total_profit(profit, delay):
+    n = len(profit)
+    total = sum(profit)                     # har task apna profit ek baar deta (order-independent)
+    delay.sort(reverse=True)                # bada delay -> chhoti position (penalty kam)
+    penalty = sum(delay[i] * i for i in range(n))
+    return total - penalty
+# max_total_profit([10,20,30],[3,1,2]) -> 56
+```
+**Pattern:** Exchange-argument greedy (**rearrangement inequality**). Total = Σprofit (fixed hai); tumhe
+sirf `Σ(delay×position)` **minimize** karni hai. Positions `{0..n-1}` fixed → **sabse bade delay ko
+position 0** do (taaki bada delay chhoti position se multiply ho). Isliye delay descending sort. O(N log N).
+**Key insight:** "har element ko ek position/weight se multiply karke sum optimize karo" = **sort + rearrangement
+inequality** (bada ko chhote ke saath pair). Ye exact HWI 2026 Round-2 ka greedy tha — Q2 style.
+
 ---
-> ✅ Ab **poora self-contained**: 51 core (Tier1-4) + 13 real-PYQ FULL solutions (Tier5 R1-R13) +
-> 2 timed mock sets (`09`). Koi "approach-only / reference-only" nahi bacha — sab code yahin hai.
+# 🟠 TIER 6 — GAP-FILL (audit-added high-frequency — ab poora complete)
+> Ye 4 problems interview-experiences + Infosys sheets me repeat hote hain par upar full-code nahi the
+> (audit me pakde). #52-53 = test-core (Q1/Q2), #54-55 = SP-hard / interview edge. Ab self-contained.
+
+## 52. 3Sum — Medium
+**Pattern:** Sort + two pointers (ek fix, baaki two-pointer)
+**Samajh:** Sort karo. Har index `i` fix karo, phir `l=i+1, r=n-1` two-pointer se sum `0` dhoondo.
+Duplicates skip karna zaroori (warna repeat triplets).
+```python
+def threeSum(nums):
+    nums.sort()
+    res = []
+    n = len(nums)
+    for i in range(n - 2):
+        if i > 0 and nums[i] == nums[i-1]:
+            continue                       # duplicate fix-element skip
+        if nums[i] > 0:
+            break                          # sorted: aage sab +ve -> sum 0 possible nahi
+        l, r = i + 1, n - 1
+        while l < r:
+            s = nums[i] + nums[l] + nums[r]
+            if s < 0: l += 1
+            elif s > 0: r -= 1
+            else:
+                res.append([nums[i], nums[l], nums[r]])
+                l += 1; r -= 1
+                while l < r and nums[l] == nums[l-1]: l += 1   # dup skip
+                while l < r and nums[r] == nums[r+1]: r -= 1
+    return res
+```
+**Complexity:** O(n²) time, O(1) extra (result chhod ke).
+**Key insight:** "k-sum" = ek element fix + (k-1)-sum. 3Sum = fix `i` + two-pointer. (4Sum = 2 fix + two-pointer.)
+
+## 53. Search in Rotated Sorted Array — Medium
+**Pattern:** Modified binary search
+**Samajh:** Rotated sorted me har mid pe **ek half zaroor sorted** hota. Dekho konsa half sorted hai,
+target us sorted range me aata hai kya — usi hisaab se lo/hi move karo.
+```python
+def searchRotated(nums, target):
+    lo, hi = 0, len(nums) - 1
+    while lo <= hi:
+        mid = (lo + hi) // 2
+        if nums[mid] == target:
+            return mid
+        if nums[lo] <= nums[mid]:                  # LEFT half sorted
+            if nums[lo] <= target < nums[mid]: hi = mid - 1
+            else: lo = mid + 1
+        else:                                      # RIGHT half sorted
+            if nums[mid] < target <= nums[hi]: lo = mid + 1
+            else: hi = mid - 1
+    return -1
+```
+**Complexity:** O(log n) time, O(1) space.
+**Key insight:** "Rotated sorted me search" = pehchano konsa half sorted hai, phir wahi decide karta idhar/udhar. BS ka #1 variation.
+
+## 54. Largest Rectangle in Histogram — Hard
+**Pattern:** Monotonic (increasing) stack
+**Samajh:** Har bar ke liye chahiye "left aur right me pehla chhota bar" (uske beech ye bar full height
+tak faila sakta). Stack me increasing heights ke indices rakho; chhota bar aaye to pop karke us bar ka
+max rectangle compute karo.
+```python
+def largestRectangleArea(heights):
+    stack = []                             # indices, increasing heights
+    best = 0
+    heights.append(0)                      # sentinel: end pe stack flush ho jaaye
+    for i, h in enumerate(heights):
+        while stack and heights[stack[-1]] > h:
+            height = heights[stack.pop()]
+            width = i if not stack else i - stack[-1] - 1
+            best = max(best, height * width)
+        stack.append(i)
+    heights.pop()                          # sentinel hatao (input restore)
+    return best
+```
+**Complexity:** O(n) time, O(n) space.
+**Key insight:** Monotonic stack se har bar ka "pehla chhota left + pehla chhota right" ek pass me. (Maximal-rectangle-in-binary-matrix bhi row-by-row isi pe banta.)
+
+## 55. Union-Find / DSU — Number of Provinces — Medium ★ (SP + interview: graph connectivity)
+**Pattern:** Disjoint Set Union (path compression)
+**Samajh:** Connected components count karne ka fast tarika. Har node ka "parent" (leader) track karo;
+connected nodes ko union karo; end me distinct roots = components.
+```python
+def findCircleNum(isConnected):
+    n = len(isConnected)
+    parent = list(range(n))                # shuru me har node apna leader
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]  # path compression (flatten)
+            x = parent[x]
+        return x
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb: parent[ra] = rb
+    for i in range(n):
+        for j in range(i + 1, n):
+            if isConnected[i][j] == 1:
+                union(i, j)
+    return sum(1 for i in range(n) if find(i) == i)   # distinct roots = provinces
+```
+**Complexity:** ~O(n²·α(n)) (α ≈ constant, near O(1) per op).
+**Key insight:** "connected groups / cycle-in-undirected / merge sets" = **DSU**. Kruskal MST,
+redundant-connection, accounts-merge — sab isi tool pe. BFS/DFS se bhi provinces nikal sakte, par DSU dynamic-merge ke liye best.
+
+---
+# 🔑 FINAL PATTERN CHEAT-SHEET (ab 17 patterns = full, audit-complete coverage)
+> Tier 1-5 ke 15 patterns + ye 2 (audit-added):
+16. **Union-Find / DSU** — Number of Provinces, redundant connection, Kruskal MST (connectivity / merge / cycle-in-undirected)
+17. **Exchange-argument greedy** — Task profit-delay (sort + rearrangement inequality); job/order optimization
+> Aur gap-fill (existing patterns ke naye examples): **3Sum** (sort + two-pointer k-sum), **Search-in-Rotated**
+> (binary-search variation), **Largest Rectangle** (monotonic stack). Ab har mainstream pattern covered.
+
+---
+> ✅ Ab **poora self-contained + audit-complete**: **55 core** (Tier1-4 + Tier6 gap-fill) + **14 real-PYQ
+> FULL solutions** (Tier5 R1-R14, incl. fresh HWI-2026 profit-delay) + **5 timed mock sets + 4 pattern-mixed**
+> (`09`). Koi "approach-only / reference-only" nahi. **17 patterns** = poori Infosys DSA coverage.
 > Anyhow selection: Q1 full + Q2/Q3 partial = DSE lock; 2 full = SP.

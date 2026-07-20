@@ -43,8 +43,10 @@
 - 03-ESSENTIALS now has a "DSA FROM ZERO" section (Part A complexity, B data-structures, C 15 patterns,
   D roadmap) — all with real-life analogies for a zero-DSA learner. 04-PLAN has a Day 0 foundation.
 - Infosys prep set (in `05-applications/infosys/`, numbered for order): README (index) · 01 application ·
-  02 DEEP-RESEARCH · 03 ESSENTIALS · 04 1WEEK-DSE-PLAN · 05 QUESTION-BANK · 06 SOLUTIONS (64 full
-  solutions, Tier1-4 + Tier5 real PYQ, 15 patterns) · 07 PREP · 08 INTERVIEW-CS (OOP/DBMS/OS/CN/GenAI
+  02 DEEP-RESEARCH · 03 ESSENTIALS (+ ☕ Java cheat-sheet appendix) · 04 1WEEK-DSE-PLAN · 05 QUESTION-BANK ·
+  06 SOLUTIONS (69 full solutions: Tier1-4 + Tier5 14 real PYQ incl. fresh HWI-2026 profit-delay +
+  Tier6 gap-fill [3Sum, search-rotated, largest-rectangle, Union-Find/DSU], 17 patterns) · 07 PREP ·
+  08 INTERVIEW-CS (OOP/DBMS/OS/CN/GenAI
   full answers) · 09 MOCK-PAPERS (5 timed 3Q/180min sets = 15 full problems + PATTERN-MIXED section
   (4 layered) + REAL PYQ bank + REAL EXAM SIMULATOR guide; ~30+ full-statement real problems) ·
   10 DSA-MAP-AND-VOCAB (★ META, read-first orientation: full DSA taxonomy tree with

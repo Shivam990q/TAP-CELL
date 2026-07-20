@@ -8,7 +8,9 @@
 > Ye file wo **plumbing + trigger + trap** cover karti hai jo pehli baar coding karne wale ko
 > pata hi nahi hoti — aur wahi test me marwa deti hai. Ek baar padh le, phir kuch "naya" nahi lagega.
 >
-> Language: **Python 3** (test me sabse kam likhna padta, sabse kam bugs). Java chahiye to bol dena.
+> Language: **Python 3** (test me sabse kam likhna padta, sabse kam bugs). **Java tera strong hai aur
+> test me allowed hai → neeche file ke END me "APPENDIX: JAVA CHEAT-SHEET" add kar diya** (fast I/O +
+> collections + comparator + pattern templates + Java-specific gotchas). Ek language chuno, dono me confuse mat ho.
 >
 > 🎓 **Agar DSA ka Z bhi nahi pata → SEEDHA neeche "DSA FROM ZERO" section (Part A/B/C) padho pehle.**
 > Wahan har data-structure aur pattern real-life analogy se zero se samjhaya hai. Uske baad ye upar
@@ -362,3 +364,127 @@ Har problem submit se pehle ye soch:
 6. **Graph/Stack/Heap/Backtracking/Bit** (P10-P15) — SP edge + interview.
 > Har pattern: ye analogy padho → `06-SOLUTIONS.md` me us pattern ke 2-3 problems samajh → `09-MOCK` me timed try.
 > Zero se yahan tak: **Part A→B→C** ek baar dhyan se = tu problems samajhne layak ho jayega. Phir practice.
+
+
+---
+---
+# ☕ APPENDIX: JAVA CHEAT-SHEET (agar Java me dena hai — tera strong language)
+> Python vs Java: **Python** = kam likhna, kam bugs (recommended agar dono barabar aate). **Java** = tez
+> execution, tera comfort. Jo choose karo, **usi ek me** poora test do. Neeche Java ka poora "plumbing"
+> hai — fast I/O + collections + comparator + templates + gotchas. Ye Section 1 (Python) ka Java mirror hai.
+
+## J1. Fast I/O (★ Scanner SLOW hai — BufferedReader use karo, warna bade input pe TLE)
+```java
+import java.util.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();               // output buffer (fast)
+
+        int n = Integer.parseInt(br.readLine().trim());       // ek int
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int a = Integer.parseInt(st.nextToken());             // ek line me do int
+        int b = Integer.parseInt(st.nextToken());
+
+        int[] arr = new int[n];                               // poora array ek line se
+        st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < n; i++) arr[i] = Integer.parseInt(st.nextToken());
+
+        long ans = 0; // ... compute ...
+        sb.append(ans).append('\n');
+        System.out.print(sb);                                 // ★ ek hi baar print (loop me print = slow)
+    }
+}
+```
+> ★ Trap: `Scanner` chhote input pe theek, bade pe SLOW → `BufferedReader + StringTokenizer` use karo.
+> Output loop me `System.out.println` mat karo — `StringBuilder` me jodo, ant me ek baar print.
+
+## J2. Data structures (Java collections — Python STL ka mirror)
+```java
+List<Integer> list = new ArrayList<>();   list.add(x); list.get(i); list.size(); Collections.sort(list);
+Map<Integer,Integer> map = new HashMap<>(); map.put(k,v); map.getOrDefault(k,0); map.containsKey(k);
+map.merge(k, 1, Integer::sum);                          // frequency count (defaultdict jaisa)
+Set<Integer> set = new HashSet<>();       set.add(x); set.contains(x); set.remove(x);
+Deque<Integer> stack = new ArrayDeque<>(); stack.push(x); stack.pop();  stack.peek();   // STACK (LIFO)
+Deque<Integer> queue = new ArrayDeque<>(); queue.offer(x); queue.poll(); queue.peek();  // QUEUE (FIFO)
+PriorityQueue<Integer> minHeap = new PriorityQueue<>();                       // min-heap (default)
+PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder()); // max-heap
+TreeMap<Integer,Integer> tm = new TreeMap<>();          // sorted map (floorKey/ceilingKey — ordered ops)
+```
+> `ArrayDeque` = stack aur queue dono (Stack class purana/slow, mat use karo). `PriorityQueue` = heap.
+
+## J3. Sorting + custom comparator
+```java
+Arrays.sort(arr);                                       // int[] ascending
+Arrays.sort(arr2D, (x, y) -> x[0] - y[0]);              // 2D array, first col pe (overflow safe: Integer.compare)
+list.sort((x, y) -> Integer.compare(y, x));             // descending (list)
+list.sort(Comparator.comparingInt(p -> p[1]));          // key = 2nd element
+// Largest Number (concat comparator):
+String[] s = ...; Arrays.sort(s, (x, y) -> (y + x).compareTo(x + y));
+```
+> ★ Comparator me `a - b` overflow kar sakta (bade ints) → `Integer.compare(a, b)` safe hai.
+
+## J4. String / char / math
+```java
+StringBuilder sb = new StringBuilder(); sb.append(c); sb.reverse(); sb.toString();  // string build (immutable trap se bacho)
+char[] ch = s.toCharArray();  String t = new String(ch);
+int d = c - '0';           // char digit -> int      |    int idx = c - 'a';   // letter -> 0..25
+s.charAt(i); s.length(); s.substring(i, j); s.equals(t);   // ★ .equals, == NAHI (strings)
+long g = java.math.BigInteger.valueOf(a).gcd(BigInteger.valueOf(b)).longValue(); // ya khud Euclid gcd
+long INF = Long.MAX_VALUE / 4;   int II = Integer.MAX_VALUE;   // init for min-finding
+```
+
+## J5. ★ JAVA-SPECIFIC GOTCHAS (yahin log marte hain — Python me ye nahi hote)
+- **Integer overflow (#1 bug):** `int` max ≈ 2.1×10^9. Sum/product overflow ho jaata → **`long` use karo**
+  (jaise prefix-sum, `a*b`). Python me overflow nahi hota; **Java me hota** — bade constraints pe dhyan.
+- **`Arrays.sort(int[])` worst-case O(n²)** (dual-pivot quicksort ko adversarial input TLE kara sakta) →
+  agar anti-test ka risk ho to **`Integer[]` box karke** sort (mergesort, guaranteed O(n log n)).
+- **`==` vs `.equals()`:** objects (String, Integer) value-compare = `.equals()`. `==` reference dekhta.
+  Integer cache (−128..127) me `==` "chalta dikhta" par bade numbers pe fail — hamesha `.equals()`.
+- **2D array:** `int[][] dp = new int[m][n];` — rows independent (Python ka `[[0]*n]*m` shared-row trap Java me NAHI).
+- **Array default values:** `int[]`=0, `boolean[]`=false, `long[]`=0. Custom init: `Arrays.fill(dp, -1);`.
+- **Recursion depth:** Java stack ~10^4–10^5 frames; deep recursion → `StackOverflowError`. Bada ho to iterative karo.
+- **Integer division:** `5/2 = 2` (int), `5.0/2 = 2.5`. Mid overflow-safe: `lo + (hi - lo) / 2`.
+
+## J6. Pattern templates (Java — Section 4 ke patterns ka mirror)
+```java
+// Two pointers (sorted array)
+int i = 0, j = n - 1;
+while (i < j) { /* condition dekho, i++ ya j-- */ }
+
+// Sliding window (variable size)
+int left = 0, best = 0;
+for (int right = 0; right < n; right++) {
+    // window me arr[right] add karo
+    while (/* window invalid */) { /* arr[left] remove; */ left++; }
+    best = Math.max(best, right - left + 1);
+}
+
+// Binary search
+int lo = 0, hi = n - 1;
+while (lo <= hi) {
+    int mid = lo + (hi - lo) / 2;              // overflow-safe
+    if (a[mid] == target) return mid;
+    else if (a[mid] < target) lo = mid + 1;
+    else hi = mid - 1;
+}
+
+// 1D DP (choose/skip — House Robber style)
+long[] dp = new long[n + 1];
+for (int i = 1; i <= n; i++)
+    dp[i] = Math.max(dp[i - 1], (i >= 2 ? dp[i - 2] : 0) + arr[i - 1]);
+
+// Graph BFS (queue)
+Deque<Integer> q = new ArrayDeque<>(); q.offer(src);
+boolean[] vis = new boolean[n]; vis[src] = true;
+while (!q.isEmpty()) {
+    int node = q.poll();
+    for (int nb : adj.get(node)) if (!vis[nb]) { vis[nb] = true; q.offer(nb); }
+}
+```
+
+> ☕ Java me poora test dena ho to: **BufferedReader I/O + `long` for sums + ArrayDeque/PriorityQueue +
+> Integer.compare comparator** — bas itna yaad rahe to koi language-bug nahi aayega. Baaki logic
+> (`06-SOLUTIONS.md` ke 55 solutions) same hai — sirf syntax Python→Java translate karna hai.

@@ -14,7 +14,7 @@ README.md                              ← ye index (sabse pehle)
 03-infosys-ESSENTIALS.md               ← DSA foundation (★ pehle padho)
 04-infosys-1WEEK-DSE-PLAN.md           ← 7-din daily plan
 05-infosys-QUESTION-BANK.md            ← kaunse problems (GOLDMINE 40)
-06-infosys-SOLUTIONS.md                ← 64 full solutions (Tier1-4 + Tier5 REAL PYQ), 15 patterns
+06-infosys-SOLUTIONS.md                ← 69 full solutions (Tier1-4 + Tier5 PYQ + Tier6 gap-fill), 17 patterns
 07-infosys-specialist-programmer-PREP.md ← deep reference (time bache to)
 08-infosys-INTERVIEW-CS.md             ← interview CS fundamentals FULL answers (OOP/DBMS/OS/CN/GenAI)
 09-infosys-MOCK-PAPERS.md              ← ★ 5 timed mock sets + pattern-mixed + exam simulator (test feel)
@@ -39,9 +39,9 @@ README.md                              ← ye index (sabse pehle)
 | File | Type | Kya hai andar |
 | --- | --- | --- |
 | `10-infosys-DSA-MAP-AND-VOCAB.md` | ★ Map + language (read-first orientation) | Poora DSA taxonomy tree ([TEST-CORE]/[INTERVIEW]/[EXTRA] tags), saari terminology + unke DIFFERENCES (topic vs pattern vs algo vs DS vs ADT; subarray vs subsequence vs subset; memoization vs tabulation; etc.), 4-signal pattern-decision engine + flowchart, "AI se kaise puchho" prompt playbook (7 templates + checklist + red-flags), Infosys focus-filter → files map |
-| `03-infosys-ESSENTIALS.md` | Foundation | Test mechanics, Python cheat-sheet (I/O, STL, sorting, heap), constraints→algo table, pattern-triggers, edge cases, traps |
+| `03-infosys-ESSENTIALS.md` | Foundation | Test mechanics, Python cheat-sheet (I/O, STL, sorting, heap), constraints→algo table, pattern-triggers, edge cases, traps, DSA-from-zero (analogies) + **☕ Java cheat-sheet appendix** (fast I/O, collections, gotchas) |
 | `05-infosys-QUESTION-BANK.md` | What to solve | Topic-wise problems, GOLDMINE 40-list (3 tiers), real PYQ table, resources, interview Q + project hooks |
-| `06-infosys-SOLUTIONS.md` | Answers | **64 full solutions** — Tier1-3 (test) + Tier4 (interview: trees/backtracking/LL) + **Tier5: 13 REAL Infosys PYQ** (split-segments, painter's, aggressive cows, job-seq, sieve, subset-sum, fish, GET(l,r), spiral...) + 15-pattern cheat-sheet. Self-contained, no reference-only. |
+| `06-infosys-SOLUTIONS.md` | Answers | **69 full solutions** — Tier1-3 (test) + Tier4 (interview: trees/backtracking/LL) + **Tier5: 14 REAL Infosys PYQ** (split-segments, painter's, aggressive cows, job-seq, sieve, subset-sum, fish, GET(l,r), spiral, **+ fresh HWI-2026 profit-delay greedy**) + **Tier6 gap-fill (3Sum, search-in-rotated, largest-rectangle, Union-Find/DSU)** + 17-pattern cheat-sheet. Self-contained, no reference-only. |
 | `09-infosys-MOCK-PAPERS.md` | ★ Mock + real PYQ | **5 full timed mock sets (15 Q, 3Q/180min, story-wrapped)** + **PATTERN-MIXED section (4 layered problems: BS+greedy, greedy+math, graph+DP, sliding+hash)** + REAL PYQ bank + **REAL EXAM SIMULATOR** guide. ~30+ full real-exam problems. |
 
 ### 🟪 E — Interview Prep (CS fundamentals)
