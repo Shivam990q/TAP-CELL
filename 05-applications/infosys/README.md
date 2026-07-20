@@ -1,6 +1,6 @@
 # 📁 Infosys SP/DSE — Master Index (sab kuch organized)
 
-> Ye folder ka **entry point** hai. Files ab **numbered** hain (01→07) taaki explorer me
+> Ye folder ka **entry point** hai. Files ab **numbered** hain (01→10) taaki explorer me
 > proper reading-order me dikhein. 4 categories. Application status: **submitted 11 Jul 2026**
 > · Target: **SP**, floor **DSE** · Test: 3 coding Q / 180 min (pure coding, TAP-confirmed).
 
@@ -18,6 +18,7 @@ README.md                              ← ye index (sabse pehle)
 07-infosys-specialist-programmer-PREP.md ← deep reference (time bache to)
 08-infosys-INTERVIEW-CS.md             ← interview CS fundamentals FULL answers (OOP/DBMS/OS/CN/GenAI)
 09-infosys-MOCK-PAPERS.md              ← ★ 5 timed mock sets + pattern-mixed + exam simulator (test feel)
+10-infosys-DSA-MAP-AND-VOCAB.md        ← ★ META: DSA naksha + saari terminology (differences) + decision-engine + "AI se kaise puchho"
 ```
 
 ---
@@ -37,6 +38,7 @@ README.md                              ← ye index (sabse pehle)
 ### 🟥 D — DSA Coding Prep (asli test ki taiyari) ★ core
 | File | Type | Kya hai andar |
 | --- | --- | --- |
+| `10-infosys-DSA-MAP-AND-VOCAB.md` | ★ Map + language (read-first orientation) | Poora DSA taxonomy tree ([TEST-CORE]/[INTERVIEW]/[EXTRA] tags), saari terminology + unke DIFFERENCES (topic vs pattern vs algo vs DS vs ADT; subarray vs subsequence vs subset; memoization vs tabulation; etc.), 4-signal pattern-decision engine + flowchart, "AI se kaise puchho" prompt playbook (7 templates + checklist + red-flags), Infosys focus-filter → files map |
 | `03-infosys-ESSENTIALS.md` | Foundation | Test mechanics, Python cheat-sheet (I/O, STL, sorting, heap), constraints→algo table, pattern-triggers, edge cases, traps |
 | `05-infosys-QUESTION-BANK.md` | What to solve | Topic-wise problems, GOLDMINE 40-list (3 tiers), real PYQ table, resources, interview Q + project hooks |
 | `06-infosys-SOLUTIONS.md` | Answers | **64 full solutions** — Tier1-3 (test) + Tier4 (interview: trees/backtracking/LL) + **Tier5: 13 REAL Infosys PYQ** (split-segments, painter's, aggressive cows, job-seq, sieve, subset-sum, fish, GET(l,r), spiral...) + 15-pattern cheat-sheet. Self-contained, no reference-only. |
@@ -59,6 +61,7 @@ README.md                              ← ye index (sabse pehle)
 ```
 STEP 0 (aaj, 30 min)  → 01-...specialist-programmer.md   (kya submit kiya, aage kya)
 STEP 1 (aaj, 30 min)  → 02-...DEEP-RESEARCH-2026.md       (kaise select hona hai — mindset)
+STEP 1.5 (orientation)→ 10-...DSA-MAP-AND-VOCAB.md        ★ naksha + saare words (differences) + AI se kaise puchho (03 se pehle/saath)
 STEP 2 (foundation)   → 03-...ESSENTIALS.md               ★ DSA me SABSE PEHLE
 STEP 3 (roz)          → 04-...1WEEK-DSE-PLAN.md            (din-wise kya karna)
 STEP 4 (roz, solve)   → 05-...QUESTION-BANK.md            (kaunse problems)
@@ -82,7 +85,7 @@ REFERENCE (extra)     → 07-...PREP.md                     (extra resources, 2-
 | Interview — ML/GenAI (differentiator) | 08 INTERVIEW-CS | ✅ | ✅ |
 | Interview — projects + HR | 05 QUESTION-BANK + 08 | ✅ | ✅ |
 > **DSE:** Tier 1-2 + Tier 4 + CS answers = pakka. **SP:** sab (Tier 1-4 + CS) = ready.
-> Bas ye 8 files samajh liye (ratna nahi) → dono roles ke liye test + interview COVERED.
+> Bas ye files samajh liye (ratna nahi) → dono roles ke liye test + interview COVERED.
 
 ---
 
@@ -129,6 +132,7 @@ REFERENCE (extra)     → 07-...PREP.md                     (extra resources, 2-
 | 07 PREP | ~70% [SRC] resource links | ~30% [AI-EXPLANATION] | Real resources + AI roadmap/notes. |
 | 08 INTERVIEW-CS | ~5% [SRC] | ~95% [AI-EXPLANATION] | Standard CS answers, AI ne apne words me. |
 | 09 MOCK-PAPERS | REAL PYQ bank [REAL-PYQ] + "Mirrors:" [SRC: LC#] | mock stories [AI-GENERATED] | **Mock stories AI-invented** (real patterns pe based); PYQ bank real. |
+| 10 DSA-MAP-AND-VOCAB | ~5% [SRC] concepts | ~95% [AI-EXPLANATION] taxonomy/terms/decision-logic + [AI framework] prompt-playbook | Standard DSA taxonomy + terminology (universal), AI ne organize/samjhaya; "AI se kaise puchho" AI ka apna framework. |
 
 ## HONEST BOTTOM LINE (sabse important)
 - **REAL / reported Infosys content:** 02 DEEP-RESEARCH (test pattern, marks, timeline, integrity —
@@ -136,6 +140,6 @@ REFERENCE (extra)     → 07-...PREP.md                     (extra resources, 2-
 - **Standard DSA problems (LeetCode canonical):** 05 Tier 1-4 + 06 #1-51 — ye har company/Infosys inhi
   jaisa poochta, par statements AI ne Hinglish me [AI-REWORDED]; source LC# SOURCE MAP me.
 - **AI ka apna kaam (samajhne/practice ke liye):** 03 DSA-from-zero analogies, 08 CS answers, 09 mock
-  stories, 04 plan, saare code/solutions ki Hinglish samajh — ye [AI-GENERATED/AI-EXPLANATION].
+  stories, 04 plan, 10 DSA-map/vocab/prompt-playbook, saare code/solutions ki Hinglish samajh — ye [AI-GENERATED/AI-EXPLANATION].
 - **Koi fake source nahi hai.** Jo real hai wo link/source ke saath; jo AI ka hai wo clearly labelled.
 - ⚠️ "exact same question test me aayega" — ye kabhi nahi kaha (koi guarantee nahi de sakta).

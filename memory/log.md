@@ -655,3 +655,42 @@
 - Honest bottom line documented: real-reported Infosys content (02, Tier5, PYQ bank, WEB-VERIFIED) vs
   standard LeetCode-canonical (Tier1-4, AI-reworded) vs AI's own teaching/practice (03,04,08,09 stories,
   all code). No fake sources. Never claimed "exact same question guaranteed".
+
+## 2026-07-19 — Infosys: added META file (DSA map + vocabulary + decision-engine + how-to-ask-AI)
+- Trigger: user pasted a long Gemini voice-chat (Hinglish) where he kept circling ONE unmet need —
+  he wanted the full DSA "tree", ALL the terminology with clear DIFFERENCES, the pattern-recognition
+  decision-logic, and (his actual workflow) exactly WHAT/HOW to ask an AI to generate his `.md` notes.
+  His pain: "mujhe hi nahi pata main kya poochun" (didn't know the vocabulary → couldn't ask). Gemini
+  kept giving shallow/repetitive answers and over-loading advanced noise (amortized analysis, memory
+  hierarchy, compiler design, concurrency, system design) irrelevant to a 10-day coding round.
+- Read 03-ESSENTIALS first to match voice + avoid duplication. Existing files already have the CONTENT
+  (Big-O basics, 9 DS, 15 patterns, constraints→algo table, keyword→pattern triggers, edge-cases, bugs,
+  64 solutions, mocks). The gap was the META/orientation layer (map + language), not more problems.
+- Created `05-applications/infosys/10-infosys-DSA-MAP-AND-VOCAB.md` (~95% AI-EXPLANATION, matches
+  PROVENANCE convention). Structure:
+  - PART 1 — full DSA taxonomy TREE (ASCII), branch one-liners, each tagged [TEST-CORE]/[INTERVIEW]/
+    [EXTRA-skip]; + SCOPE callout explicitly telling him to IGNORE the advanced noise Gemini pushed.
+  - PART 2 (the core) — terminology dictionary in 7 groups WITH DIFFERENCES + a "GALTI YAHAN HOTI HAI"
+    note each: (1) levels: topic/pattern/algorithm/technique/DS/ADT/paradigm; (2) complexity: time/
+    space/O/Θ/Ω/best-avg-worst/amortized; (3) problem-anatomy: constraint/edge/corner/test-case/
+    invariant; (4) approach: brute/optimal/trade-off/optimal-substructure/overlapping-subproblems/
+    greedy-choice; (5) recursion: iterative/recursive/base/recurrence/memoization/tabulation; (6) array-
+    memory: in-place/stable/auxiliary/prefix-suffix/subarray-vs-subsequence-vs-subset; (7) structure:
+    node/pointer/edge/degree/adjacency/traversal/DFS-vs-BFS/inorder-preorder-postorder.
+  - PART 3 — 4-SIGNAL decision engine (constraints→output-type→signal-words→structure) + text
+    flowchart = "how expert/AI internally decides the pattern" (his exact ask).
+  - PART 4 — "AI se kaise puchho" prompt playbook: 7 copy-paste templates (T1 learn-topic, T2 get-
+    decision-logic, T3 cheat-sheet, T4 debug+class-of-mistake, T5 stress-test-thinking, T6 compare-
+    approaches, T7 quiz) + 8-point per-topic question checklist + RED FLAGS that his `.md` is shallow.
+    This directly serves his "AI se .md banwaake ek-pass me seekhna" method.
+  - PART 5 — Infosys focus-filter table (tree branch → importance → which file 03/05/06/09) + 10-day
+    order + one-line selection reality (Q1 full + partials = DSE; 2 full = SP).
+- Wired in: README (top 01→10, file-order line, Category-D read-first row, reading-order STEP 1.5,
+  PROVENANCE INDEX row for 10 + bottom-line list; fixed stale "8 files" → "ye files"). facts.md prep-set
+  line updated (added 10; also corrected 06 count 51→64) + date bumped to 2026-07-19.
+- Honesty kept: no "guaranteed exact question" claim; file is universal DSA knowledge organized/
+  explained + an AI-prompting framework, all labelled AI-EXPLANATION.
+- Note (unrelated, same session earlier): user was fighting VS Code/Kiro to open MULTIPLE markdown
+  previews as tabs — answer = "Markdown: Toggle Preview Locking" per preview (locked = [Preview] in
+  brackets → next preview opens as a new tab instead of reusing); or the "Markdown Multi Tab Preview"
+  extension. `workbench.editor.enablePreview` is unrelated.
